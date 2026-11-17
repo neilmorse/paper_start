@@ -1,0 +1,1403 @@
+{
+  "demo": true,
+  "query": "large language model",
+  "meta": {
+    "count": 50
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W7133224126",
+      "doi": "https://doi.org/10.52202/068431-1800",
+      "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "display_name": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "publication_year": 2022,
+      "cited_by_count": 38244,
+      "type": "conference-paper",
+      "authors": [
+        "Jason Wei",
+        "Xuezhi Wang",
+        "Dale Schuurmans",
+        "Maarten Bosma",
+        "Brian Ichter",
+        "Fei Xia",
+        "Ed Chi",
+        "Quoc Viet Le"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "24824",
+        "last_page": "24837"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2201.11903",
+      "url": "https://openalex.org/W7133224126"
+    },
+    {
+      "id": "https://openalex.org/W7133231369",
+      "doi": "https://doi.org/10.52202/068431-1613",
+      "title": "Large Language Models Are Zero-Shot Reasoners",
+      "display_name": "Large Language Models Are Zero-Shot Reasoners",
+      "publication_year": 2022,
+      "cited_by_count": 9935,
+      "type": "conference-paper",
+      "authors": [
+        "Takeshi Kojima",
+        "Shixiang Gu",
+        "Machel Reid",
+        "Yutaka Matsuo",
+        "Yusuke Iwasawa"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "22199",
+        "last_page": "22213"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2205.11916",
+      "url": "https://openalex.org/W7133231369"
+    },
+    {
+      "id": "https://openalex.org/W7133225605",
+      "doi": "https://doi.org/10.52202/068431-2176",
+      "title": "Training Compute-Optimal Large Language Models",
+      "display_name": "Training Compute-Optimal Large Language Models",
+      "publication_year": 2022,
+      "cited_by_count": 6641,
+      "type": "conference-paper",
+      "authors": [
+        "Jordan Hoffmann",
+        "Sebastian Borgeaud",
+        "Arthur Mensch",
+        "Elena Buchatskaya",
+        "Trevor Cai",
+        "Eliza Rutherford",
+        "Diego de Las Casas",
+        "Lisa Anne Hendricks"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "30016",
+        "last_page": "30030"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2203.15556",
+      "url": "https://openalex.org/W7133225605"
+    },
+    {
+      "id": "https://openalex.org/W4406800520",
+      "doi": "https://doi.org/10.1007/s11432-024-4222-0",
+      "title": "The rise and potential of large language model based agents: a survey",
+      "display_name": "The rise and potential of large language model based agents: a survey",
+      "publication_year": 2025,
+      "cited_by_count": 3298,
+      "type": "article",
+      "authors": [
+        "Zhiheng Xi",
+        "Wen-Xiang Chen",
+        "Xin Hua Guo",
+        "Wei He",
+        "Yiwen Ding",
+        "Boyang Hong",
+        "Ming Zhang",
+        "Junzhe Wang"
+      ],
+      "venue": "Science China Information Sciences",
+      "sourceId": "S4210218743",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "68",
+        "issue": "2",
+        "first_page": null,
+        "last_page": null
+      },
+      "oaUrl": "https://arxiv.org/pdf/2309.07864",
+      "url": "https://openalex.org/W4406800520"
+    },
+    {
+      "id": "https://openalex.org/W4390692489",
+      "doi": "https://doi.org/10.1109/tkde.2024.3352100",
+      "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+      "display_name": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+      "publication_year": 2024,
+      "cited_by_count": 2551,
+      "type": "article",
+      "authors": [
+        "Shirui Pan",
+        "Linhao Luo",
+        "Yufei Wang",
+        "Chen Chen",
+        "Jiapu Wang",
+        "Xindong Wu"
+      ],
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "sourceId": "S30698027",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "36",
+        "issue": "7",
+        "first_page": "3580",
+        "last_page": "3599"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2306.08302",
+      "url": "https://openalex.org/W4390692489"
+    },
+    {
+      "id": "https://openalex.org/W4393160302",
+      "doi": "https://doi.org/10.1609/aaai.v38i16.29720",
+      "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+      "display_name": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 2399,
+      "type": "conference-paper",
+      "authors": [
+        "Maciej Besta",
+        "Nils Blach",
+        "Ales Kubicek",
+        "Robert Gerstenberger",
+        "Michał Podstawski",
+        "Lukas Gianinazzi",
+        "Joanna Gajda",
+        "Tomasz M. Lehmann"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "38",
+        "issue": "16",
+        "first_page": "17682",
+        "last_page": "17690"
+      },
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/29720/31236",
+      "url": "https://openalex.org/W4393160302"
+    },
+    {
+      "id": "https://openalex.org/W4402665833",
+      "doi": "https://doi.org/10.1145/3695988",
+      "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+      "display_name": "Large Language Models for Software Engineering: A Systematic Literature Review",
+      "publication_year": 2024,
+      "cited_by_count": 2380,
+      "type": "review",
+      "authors": [
+        "Xinyi Hou",
+        "Yanjie Zhao",
+        "Yue Liu",
+        "Zhou Yang",
+        "Kailong Wang",
+        "Li Li",
+        "Xiapu Luo",
+        "David Lo"
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "sourceId": "S142627899",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "33",
+        "issue": "8",
+        "first_page": "1",
+        "last_page": "79"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2308.10620",
+      "url": "https://openalex.org/W4402665833"
+    },
+    {
+      "id": "https://openalex.org/W4415795271",
+      "doi": "https://doi.org/10.52202/079017-4020",
+      "title": "Gorilla: Large Language Model Connected with Massive APIs",
+      "display_name": "Gorilla: Large Language Model Connected with Massive APIs",
+      "publication_year": 2024,
+      "cited_by_count": 2078,
+      "type": "conference-paper",
+      "authors": [
+        "Shishir G. Patil",
+        "Tianjun Zhang",
+        "Xin Wang",
+        "Joseph Gonzalez"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "126544",
+        "last_page": "126565"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2305.15334",
+      "url": "https://openalex.org/W4415795271"
+    },
+    {
+      "id": "https://openalex.org/W4393147158",
+      "doi": "https://doi.org/10.1609/aaai.v38i17.29946",
+      "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+      "display_name": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+      "publication_year": 2024,
+      "cited_by_count": 1688,
+      "type": "conference-paper",
+      "authors": [
+        "Wanjun Zhong",
+        "Lianghong Guo",
+        "Qiqi Gao",
+        "He Ye",
+        "Yanlin Wang"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "38",
+        "issue": "17",
+        "first_page": "19724",
+        "last_page": "19731"
+      },
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/29946/31654",
+      "url": "https://openalex.org/W4393147158"
+    },
+    {
+      "id": "https://openalex.org/W4402671800",
+      "doi": "https://doi.org/10.18653/v1/2024.acl-long.511",
+      "title": "Large Language Models are not Fair Evaluators",
+      "display_name": "Large Language Models are not Fair Evaluators",
+      "publication_year": 2024,
+      "cited_by_count": 1583,
+      "type": "conference-paper",
+      "authors": [
+        "Peiyi Wang",
+        "Lei Li",
+        "Liang Chen",
+        "Zefan Cai",
+        "Dawei Zhu",
+        "Binghuai Lin",
+        "Yunbo Cao",
+        "Lingpeng Kong"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "9440",
+        "last_page": "9450"
+      },
+      "oaUrl": "https://aclanthology.org/2024.acl-long.511.pdf",
+      "url": "https://openalex.org/W4402671800"
+    },
+    {
+      "id": "https://openalex.org/W7125135101",
+      "doi": "https://doi.org/10.1145/3747588",
+      "title": "A Survey on Large Language Models for Code Generation",
+      "display_name": "A Survey on Large Language Models for Code Generation",
+      "publication_year": 2025,
+      "cited_by_count": 1488,
+      "type": "article",
+      "authors": [
+        "Juyong Jiang",
+        "Fan Wang",
+        "Jiasi Shen",
+        "Sungju Kim",
+        "Sunghun Kim"
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "sourceId": "S142627899",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "35",
+        "issue": "2",
+        "first_page": "1",
+        "last_page": "72"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2406.00515",
+      "url": "https://openalex.org/W7125135101"
+    },
+    {
+      "id": "https://openalex.org/W4393147129",
+      "doi": "https://doi.org/10.1609/aaai.v38i16.29728",
+      "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "display_name": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "publication_year": 2024,
+      "cited_by_count": 1328,
+      "type": "conference-paper",
+      "authors": [
+        "Jiawei Chen",
+        "Hongyu Lin",
+        "Xianpei Han",
+        "Le Sun"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "38",
+        "issue": "16",
+        "first_page": "17754",
+        "last_page": "17762"
+      },
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/29728/31250",
+      "url": "https://openalex.org/W4393147129"
+    },
+    {
+      "id": "https://openalex.org/W4385571232",
+      "doi": "https://doi.org/10.18653/v1/2023.acl-long.870",
+      "title": "Can Large Language Models Be an Alternative to Human Evaluations?",
+      "display_name": "Can Large Language Models Be an Alternative to Human Evaluations?",
+      "publication_year": 2023,
+      "cited_by_count": 1308,
+      "type": "conference-paper",
+      "authors": [
+        "Cheng-Han Chiang",
+        "Hung-yi Lee"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "15607",
+        "last_page": "15631"
+      },
+      "oaUrl": "https://aclanthology.org/2023.acl-long.870.pdf",
+      "url": "https://openalex.org/W4385571232"
+    },
+    {
+      "id": "https://openalex.org/W4415797606",
+      "doi": "https://doi.org/10.52202/079017-1745",
+      "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+      "display_name": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 1304,
+      "type": "conference-paper",
+      "authors": [
+        "Patrick Chao",
+        "Edoardo Debenedetti",
+        "Alexander Robey",
+        "Maksym Andriushchenko",
+        "Francesco Croce",
+        "Vikash Sehwag",
+        "Edgar Dobriban",
+        "Nicolas Flammarion"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "55005",
+        "last_page": "55029"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2404.01318",
+      "url": "https://openalex.org/W4415797606"
+    },
+    {
+      "id": "https://openalex.org/W7133223873",
+      "doi": "https://doi.org/10.52202/075280-0861",
+      "title": "Large Language Models Are Zero-Shot Time Series Forecasters",
+      "display_name": "Large Language Models Are Zero-Shot Time Series Forecasters",
+      "publication_year": 2023,
+      "cited_by_count": 1267,
+      "type": "conference-paper",
+      "authors": [
+        "Nate Gruver",
+        "Marc Finzi",
+        "Shikai Qiu",
+        "Andrew Wilson"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "19622",
+        "last_page": "19635"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2310.07820",
+      "url": "https://openalex.org/W7133223873"
+    },
+    {
+      "id": "https://openalex.org/W7133219754",
+      "doi": "https://doi.org/10.52202/075280-2425",
+      "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+      "display_name": "Are Emergent Abilities of Large Language Models a Mirage?",
+      "publication_year": 2023,
+      "cited_by_count": 1109,
+      "type": "conference-paper",
+      "authors": [
+        "Rylan Schaeffer",
+        "Brando Miranda",
+        "Sanmi Koyejo"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "55565",
+        "last_page": "55581"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2304.15004",
+      "url": "https://openalex.org/W7133219754"
+    },
+    {
+      "id": "https://openalex.org/W4391974543",
+      "doi": "https://doi.org/10.1109/tse.2024.3368208",
+      "title": "Software Testing With Large Language Models: Survey, Landscape, and Vision",
+      "display_name": "Software Testing With Large Language Models: Survey, Landscape, and Vision",
+      "publication_year": 2024,
+      "cited_by_count": 1102,
+      "type": "article",
+      "authors": [
+        "Junjie Wang",
+        "Yuchao Huang",
+        "Chunyang Chen",
+        "Zhe Liu",
+        "Song Wang",
+        "Qing Wang"
+      ],
+      "venue": "IEEE Transactions on Software Engineering",
+      "sourceId": "S8351582",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "50",
+        "issue": "4",
+        "first_page": "911",
+        "last_page": "936"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2307.07221",
+      "url": "https://openalex.org/W4391974543"
+    },
+    {
+      "id": "https://openalex.org/W4394994587",
+      "doi": "https://doi.org/10.1109/tkde.2024.3392335",
+      "title": "Recommender Systems in the Era of Large Language Models (LLMs)",
+      "display_name": "Recommender Systems in the Era of Large Language Models (LLMs)",
+      "publication_year": 2024,
+      "cited_by_count": 1039,
+      "type": "article",
+      "authors": [
+        "Zihuai Zhao",
+        "Wenqi Fan",
+        "Jiatong Li",
+        "Yunqing Liu",
+        "Xiaowei Mei",
+        "Yiqi Wang",
+        "Zhen Wen",
+        "Fei Wang"
+      ],
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "sourceId": "S30698027",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "36",
+        "issue": "11",
+        "first_page": "6889",
+        "last_page": "6907"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2307.02046",
+      "url": "https://openalex.org/W4394994587"
+    },
+    {
+      "id": "https://openalex.org/W4402672004",
+      "doi": "https://doi.org/10.18653/v1/2024.acl-long.642",
+      "title": "Improving Text Embeddings with Large Language Models",
+      "display_name": "Improving Text Embeddings with Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 1027,
+      "type": "conference-paper",
+      "authors": [
+        "Liang Wang",
+        "Nan Yang",
+        "Xiaolong Huang",
+        "Linjun Yang",
+        "Rangan Majumder",
+        "Furu Wei"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "11897",
+        "last_page": "11916"
+      },
+      "oaUrl": "https://aclanthology.org/2024.acl-long.642.pdf",
+      "url": "https://openalex.org/W4402672004"
+    },
+    {
+      "id": "https://openalex.org/W4414014501",
+      "doi": "https://doi.org/10.1145/3748304",
+      "title": "Large Language Models for Information Retrieval: A Survey",
+      "display_name": "Large Language Models for Information Retrieval: A Survey",
+      "publication_year": 2025,
+      "cited_by_count": 906,
+      "type": "article",
+      "authors": [
+        "Yutao Zhu",
+        "Huaying Yuan",
+        "Shuting Wang",
+        "Jiongnan Liu",
+        "Wenhan Liu",
+        "Chenlong Deng",
+        "Haonan Chen",
+        "Zheng Liu"
+      ],
+      "venue": "ACM Transactions on Information Systems",
+      "sourceId": "S4394735545",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "44",
+        "issue": "1",
+        "first_page": "1",
+        "last_page": "54"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2308.07107",
+      "url": "https://openalex.org/W4414014501"
+    },
+    {
+      "id": "https://openalex.org/W7133246057",
+      "doi": "https://doi.org/10.52202/075280-0900",
+      "title": "3D-LLM: Injecting the 3D World into Large Language Models",
+      "display_name": "3D-LLM: Injecting the 3D World into Large Language Models",
+      "publication_year": 2023,
+      "cited_by_count": 890,
+      "type": "conference-paper",
+      "authors": [
+        "Yining Hong",
+        "Haoyu Zhen",
+        "Peihao Chen",
+        "Shuhong Zheng",
+        "Yilun Du",
+        "Zhenfang Chen",
+        "Chuang Gan"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "20482",
+        "last_page": "20494"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2307.12981",
+      "url": "https://openalex.org/W7133246057"
+    },
+    {
+      "id": "https://openalex.org/W4408858386",
+      "doi": "https://doi.org/10.1109/tkde.2025.3554028",
+      "title": "A Survey on Mixture of Experts in Large Language Models",
+      "display_name": "A Survey on Mixture of Experts in Large Language Models",
+      "publication_year": 2025,
+      "cited_by_count": 811,
+      "type": "article",
+      "authors": [
+        "Weilin Cai",
+        "Juyong Jiang",
+        "Fan Wang",
+        "Jing Tang",
+        "Sunghun Kim",
+        "Jiayi Huang"
+      ],
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "sourceId": "S30698027",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "20"
+      },
+      "oaUrl": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.172055626.64129172",
+      "url": "https://openalex.org/W4408858386"
+    },
+    {
+      "id": "https://openalex.org/W4385571219",
+      "doi": "https://doi.org/10.18653/v1/2023.acl-long.830",
+      "title": "Large Language Models Are Reasoning Teachers",
+      "display_name": "Large Language Models Are Reasoning Teachers",
+      "publication_year": 2023,
+      "cited_by_count": 673,
+      "type": "conference-paper",
+      "authors": [
+        "Namgyu Ho",
+        "Laura Schmid",
+        "Se-Young Yun"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "14852",
+        "last_page": "14882"
+      },
+      "oaUrl": "https://aclanthology.org/2023.acl-long.830.pdf",
+      "url": "https://openalex.org/W4385571219"
+    },
+    {
+      "id": "https://openalex.org/W7133190492",
+      "doi": "https://doi.org/10.52202/075280-0802",
+      "title": "LayoutGPT: Compositional Visual Planning and Generation with Large Language Models",
+      "display_name": "LayoutGPT: Compositional Visual Planning and Generation with Large Language Models",
+      "publication_year": 2023,
+      "cited_by_count": 662,
+      "type": "conference-paper",
+      "authors": [
+        "Weixi Feng",
+        "Wanrong Zhu",
+        "Tsu-Jui Fu",
+        "Varun Jampani",
+        "Arjun Akula",
+        "Xuehai He",
+        "S Basu",
+        "Xin Eric Wang"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "18225",
+        "last_page": "18250"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2305.15393",
+      "url": "https://openalex.org/W7133190492"
+    },
+    {
+      "id": "https://openalex.org/W4393154152",
+      "doi": "https://doi.org/10.1609/aaai.v38i7.28597",
+      "title": "NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models",
+      "display_name": "NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 657,
+      "type": "conference-paper",
+      "authors": [
+        "Gengze Zhou",
+        "Yicong Hong",
+        "Qi Wu"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "38",
+        "issue": "7",
+        "first_page": "7641",
+        "last_page": "7649"
+      },
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/28597/29161",
+      "url": "https://openalex.org/W4393154152"
+    },
+    {
+      "id": "https://openalex.org/W4400524696",
+      "doi": "https://doi.org/10.1145/3626772.3657775",
+      "title": "GraphGPT: Graph Instruction Tuning for Large Language Models",
+      "display_name": "GraphGPT: Graph Instruction Tuning for Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 654,
+      "type": "conference-paper",
+      "authors": [
+        "Jiabin Tang",
+        "Yuhao Yang",
+        "Wei Wei",
+        "Lei Shi",
+        "Lixin Su",
+        "Suqi Cheng",
+        "Dawei Yin",
+        "Chao Huang"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+      "sourceId": "S4363608773",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "491",
+        "last_page": "500"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2310.13023",
+      "url": "https://openalex.org/W4400524696"
+    },
+    {
+      "id": "https://openalex.org/W4415796002",
+      "doi": "https://doi.org/10.52202/079017-3346",
+      "title": "Large Language Model Unlearning",
+      "display_name": "Large Language Model Unlearning",
+      "publication_year": 2024,
+      "cited_by_count": 609,
+      "type": "conference-paper",
+      "authors": [
+        "Yuanshun Yao",
+        "Xiaojun Xu",
+        "Yang Liu"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "105425",
+        "last_page": "105475"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2310.10683",
+      "url": "https://openalex.org/W4415796002"
+    },
+    {
+      "id": "https://openalex.org/W4378591002",
+      "doi": "https://doi.org/10.1145/3597926.3598067",
+      "title": "Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models",
+      "display_name": "Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models",
+      "publication_year": 2023,
+      "cited_by_count": 594,
+      "type": "conference-paper",
+      "authors": [
+        "Yinlin Deng",
+        "Chunqiu Steven Xia",
+        "Haoran Peng",
+        "Chenyuan Yang",
+        "Lingming Zhang"
+      ],
+      "venue": "ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+      "sourceId": "S7407085879",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "423",
+        "last_page": "435"
+      },
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3597926.3598067",
+      "url": "https://openalex.org/W4378591002"
+    },
+    {
+      "id": "https://openalex.org/W4385572162",
+      "doi": "https://doi.org/10.18653/v1/2023.acl-industry.4",
+      "title": "MathPrompter: Mathematical Reasoning using Large Language Models",
+      "display_name": "MathPrompter: Mathematical Reasoning using Large Language Models",
+      "publication_year": 2023,
+      "cited_by_count": 556,
+      "type": "conference-paper",
+      "authors": [
+        "Shima Imani",
+        "Liang Du",
+        "Harsh Shrivastava"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "37",
+        "last_page": "42"
+      },
+      "oaUrl": "https://aclanthology.org/2023.acl-industry.4.pdf",
+      "url": "https://openalex.org/W4385572162"
+    },
+    {
+      "id": "https://openalex.org/W4402671302",
+      "doi": "https://doi.org/10.18653/v1/2024.acl-long.830",
+      "title": "SafetyBench: Evaluating the Safety of Large Language Models",
+      "display_name": "SafetyBench: Evaluating the Safety of Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 550,
+      "type": "conference-paper",
+      "authors": [
+        "Zhexin Zhang",
+        "Leqi Lei",
+        "Lindong Wu",
+        "Rui Xue Sun",
+        "Yongkang Huang",
+        "Chong Long",
+        "Xiao Liu",
+        "Xuanyu Lei"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "15537",
+        "last_page": "15553"
+      },
+      "oaUrl": "https://aclanthology.org/2024.acl-long.830.pdf",
+      "url": "https://openalex.org/W4402671302"
+    },
+    {
+      "id": "https://openalex.org/W4396758712",
+      "doi": "https://doi.org/10.1145/3589334.3645458",
+      "title": "Representation Learning with Large Language Models for Recommendation",
+      "display_name": "Representation Learning with Large Language Models for Recommendation",
+      "publication_year": 2024,
+      "cited_by_count": 543,
+      "type": "conference-paper",
+      "authors": [
+        "Xubin Ren",
+        "Wei Wei",
+        "Lianghao Xia",
+        "Lixin Su",
+        "Suqi Cheng",
+        "Junfeng Wang",
+        "Dawei Yin",
+        "Chao Huang"
+      ],
+      "venue": "International World Wide Web Conference (WWW)",
+      "sourceId": "S7407088480",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "3464",
+        "last_page": "3475"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2310.15950",
+      "url": "https://openalex.org/W4396758712"
+    },
+    {
+      "id": "https://openalex.org/W4394769544",
+      "doi": "https://doi.org/10.1145/3597503.3639121",
+      "title": "Fuzz4All: Universal Fuzzing with Large Language Models",
+      "display_name": "Fuzz4All: Universal Fuzzing with Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 530,
+      "type": "conference-paper",
+      "authors": [
+        "Chunqiu Steven Xia",
+        "Matteo Paltenghi",
+        "Jia Le Tian",
+        "Michael Pradel",
+        "Lingming Zhang"
+      ],
+      "venue": "ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+      "sourceId": "S4210203175",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "13"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2308.04748",
+      "url": "https://openalex.org/W4394769544"
+    },
+    {
+      "id": "https://openalex.org/W4384345745",
+      "doi": "https://doi.org/10.1109/icse48619.2023.00128",
+      "title": "Automated Repair of Programs from Large Language Models",
+      "display_name": "Automated Repair of Programs from Large Language Models",
+      "publication_year": 2023,
+      "cited_by_count": 512,
+      "type": "conference-paper",
+      "authors": [
+        "Zhiyu Fan",
+        "Xiang Yang Gao",
+        "Мартин Мирчев",
+        "Abhik Roychoudhury",
+        "Shin Hwei Tan"
+      ],
+      "venue": "ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+      "sourceId": "S4210203175",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1469",
+        "last_page": "1481"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2205.10583",
+      "url": "https://openalex.org/W4384345745"
+    },
+    {
+      "id": "https://openalex.org/W4399601909",
+      "doi": "https://doi.org/10.1145/3672456",
+      "title": "Self-Planning Code Generation with Large Language Models",
+      "display_name": "Self-Planning Code Generation with Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 506,
+      "type": "article",
+      "authors": [
+        "Xue Jiang",
+        "Yihong Dong",
+        "L. F. Wang",
+        "Zheng Fang",
+        "Qiwei Shang",
+        "Ge Li",
+        "Zhi Gang Jin",
+        "Wenpin Jiao"
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "sourceId": "S142627899",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "33",
+        "issue": "7",
+        "first_page": "1",
+        "last_page": "30"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2303.06689",
+      "url": "https://openalex.org/W4399601909"
+    },
+    {
+      "id": "https://openalex.org/W4415797127",
+      "doi": "https://doi.org/10.52202/079017-2567",
+      "title": "Long-form factuality in large language models",
+      "display_name": "Long-form factuality in large language models",
+      "publication_year": 2024,
+      "cited_by_count": 480,
+      "type": "conference-paper",
+      "authors": [
+        "Jerry Wei",
+        "Chengrun Yang",
+        "Xinying Song",
+        "Yifeng Lu",
+        "Nathan Hu",
+        "Jie Huang",
+        "Dustin Tran",
+        "Daiyi Peng"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "80756",
+        "last_page": "80827"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2403.18802",
+      "url": "https://openalex.org/W4415797127"
+    },
+    {
+      "id": "https://openalex.org/W4385571451",
+      "doi": "https://doi.org/10.18653/v1/2023.acl-long.868",
+      "title": "Revisiting Relation Extraction in the era of Large Language Models",
+      "display_name": "Revisiting Relation Extraction in the era of Large Language Models",
+      "publication_year": 2023,
+      "cited_by_count": 461,
+      "type": "conference-paper",
+      "authors": [
+        "Somin Wadhwa",
+        "Silvio Amir",
+        "Byron Wallace"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "2023",
+        "issue": null,
+        "first_page": "15566",
+        "last_page": "15589"
+      },
+      "oaUrl": "https://aclanthology.org/2023.acl-long.868.pdf",
+      "url": "https://openalex.org/W4385571451"
+    },
+    {
+      "id": "https://openalex.org/W4402915290",
+      "doi": "https://doi.org/10.1109/tkde.2024.3469578",
+      "title": "Large Language Models on Graphs: A Comprehensive Survey",
+      "display_name": "Large Language Models on Graphs: A Comprehensive Survey",
+      "publication_year": 2024,
+      "cited_by_count": 427,
+      "type": "article",
+      "authors": [
+        "Bowen Jin",
+        "Gang Liu",
+        "Chi Han",
+        "Meng Jiang",
+        "Heng Ji",
+        "Jiawei Han"
+      ],
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "sourceId": "S30698027",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "36",
+        "issue": "12",
+        "first_page": "8622",
+        "last_page": "8642"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2312.02783",
+      "url": "https://openalex.org/W4402915290"
+    },
+    {
+      "id": "https://openalex.org/W4391724785",
+      "doi": "https://doi.org/10.14722/ndss.2024.24556",
+      "title": "Large Language Model guided Protocol Fuzzing",
+      "display_name": "Large Language Model guided Protocol Fuzzing",
+      "publication_year": 2024,
+      "cited_by_count": 421,
+      "type": "conference-paper",
+      "authors": [
+        "Ruijie Meng",
+        "Мартин Мирчев",
+        "Marcel Böhme",
+        "Abhik Roychoudhury"
+      ],
+      "venue": "Network and Distributed System Security Symposium",
+      "sourceId": "S4306420590",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "oaUrl": "https://doi.org/10.14722/ndss.2024.24556",
+      "url": "https://openalex.org/W4391724785"
+    },
+    {
+      "id": "https://openalex.org/W4402671980",
+      "doi": "https://doi.org/10.18653/v1/2024.acl-long.73",
+      "title": "Active Prompting with Chain-of-Thought for Large Language Models",
+      "display_name": "Active Prompting with Chain-of-Thought for Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 398,
+      "type": "conference-paper",
+      "authors": [
+        "Shizhe Diao",
+        "Pengcheng Wang",
+        "Yong Lin",
+        "Rui Pan",
+        "Xiang Liu",
+        "Tong Zhang"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1330",
+        "last_page": "1350"
+      },
+      "oaUrl": "https://aclanthology.org/2024.acl-long.73.pdf",
+      "url": "https://openalex.org/W4402671980"
+    },
+    {
+      "id": "https://openalex.org/W7133220347",
+      "doi": "https://doi.org/10.52202/068431-2344",
+      "title": "Autoformalization with Large Language Models",
+      "display_name": "Autoformalization with Large Language Models",
+      "publication_year": 2022,
+      "cited_by_count": 366,
+      "type": "conference-paper",
+      "authors": [
+        "Yuhuai Wu",
+        "Albert Qiaochu Jiang",
+        "Wenda Li",
+        "Markus Rabe",
+        "Charles Staats",
+        "Mateja Jamnik",
+        "Christian Szegedy"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "32353",
+        "last_page": "32368"
+      },
+      "oaUrl": null,
+      "url": "https://openalex.org/W7133220347"
+    },
+    {
+      "id": "https://openalex.org/W4386076314",
+      "doi": "https://doi.org/10.1109/cvpr52729.2023.00637",
+      "title": "Learning Video Representations from Large Language Models",
+      "display_name": "Learning Video Representations from Large Language Models",
+      "publication_year": 2023,
+      "cited_by_count": 350,
+      "type": "conference-paper",
+      "authors": [
+        "Yue Zhao",
+        "Ishan Misra",
+        "Philipp Krähenbühl",
+        "Rohit Girdhar"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "sourceId": "S4210176548",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "6586",
+        "last_page": "6597"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2212.04501",
+      "url": "https://openalex.org/W4386076314"
+    },
+    {
+      "id": "https://openalex.org/W7133217935",
+      "doi": "https://doi.org/10.52202/075280-1219",
+      "title": "Emergent and Predictable Memorization in Large Language Models",
+      "display_name": "Emergent and Predictable Memorization in Large Language Models",
+      "publication_year": 2023,
+      "cited_by_count": 286,
+      "type": "conference-paper",
+      "authors": [
+        "Stella Biderman",
+        "USVSN Sai Prashanth",
+        "Lintang Sutawika",
+        "Hailey Schoelkopf",
+        "Quentin Anthony",
+        "Shivanshu Purohit",
+        "Edward Raff"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "28072",
+        "last_page": "28090"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2304.11158",
+      "url": "https://openalex.org/W7133217935"
+    },
+    {
+      "id": "https://openalex.org/W4415797819",
+      "doi": "https://doi.org/10.52202/079017-1458",
+      "title": "Questioning the Survey Responses of Large Language Models",
+      "display_name": "Questioning the Survey Responses of Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 279,
+      "type": "conference-paper",
+      "authors": [
+        "Ricardo Dominguez-Olmedo",
+        "Moritz Hardt",
+        "Celestine Mendler-Dünner"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "45850",
+        "last_page": "45878"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2306.07951",
+      "url": "https://openalex.org/W4415797819"
+    },
+    {
+      "id": "https://openalex.org/W7136464128",
+      "doi": "https://doi.org/10.1007/s11432-025-4670-0",
+      "title": "A survey on large language models for software engineering",
+      "display_name": "A survey on large language models for software engineering",
+      "publication_year": 2026,
+      "cited_by_count": 272,
+      "type": "article",
+      "authors": [
+        "Quanjun Zhang",
+        "Chunrong Fang",
+        "Yang Xie",
+        "Yaxin Zhang",
+        "Shengcheng Yu",
+        "Weisong Sun",
+        "Yun Yang",
+        "Zhenyu Chen"
+      ],
+      "venue": "Science China Information Sciences",
+      "sourceId": "S4210218743",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "69",
+        "issue": "4",
+        "first_page": null,
+        "last_page": null
+      },
+      "oaUrl": "https://link.springer.com/content/pdf/10.1007/s11432-025-4670-0.pdf",
+      "url": "https://openalex.org/W7136464128"
+    },
+    {
+      "id": "https://openalex.org/W4396734745",
+      "doi": "https://doi.org/10.1145/3589334.3645347",
+      "title": "Collaborative Large Language Model for Recommender Systems",
+      "display_name": "Collaborative Large Language Model for Recommender Systems",
+      "publication_year": 2024,
+      "cited_by_count": 231,
+      "type": "conference-paper",
+      "authors": [
+        "Yaochen Zhu",
+        "Liang Wu",
+        "Qi Sheng Guo",
+        "Liangjie Hong",
+        "Jundong Li"
+      ],
+      "venue": "International World Wide Web Conference (WWW)",
+      "sourceId": "S7407088480",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "3162",
+        "last_page": "3172"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2311.01343",
+      "url": "https://openalex.org/W4396734745"
+    },
+    {
+      "id": "https://openalex.org/W4396945188",
+      "doi": "https://doi.org/10.1145/3637528.3671460",
+      "title": "A Survey of Large Language Models for Graphs",
+      "display_name": "A Survey of Large Language Models for Graphs",
+      "publication_year": 2024,
+      "cited_by_count": 204,
+      "type": "conference-paper",
+      "authors": [
+        "Xubin Ren",
+        "Jiabin Tang",
+        "Dawei Yin",
+        "Nitesh V. Chawla",
+        "Chao Huang"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "6616",
+        "last_page": "6626"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2405.08011",
+      "url": "https://openalex.org/W4396945188"
+    },
+    {
+      "id": "https://openalex.org/W4392405447",
+      "doi": "https://doi.org/10.1109/tifs.2024.3372809",
+      "title": "(Security) Assertions by Large Language Models",
+      "display_name": "(Security) Assertions by Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 203,
+      "type": "article",
+      "authors": [
+        "Rahul Kande",
+        "Hammond A. Pearce",
+        "Benjamin Tan",
+        "Brendan Dolan-Gavitt",
+        "Shailja Thakur",
+        "Ramesh Karri",
+        "Jeyavijayan Rajendran"
+      ],
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "sourceId": "S61310614",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "19",
+        "issue": null,
+        "first_page": "4374",
+        "last_page": "4389"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2306.14027",
+      "url": "https://openalex.org/W4392405447"
+    },
+    {
+      "id": "https://openalex.org/W4393147025",
+      "doi": "https://doi.org/10.1609/aaai.v38i17.29875",
+      "title": "Graph Neural Prompting with Large Language Models",
+      "display_name": "Graph Neural Prompting with Large Language Models",
+      "publication_year": 2024,
+      "cited_by_count": 196,
+      "type": "conference-paper",
+      "authors": [
+        "Yijun Tian",
+        "Huan Song",
+        "Zichen Wang",
+        "Haozhu Wang",
+        "Ziqing Hu",
+        "Fang Wang",
+        "Nitesh V. Chawla",
+        "Panpan Xu"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "38",
+        "issue": "17",
+        "first_page": "19080",
+        "last_page": "19088"
+      },
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/29875/31526",
+      "url": "https://openalex.org/W4393147025"
+    },
+    {
+      "id": "https://openalex.org/W7133222760",
+      "doi": "https://doi.org/10.52202/075280-2844",
+      "title": "Meta-in-context learning in large language models",
+      "display_name": "Meta-in-context learning in large language models",
+      "publication_year": 2023,
+      "cited_by_count": 125,
+      "type": "conference-paper",
+      "authors": [
+        "Julian Coda-Forno",
+        "Marcel Binz",
+        "Zeynep Akata",
+        "Matthew Botvinick",
+        "Jane Wang",
+        "Eric Schulz"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "65189",
+        "last_page": "65201"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2305.12907",
+      "url": "https://openalex.org/W7133222760"
+    },
+    {
+      "id": "https://openalex.org/W4412886713",
+      "doi": "https://doi.org/10.18653/v1/2025.acl-long.195",
+      "title": "Conformity in Large Language Models",
+      "display_name": "Conformity in Large Language Models",
+      "publication_year": 2025,
+      "cited_by_count": 82,
+      "type": "conference-paper",
+      "authors": [
+        "Xiaochen Zhu",
+        "Caiqi Zhang",
+        "Tom Stafford",
+        "Nigel Collier",
+        "Andreas Vlachos"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "3854",
+        "last_page": "3872"
+      },
+      "oaUrl": "https://aclanthology.org/2025.acl-long.195.pdf",
+      "url": "https://openalex.org/W4412886713"
+    }
+  ]
+}

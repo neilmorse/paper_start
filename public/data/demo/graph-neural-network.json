@@ -1,0 +1,1346 @@
+{
+  "demo": true,
+  "query": "graph neural network",
+  "meta": {
+    "count": 50
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2990957769",
+      "doi": "https://doi.org/10.1109/cvpr42600.2020.00499",
+      "title": "SuperGlue: Learning Feature Matching With Graph Neural Networks",
+      "display_name": "SuperGlue: Learning Feature Matching With Graph Neural Networks",
+      "publication_year": 2020,
+      "cited_by_count": 4311,
+      "type": "conference-paper",
+      "authors": [
+        "Paul-Edouard Sarlin",
+        "Daniel DeTone",
+        "Tomasz Malisiewicz",
+        "Andrew Rabinovich"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "sourceId": "S4210176548",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "4937",
+        "last_page": "4946"
+      },
+      "oaUrl": "https://arxiv.org/pdf/1911.11763",
+      "url": "https://openalex.org/W2990957769"
+    },
+    {
+      "id": "https://openalex.org/W3080253043",
+      "doi": "https://doi.org/10.1145/3394486.3403118",
+      "title": "Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks",
+      "display_name": "Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks",
+      "publication_year": 2020,
+      "cited_by_count": 3110,
+      "type": "conference-paper",
+      "authors": [
+        "Zonghan Wu",
+        "Shirui Pan",
+        "Guodong Long",
+        "Jing Bo Jiang",
+        "Xiaojun Chang",
+        "Chengqi Zhang B"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "753",
+        "last_page": "763"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2005.11650",
+      "url": "https://openalex.org/W3080253043"
+    },
+    {
+      "id": "https://openalex.org/W2914721378",
+      "doi": "https://doi.org/10.1145/3308558.3313488",
+      "title": "Graph Neural Networks for Social Recommendation",
+      "display_name": "Graph Neural Networks for Social Recommendation",
+      "publication_year": 2019,
+      "cited_by_count": 2787,
+      "type": "conference-paper",
+      "authors": [
+        "Wenqi Fan",
+        "Yao Ma",
+        "Qing Li",
+        "Yuan He",
+        "Eric Zhao",
+        "Jiliang Tang",
+        "Dawei Yin"
+      ],
+      "venue": "International World Wide Web Conference (WWW)",
+      "sourceId": "S7407088480",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "417",
+        "last_page": "426"
+      },
+      "oaUrl": "https://doi.org/10.1145/3308558.3313488",
+      "url": "https://openalex.org/W2914721378"
+    },
+    {
+      "id": "https://openalex.org/W2899457523",
+      "doi": "https://doi.org/10.1609/aaai.v33i01.3301346",
+      "title": "Session-Based Recommendation with Graph Neural Networks",
+      "display_name": "Session-Based Recommendation with Graph Neural Networks",
+      "publication_year": 2019,
+      "cited_by_count": 2371,
+      "type": "conference-paper",
+      "authors": [
+        "Shu Wu",
+        "Yuyuan Tang",
+        "Yanqiao Zhu",
+        "Liang Wang",
+        "Xing Xie",
+        "T.N. Tan"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "33",
+        "issue": "01",
+        "first_page": "346",
+        "last_page": "353"
+      },
+      "oaUrl": "https://aaai.org/ojs/index.php/AAAI/article/download/3804/3682",
+      "url": "https://openalex.org/W2899457523"
+    },
+    {
+      "id": "https://openalex.org/W2965857891",
+      "doi": "https://doi.org/10.1145/3292500.3330961",
+      "title": "Heterogeneous Graph Neural Network",
+      "display_name": "Heterogeneous Graph Neural Network",
+      "publication_year": 2019,
+      "cited_by_count": 2050,
+      "type": "conference-paper",
+      "authors": [
+        "Chuxu Zhang",
+        "Dongjin Song",
+        "Chao Huang",
+        "Ananthram Swami",
+        "Nitesh V. Chawla"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "793",
+        "last_page": "803"
+      },
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3292500.3330961",
+      "url": "https://openalex.org/W2965857891"
+    },
+    {
+      "id": "https://openalex.org/W3004507689",
+      "doi": "https://doi.org/10.1145/3366423.3380297",
+      "title": "MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding",
+      "display_name": "MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding",
+      "publication_year": 2020,
+      "cited_by_count": 1426,
+      "type": "conference-paper",
+      "authors": [
+        "Xinyu Fu",
+        "Jiani Zhang",
+        "Ziqiao Meng",
+        "Irwin King"
+      ],
+      "venue": "International World Wide Web Conference (WWW)",
+      "sourceId": "S7407088480",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "2331",
+        "last_page": "2341"
+      },
+      "oaUrl": "https://doi.org/10.1145/3366423.3380297",
+      "url": "https://openalex.org/W3004507689"
+    },
+    {
+      "id": "https://openalex.org/W2894663205",
+      "doi": "https://doi.org/10.1609/aaai.v33i01.33014602",
+      "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+      "display_name": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+      "publication_year": 2019,
+      "cited_by_count": 1263,
+      "type": "conference-paper",
+      "authors": [
+        "Christopher Morris",
+        "Martin Ritzert",
+        "Matthias Fey",
+        "William L. Hamilton",
+        "Jan Eric Lenssen",
+        "Gaurav Rattan",
+        "Martin Grohe"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "33",
+        "issue": "01",
+        "first_page": "4602",
+        "last_page": "4609"
+      },
+      "oaUrl": "https://doi.org/10.1609/aaai.v33i01.33014602",
+      "url": "https://openalex.org/W2894663205"
+    },
+    {
+      "id": "https://openalex.org/W3034681945",
+      "doi": "https://doi.org/10.1109/cvpr42600.2020.00178",
+      "title": "Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud",
+      "display_name": "Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud",
+      "publication_year": 2020,
+      "cited_by_count": 1229,
+      "type": "conference-paper",
+      "authors": [
+        "Weijing Shi",
+        "Raj Rajkumar"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "sourceId": "S4210176548",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1708",
+        "last_page": "1716"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2003.01251",
+      "url": "https://openalex.org/W3034681945"
+    },
+    {
+      "id": "https://openalex.org/W3116637551",
+      "doi": "https://doi.org/10.1109/tpami.2022.3204236",
+      "title": "Explainability in Graph Neural Networks: A Taxonomic Survey",
+      "display_name": "Explainability in Graph Neural Networks: A Taxonomic Survey",
+      "publication_year": 2022,
+      "cited_by_count": 1127,
+      "type": "article",
+      "authors": [
+        "Hao Yuan",
+        "Haiyang Yu",
+        "Shurui Gui",
+        "Shuiwang Ji"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "sourceId": "S199944782",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "45",
+        "issue": "5",
+        "first_page": "1",
+        "last_page": "19"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2012.15445",
+      "url": "https://openalex.org/W3116637551"
+    },
+    {
+      "id": "https://openalex.org/W3036446966",
+      "doi": "https://doi.org/10.1145/3394486.3403168",
+      "title": "GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training",
+      "display_name": "GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training",
+      "publication_year": 2020,
+      "cited_by_count": 1121,
+      "type": "conference-paper",
+      "authors": [
+        "Jiezhong Qiu",
+        "Qibin Chen",
+        "Yuxiao Dong",
+        "Jing Zhang",
+        "Hongxia Yang",
+        "Ming Ding",
+        "Kuansan Wang",
+        "Jie Tang"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1150",
+        "last_page": "1160"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2006.09963",
+      "url": "https://openalex.org/W3036446966"
+    },
+    {
+      "id": "https://openalex.org/W3081203761",
+      "doi": "https://doi.org/10.1145/3394486.3403049",
+      "title": "Graph Structure Learning for Robust Graph Neural Networks",
+      "display_name": "Graph Structure Learning for Robust Graph Neural Networks",
+      "publication_year": 2020,
+      "cited_by_count": 1057,
+      "type": "conference-paper",
+      "authors": [
+        "Wei Jin",
+        "Yao Ma",
+        "Xiaorui Liu",
+        "Xianfeng Tang",
+        "Suhang Wang",
+        "Jiliang Tang"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "66",
+        "last_page": "74"
+      },
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403049",
+      "url": "https://openalex.org/W3081203761"
+    },
+    {
+      "id": "https://openalex.org/W3042770487",
+      "doi": "https://doi.org/10.1145/3394486.3403076",
+      "title": "Towards Deeper Graph Neural Networks",
+      "display_name": "Towards Deeper Graph Neural Networks",
+      "publication_year": 2020,
+      "cited_by_count": 796,
+      "type": "conference-paper",
+      "authors": [
+        "Meng Liu",
+        "Hongyang Gao",
+        "Shuiwang Ji"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "338",
+        "last_page": "348"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2007.09296",
+      "url": "https://openalex.org/W3042770487"
+    },
+    {
+      "id": "https://openalex.org/W3080997787",
+      "doi": "https://doi.org/10.1145/3394486.3403237",
+      "title": "GPT-GNN: Generative Pre-Training of Graph Neural Networks",
+      "display_name": "GPT-GNN: Generative Pre-Training of Graph Neural Networks",
+      "publication_year": 2020,
+      "cited_by_count": 776,
+      "type": "conference-paper",
+      "authors": [
+        "Ziniu Hu",
+        "Yuxiao Dong",
+        "Kuansan Wang",
+        "Kai-Wei Chang",
+        "Yizhou Sun"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1857",
+        "last_page": "1867"
+      },
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403237",
+      "url": "https://openalex.org/W3080997787"
+    },
+    {
+      "id": "https://openalex.org/W2943605315",
+      "doi": "https://doi.org/10.1109/cvpr.2019.00010",
+      "title": "Edge-Labeling Graph Neural Network for Few-Shot Learning",
+      "display_name": "Edge-Labeling Graph Neural Network for Few-Shot Learning",
+      "publication_year": 2019,
+      "cited_by_count": 660,
+      "type": "conference-paper",
+      "authors": [
+        "Jongmin Kim",
+        "Taesup Kim",
+        "Sungwoong Kim",
+        "Chang D. Yoo"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "sourceId": "S4210176548",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "11",
+        "last_page": "20"
+      },
+      "oaUrl": "https://arxiv.org/pdf/1905.01436",
+      "url": "https://openalex.org/W2943605315"
+    },
+    {
+      "id": "https://openalex.org/W3000120900",
+      "doi": "https://doi.org/10.1109/tkde.2022.3187455",
+      "title": "GraphLIME: Local Interpretable Model Explanations for Graph Neural Networks",
+      "display_name": "GraphLIME: Local Interpretable Model Explanations for Graph Neural Networks",
+      "publication_year": 2022,
+      "cited_by_count": 647,
+      "type": "article",
+      "authors": [
+        "Qiang Huang",
+        "Makoto Yamada",
+        "Yuan Tian",
+        "Dinesh Singh",
+        "Yi Chang"
+      ],
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "sourceId": "S30698027",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "35",
+        "issue": "7",
+        "first_page": "6968",
+        "last_page": "6972"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2001.06216",
+      "url": "https://openalex.org/W3000120900"
+    },
+    {
+      "id": "https://openalex.org/W2912636151",
+      "doi": "https://doi.org/10.1109/tpami.2021.3054830",
+      "title": "Graph Neural Networks with Convolutional ARMA Filters",
+      "display_name": "Graph Neural Networks with Convolutional ARMA Filters",
+      "publication_year": 2021,
+      "cited_by_count": 631,
+      "type": "article",
+      "authors": [
+        "Filippo Maria Bianchi",
+        "Daniele Grattarola",
+        "Lorenzo Livi",
+        "Cesare Alippi"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "sourceId": "S199944782",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "44",
+        "issue": "7",
+        "first_page": "1",
+        "last_page": "1"
+      },
+      "oaUrl": "https://arxiv.org/pdf/1901.01343",
+      "url": "https://openalex.org/W2912636151"
+    },
+    {
+      "id": "https://openalex.org/W3178835722",
+      "doi": "https://doi.org/10.1145/3404835.3462968",
+      "title": "Sequential Recommendation with Graph Neural Networks",
+      "display_name": "Sequential Recommendation with Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 586,
+      "type": "conference-paper",
+      "authors": [
+        "Jianxin Chang",
+        "Chen Gao",
+        "Yu Zheng",
+        "Yiqun Hui",
+        "Yanan Niu",
+        "Yang Song",
+        "Depeng Jin",
+        "Yong Li"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+      "sourceId": "S4363608773",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "378",
+        "last_page": "387"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2106.14226",
+      "url": "https://openalex.org/W3178835722"
+    },
+    {
+      "id": "https://openalex.org/W3035739162",
+      "doi": "https://doi.org/10.1609/aaai.v35i12.17315",
+      "title": "Data Augmentation for Graph Neural Networks",
+      "display_name": "Data Augmentation for Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 569,
+      "type": "conference-paper",
+      "authors": [
+        "Tong Zhao",
+        "Yozen Liu",
+        "Leonardo Neves",
+        "Oliver J. Woodford",
+        "Meng Jiang",
+        "Neil Shah"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "35",
+        "issue": "12",
+        "first_page": "11015",
+        "last_page": "11023"
+      },
+      "oaUrl": "https://doi.org/10.1609/aaai.v35i12.17315",
+      "url": "https://openalex.org/W3035739162"
+    },
+    {
+      "id": "https://openalex.org/W3033892090",
+      "doi": "https://doi.org/10.1145/3394486.3403085",
+      "title": "XGNN: Towards Model-Level Explanations of Graph Neural Networks",
+      "display_name": "XGNN: Towards Model-Level Explanations of Graph Neural Networks",
+      "publication_year": 2020,
+      "cited_by_count": 561,
+      "type": "conference-paper",
+      "authors": [
+        "Hao Yuan",
+        "Jiliang Tang",
+        "Xia Hu",
+        "Shuiwang Ji"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "430",
+        "last_page": "438"
+      },
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403085",
+      "url": "https://openalex.org/W3033892090"
+    },
+    {
+      "id": "https://openalex.org/W3039500550",
+      "doi": "https://doi.org/10.1145/3394486.3403296",
+      "title": "Scaling Graph Neural Networks with Approximate PageRank",
+      "display_name": "Scaling Graph Neural Networks with Approximate PageRank",
+      "publication_year": 2020,
+      "cited_by_count": 523,
+      "type": "conference-paper",
+      "authors": [
+        "Aleksandar Bojchevski",
+        "Johannes Gasteiger",
+        "Bryan Perozzi",
+        "Amol Kapoor",
+        "Martin Blais",
+        "Benedek Rózemberczki",
+        "Michał Łukasik",
+        "Stephan Günnemann"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "2464",
+        "last_page": "2473"
+      },
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403296",
+      "url": "https://openalex.org/W3039500550"
+    },
+    {
+      "id": "https://openalex.org/W2977973695",
+      "doi": "https://doi.org/10.1109/jsac.2020.3000405",
+      "title": "RouteNet: Leveraging Graph Neural Networks for Network Modeling and Optimization in SDN",
+      "display_name": "RouteNet: Leveraging Graph Neural Networks for Network Modeling and Optimization in SDN",
+      "publication_year": 2020,
+      "cited_by_count": 518,
+      "type": "article",
+      "authors": [
+        "Krzysztof Rusek",
+        "Jose Suarez-Varela",
+        "Paul Almasan",
+        "Pere Barlet‐Ros",
+        "Albert Cabellos‐Aparicio"
+      ],
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "sourceId": "S90422530",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "38",
+        "issue": "10",
+        "first_page": "2260",
+        "last_page": "2270"
+      },
+      "oaUrl": "https://arxiv.org/pdf/1910.01508",
+      "url": "https://openalex.org/W2977973695"
+    },
+    {
+      "id": "https://openalex.org/W7133227520",
+      "doi": "https://doi.org/10.52202/068431-0100",
+      "title": "Revisiting Heterophily for Graph Neural Networks",
+      "display_name": "Revisiting Heterophily for Graph Neural Networks",
+      "publication_year": 2022,
+      "cited_by_count": 511,
+      "type": "conference-paper",
+      "authors": [
+        "Sitao Luan",
+        "Chenqing Hua",
+        "Qincheng Lu",
+        "Jiaqi Zhu",
+        "Mingde Zhao",
+        "Shuyuan Zhang",
+        "Xiao-Wen Chang",
+        "Doina Precup"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1362",
+        "last_page": "1375"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2210.07606",
+      "url": "https://openalex.org/W7133227520"
+    },
+    {
+      "id": "https://openalex.org/W3169752883",
+      "doi": "https://doi.org/10.1109/tpami.2022.3209686",
+      "title": "Graph Neural Networks in Network Neuroscience",
+      "display_name": "Graph Neural Networks in Network Neuroscience",
+      "publication_year": 2022,
+      "cited_by_count": 446,
+      "type": "review",
+      "authors": [
+        "Alaa Bessadok",
+        "Mohamed Ali Mahjoub",
+        "Islem Rekik"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "sourceId": "S199944782",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "45",
+        "issue": "5",
+        "first_page": "5833",
+        "last_page": "5848"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2106.03535",
+      "url": "https://openalex.org/W3169752883"
+    },
+    {
+      "id": "https://openalex.org/W3090999459",
+      "doi": "https://doi.org/10.1609/aaai.v35i12.17332",
+      "title": "Graph Neural Networks with Heterophily",
+      "display_name": "Graph Neural Networks with Heterophily",
+      "publication_year": 2021,
+      "cited_by_count": 442,
+      "type": "conference-paper",
+      "authors": [
+        "Jiong Zhu",
+        "Ryan A. Rossi",
+        "Anup B. Rao",
+        "Tung Mai",
+        "Nedim Lipka",
+        "Nesreen K. Ahmed",
+        "Danai Koutra"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "35",
+        "issue": "12",
+        "first_page": "11168",
+        "last_page": "11176"
+      },
+      "oaUrl": "https://doi.org/10.1609/aaai.v35i12.17332",
+      "url": "https://openalex.org/W3090999459"
+    },
+    {
+      "id": "https://openalex.org/W2798749466",
+      "doi": "https://doi.org/10.18653/v1/p18-1026",
+      "title": "Graph-to-Sequence Learning using Gated Graph Neural Networks",
+      "display_name": "Graph-to-Sequence Learning using Gated Graph Neural Networks",
+      "publication_year": 2018,
+      "cited_by_count": 425,
+      "type": "conference-paper",
+      "authors": [
+        "Daniel Beck",
+        "Gholamreza Haffari",
+        "Trevor Cohn"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "273",
+        "last_page": "283"
+      },
+      "oaUrl": "https://doi.org/10.18653/v1/p18-1026",
+      "url": "https://openalex.org/W2798749466"
+    },
+    {
+      "id": "https://openalex.org/W2950697450",
+      "doi": "https://doi.org/10.1109/cvpr.2019.00943",
+      "title": "Exploiting Edge Features for Graph Neural Networks",
+      "display_name": "Exploiting Edge Features for Graph Neural Networks",
+      "publication_year": 2019,
+      "cited_by_count": 417,
+      "type": "conference-paper",
+      "authors": [
+        "Liyu Gong",
+        "Qiang Shawn Cheng"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "sourceId": "S4210176548",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "9203",
+        "last_page": "9211"
+      },
+      "oaUrl": "https://arxiv.org/pdf/1809.02709",
+      "url": "https://openalex.org/W2950697450"
+    },
+    {
+      "id": "https://openalex.org/W4205091644",
+      "doi": "https://doi.org/10.1109/tmm.2021.3138298",
+      "title": "DualGNN: Dual Graph Neural Network for Multimedia Recommendation",
+      "display_name": "DualGNN: Dual Graph Neural Network for Multimedia Recommendation",
+      "publication_year": 2021,
+      "cited_by_count": 397,
+      "type": "article",
+      "authors": [
+        "Qifan Wang",
+        "Yinwei Wei",
+        "Jianhua Yin",
+        "Jianlong Wu",
+        "Xuemeng Song",
+        "Liqiang Nie"
+      ],
+      "venue": "IEEE Transactions on Multimedia",
+      "sourceId": "S137030581",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "25",
+        "issue": null,
+        "first_page": "1074",
+        "last_page": "1084"
+      },
+      "oaUrl": null,
+      "url": "https://openalex.org/W4205091644"
+    },
+    {
+      "id": "https://openalex.org/W4382202833",
+      "doi": "https://doi.org/10.1609/aaai.v37i9.26283",
+      "title": "Simple and Efficient Heterogeneous Graph Neural Network",
+      "display_name": "Simple and Efficient Heterogeneous Graph Neural Network",
+      "publication_year": 2023,
+      "cited_by_count": 392,
+      "type": "conference-paper",
+      "authors": [
+        "Xiaocheng Yang",
+        "Mingyu Yan",
+        "Shirui Pan",
+        "Xiaochun Ye",
+        "Dongrui Fan"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "37",
+        "issue": "9",
+        "first_page": "10816",
+        "last_page": "10824"
+      },
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/26283/26055",
+      "url": "https://openalex.org/W4382202833"
+    },
+    {
+      "id": "https://openalex.org/W2970929262",
+      "doi": "https://doi.org/10.14778/3352063.3352127",
+      "title": "AliGraph: a comprehensive graph neural network platform",
+      "display_name": "AliGraph: a comprehensive graph neural network platform",
+      "publication_year": 2019,
+      "cited_by_count": 359,
+      "type": "article",
+      "authors": [
+        "Rong Zhu",
+        "Kun Zhao",
+        "Hongxia Yang",
+        "Wei Lin",
+        "Chang Zhou",
+        "Baole Ai",
+        "Yong Li",
+        "Jingren Zhou"
+      ],
+      "venue": "Proceedings of the VLDB Endowment",
+      "sourceId": "S4210226185",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "12",
+        "issue": "12",
+        "first_page": "2094",
+        "last_page": "2105"
+      },
+      "oaUrl": null,
+      "url": "https://openalex.org/W2970929262"
+    },
+    {
+      "id": "https://openalex.org/W4221150249",
+      "doi": "https://doi.org/10.1109/tkde.2026.3680353",
+      "title": "Graph Neural Networks for Graphs With Heterophily: A Survey",
+      "display_name": "Graph Neural Networks for Graphs With Heterophily: A Survey",
+      "publication_year": 2026,
+      "cited_by_count": 353,
+      "type": "article",
+      "authors": [
+        "Xin Zheng",
+        "Yi Wang",
+        "Yixin Liu",
+        "Ming Li",
+        "Miao Zhang",
+        "Di Jin",
+        "Philip S. Yu",
+        "Shirui Pan"
+      ],
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "sourceId": "S30698027",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "38",
+        "issue": "7",
+        "first_page": "4385",
+        "last_page": "4404"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2202.07082",
+      "url": "https://openalex.org/W4221150249"
+    },
+    {
+      "id": "https://openalex.org/W3126138172",
+      "doi": "https://doi.org/10.1609/aaai.v35i12.17283",
+      "title": "Identity-aware Graph Neural Networks",
+      "display_name": "Identity-aware Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 330,
+      "type": "conference-paper",
+      "authors": [
+        "Jiaxuan You",
+        "Jonathan M. Gomes-Selman",
+        "Rex Ying",
+        "Jure Leskovec"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "35",
+        "issue": "12",
+        "first_page": "10737",
+        "last_page": "10745"
+      },
+      "oaUrl": "https://doi.org/10.1609/aaai.v35i12.17283",
+      "url": "https://openalex.org/W3126138172"
+    },
+    {
+      "id": "https://openalex.org/W4290876096",
+      "doi": "https://doi.org/10.1145/3534678.3542609",
+      "title": "Graph Neural Networks: Foundation, Frontiers and Applications",
+      "display_name": "Graph Neural Networks: Foundation, Frontiers and Applications",
+      "publication_year": 2022,
+      "cited_by_count": 324,
+      "type": "conference-paper",
+      "authors": [
+        "Lingfei Wu",
+        "Peng Cui",
+        "Jian Pei",
+        "Liang Zhao",
+        "Xiaojie Guo"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "4840",
+        "last_page": "4841"
+      },
+      "oaUrl": null,
+      "url": "https://openalex.org/W4290876096"
+    },
+    {
+      "id": "https://openalex.org/W3045255111",
+      "doi": "https://doi.org/10.1145/3397271.3401092",
+      "title": "Streaming Graph Neural Networks",
+      "display_name": "Streaming Graph Neural Networks",
+      "publication_year": 2020,
+      "cited_by_count": 309,
+      "type": "conference-paper",
+      "authors": [
+        "Yao Ma",
+        "Ziyi Guo",
+        "Zhaocun Ren",
+        "Jiliang Tang",
+        "Dawei Yin"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+      "sourceId": "S4363608773",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "719",
+        "last_page": "728"
+      },
+      "oaUrl": null,
+      "url": "https://openalex.org/W3045255111"
+    },
+    {
+      "id": "https://openalex.org/W3042856524",
+      "doi": "https://doi.org/10.1109/tkde.2020.3008732",
+      "title": "A Graph Neural Network Framework for Social Recommendations",
+      "display_name": "A Graph Neural Network Framework for Social Recommendations",
+      "publication_year": 2020,
+      "cited_by_count": 291,
+      "type": "article",
+      "authors": [
+        "Wenqi Fan",
+        "Yao Ma",
+        "Qing Li",
+        "Jianping Wang",
+        "Guoyong Cai",
+        "Jiliang Tang",
+        "Dawei Yin"
+      ],
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "sourceId": "S30698027",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "34",
+        "issue": "5",
+        "first_page": "2033",
+        "last_page": "2047"
+      },
+      "oaUrl": null,
+      "url": "https://openalex.org/W3042856524"
+    },
+    {
+      "id": "https://openalex.org/W4312281374",
+      "doi": "https://doi.org/10.1109/cvpr52688.2022.01205",
+      "title": "AEGNN: Asynchronous Event-based Graph Neural Networks",
+      "display_name": "AEGNN: Asynchronous Event-based Graph Neural Networks",
+      "publication_year": 2022,
+      "cited_by_count": 282,
+      "type": "conference-paper",
+      "authors": [
+        "Simon Schaefer",
+        "Daniel Gehrig",
+        "Davide Scaramuzza"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "sourceId": "S4210176548",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "12361",
+        "last_page": "12371"
+      },
+      "oaUrl": "https://www.zora.uzh.ch/id/eprint/257382/1/CVPR22_Schaefer.pdf",
+      "url": "https://openalex.org/W4312281374"
+    },
+    {
+      "id": "https://openalex.org/W2964571482",
+      "doi": "https://doi.org/10.1145/3292500.3340404",
+      "title": "AliGraph: A Comprehensive Graph Neural Network Platform",
+      "display_name": "AliGraph: A Comprehensive Graph Neural Network Platform",
+      "publication_year": 2019,
+      "cited_by_count": 265,
+      "type": "conference-paper",
+      "authors": [
+        "Hongxia Yang"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "sourceId": "S4363608767",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "3165",
+        "last_page": "3166"
+      },
+      "oaUrl": "https://arxiv.org/pdf/1902.08730",
+      "url": "https://openalex.org/W2964571482"
+    },
+    {
+      "id": "https://openalex.org/W7133193304",
+      "doi": "https://doi.org/10.52202/075280-2285",
+      "title": "Universal Prompt Tuning for Graph Neural Networks",
+      "display_name": "Universal Prompt Tuning for Graph Neural Networks",
+      "publication_year": 2023,
+      "cited_by_count": 243,
+      "type": "conference-paper",
+      "authors": [
+        "Taoran Fang",
+        "Yunchao Zhang",
+        "Yang Yang",
+        "Yang Yang",
+        "Lei Chen"
+      ],
+      "venue": "neural information processing systems",
+      "sourceId": "S4363606243",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "52464",
+        "last_page": "52489"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2209.15240",
+      "url": "https://openalex.org/W7133193304"
+    },
+    {
+      "id": "https://openalex.org/W3030661718",
+      "doi": "https://doi.org/10.1109/tpami.2021.3134200",
+      "title": "Non-Local Graph Neural Networks",
+      "display_name": "Non-Local Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 239,
+      "type": "article",
+      "authors": [
+        "Meng Liu",
+        "Zhengyang Wang",
+        "Shuiwang Ji"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "sourceId": "S199944782",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "44",
+        "issue": "12",
+        "first_page": "10270",
+        "last_page": "10276"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2005.14612",
+      "url": "https://openalex.org/W3030661718"
+    },
+    {
+      "id": "https://openalex.org/W2909882940",
+      "doi": null,
+      "title": "Capsule Graph Neural Network",
+      "display_name": "Capsule Graph Neural Network",
+      "publication_year": 2018,
+      "cited_by_count": 235,
+      "type": "conference-paper",
+      "authors": [
+        "Xinyi Zhang",
+        "Lihui Chen"
+      ],
+      "venue": "International Conference on Learning Representations",
+      "sourceId": "S4306419637",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "oaUrl": null,
+      "url": "https://openalex.org/W2909882940"
+    },
+    {
+      "id": "https://openalex.org/W2964166731",
+      "doi": "https://doi.org/10.18653/v1/p19-1128",
+      "title": "Graph Neural Networks with Generated Parameters for Relation Extraction",
+      "display_name": "Graph Neural Networks with Generated Parameters for Relation Extraction",
+      "publication_year": 2019,
+      "cited_by_count": 220,
+      "type": "conference-paper",
+      "authors": [
+        "Hao Zhu",
+        "Yankai Lin",
+        "Zhiyuan Liu",
+        "Jie Fu",
+        "Tat‐Seng Chua",
+        "Maosong Sun"
+      ],
+      "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+      "sourceId": "S4393915740",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1331",
+        "last_page": "1339"
+      },
+      "oaUrl": "https://doi.org/10.18653/v1/p19-1128",
+      "url": "https://openalex.org/W2964166731"
+    },
+    {
+      "id": "https://openalex.org/W3110791298",
+      "doi": "https://doi.org/10.1609/aaai.v35i10.17049",
+      "title": "Overcoming Catastrophic Forgetting in Graph Neural Networks",
+      "display_name": "Overcoming Catastrophic Forgetting in Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 218,
+      "type": "conference-paper",
+      "authors": [
+        "Huihui Liu",
+        "Yiding Yang",
+        "Xinchao Wang"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "35",
+        "issue": "10",
+        "first_page": "8653",
+        "last_page": "8661"
+      },
+      "oaUrl": "https://doi.org/10.1609/aaai.v35i10.17049",
+      "url": "https://openalex.org/W3110791298"
+    },
+    {
+      "id": "https://openalex.org/W3047171429",
+      "doi": "https://doi.org/10.1109/jproc.2021.3055400",
+      "title": "Graph Neural Networks: Architectures, Stability, and Transferability",
+      "display_name": "Graph Neural Networks: Architectures, Stability, and Transferability",
+      "publication_year": 2021,
+      "cited_by_count": 216,
+      "type": "article",
+      "authors": [
+        "Luana Ruiz",
+        "Fernando Gama",
+        "Alejandro Ribeiro"
+      ],
+      "venue": "Proceedings of the IEEE",
+      "sourceId": "S68686220",
+      "sourceType": "journal",
+      "biblio": {
+        "volume": "109",
+        "issue": "5",
+        "first_page": "660",
+        "last_page": "682"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2008.01767",
+      "url": "https://openalex.org/W3047171429"
+    },
+    {
+      "id": "https://openalex.org/W3214714397",
+      "doi": "https://doi.org/10.1145/3460120.3484565",
+      "title": "Locally Private Graph Neural Networks",
+      "display_name": "Locally Private Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 186,
+      "type": "conference-paper",
+      "authors": [
+        "Sina Sajadmanesh",
+        "Daniel Gática-Pérez"
+      ],
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "sourceId": "S4393917527",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "2130",
+        "last_page": "2145"
+      },
+      "oaUrl": "https://infoscience.epfl.ch/handle/20.500.14299/187952",
+      "url": "https://openalex.org/W3214714397"
+    },
+    {
+      "id": "https://openalex.org/W3174146526",
+      "doi": "https://doi.org/10.1609/aaai.v35i5.16552",
+      "title": "Learning to Pre-train Graph Neural Networks",
+      "display_name": "Learning to Pre-train Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 184,
+      "type": "conference-paper",
+      "authors": [
+        "Yuanfu Lu",
+        "Xunqiang Jiang",
+        "Yuan Fang",
+        "Chuan Shi"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "35",
+        "issue": "5",
+        "first_page": "4276",
+        "last_page": "4284"
+      },
+      "oaUrl": "https://doi.org/10.1609/aaai.v35i5.16552",
+      "url": "https://openalex.org/W3174146526"
+    },
+    {
+      "id": "https://openalex.org/W3158952485",
+      "doi": "https://doi.org/10.1109/lics52264.2021.9470677",
+      "title": "The Logic of Graph Neural Networks",
+      "display_name": "The Logic of Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 167,
+      "type": "conference-paper",
+      "authors": [
+        "Martin Grohe"
+      ],
+      "venue": "ACM/IEEE Symposium on Logic in Computer Science (LICS)",
+      "sourceId": "S4210192682",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "17"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2104.14624",
+      "url": "https://openalex.org/W3158952485"
+    },
+    {
+      "id": "https://openalex.org/W2963346996",
+      "doi": "https://doi.org/10.1109/iccv.2017.448",
+      "title": "Situation Recognition with Graph Neural Networks",
+      "display_name": "Situation Recognition with Graph Neural Networks",
+      "publication_year": 2017,
+      "cited_by_count": 163,
+      "type": "conference-paper",
+      "authors": [
+        "Ruiyu Li",
+        "Makarand Tapaswi",
+        "Renjie Liao",
+        "Jiaya Jia",
+        "Raquel Urtasun",
+        "Sanja Fidler"
+      ],
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "sourceId": "S4363607764",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "4183",
+        "last_page": "4192"
+      },
+      "oaUrl": "https://arxiv.org/pdf/1708.04320",
+      "url": "https://openalex.org/W2963346996"
+    },
+    {
+      "id": "https://openalex.org/W3091862797",
+      "doi": "https://doi.org/10.1109/dac18072.2020.9218751",
+      "title": "Hardware Acceleration of Graph Neural Networks",
+      "display_name": "Hardware Acceleration of Graph Neural Networks",
+      "publication_year": 2020,
+      "cited_by_count": 141,
+      "type": "conference-paper",
+      "authors": [
+        "Adam Auten",
+        "Matthew Tomei",
+        "Rakesh Kumar"
+      ],
+      "venue": "ACM/IEEE Design Automation Conference (DAC)",
+      "sourceId": "S4210231368",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "6"
+      },
+      "oaUrl": null,
+      "url": "https://openalex.org/W3091862797"
+    },
+    {
+      "id": "https://openalex.org/W4226058932",
+      "doi": "https://doi.org/10.1609/aaai.v36i6.20615",
+      "title": "KerGNNs: Interpretable Graph Neural Networks with Graph Kernels",
+      "display_name": "KerGNNs: Interpretable Graph Neural Networks with Graph Kernels",
+      "publication_year": 2022,
+      "cited_by_count": 139,
+      "type": "conference-paper",
+      "authors": [
+        "Aosong Feng",
+        "Chenyu You",
+        "Shiqiang Wang",
+        "Leandros Tassiulas"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "36",
+        "issue": "6",
+        "first_page": "6614",
+        "last_page": "6622"
+      },
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/20615/20374",
+      "url": "https://openalex.org/W4226058932"
+    },
+    {
+      "id": "https://openalex.org/W4382202967",
+      "doi": "https://doi.org/10.1609/aaai.v37i9.26318",
+      "title": "Substructure Aware Graph Neural Networks",
+      "display_name": "Substructure Aware Graph Neural Networks",
+      "publication_year": 2023,
+      "cited_by_count": 88,
+      "type": "conference-paper",
+      "authors": [
+        "Dingyi Zeng",
+        "Wanlong Liu",
+        "Wenyu Chen",
+        "Li Zhou",
+        "Malu Zhang",
+        "Hong Qu"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "sourceId": "S4210191458",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": "37",
+        "issue": "9",
+        "first_page": "11129",
+        "last_page": "11137"
+      },
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/26318/26090",
+      "url": "https://openalex.org/W4382202967"
+    },
+    {
+      "id": "https://openalex.org/W3118676284",
+      "doi": "https://doi.org/10.1109/cvpr46437.2021.00937",
+      "title": "Binary Graph Neural Networks",
+      "display_name": "Binary Graph Neural Networks",
+      "publication_year": 2021,
+      "cited_by_count": 66,
+      "type": "conference-paper",
+      "authors": [
+        "Mehdi Bahri",
+        "G. Bahl",
+        "Stefanos P. Zafeiriou"
+      ],
+      "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "sourceId": "S4210176548",
+      "sourceType": "conference",
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "9487",
+        "last_page": "9496"
+      },
+      "oaUrl": "https://arxiv.org/pdf/2012.15823",
+      "url": "https://openalex.org/W3118676284"
+    }
+  ]
+}
