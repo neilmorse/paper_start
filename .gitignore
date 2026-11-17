@@ -8,5 +8,6 @@ dist/
 .qoder-sites/
 .qoder-sites.json
 data/cache/
+data/parsed/
 .qoder/design/
 *.qoder.site

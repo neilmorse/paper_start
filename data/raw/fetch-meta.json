@@ -1,0 +1,14 @@
+{
+  "fetchedAt": "2026-11-17T11:59:02.806Z",
+  "showjcr": {
+    "url": "https://raw.githubusercontent.com/hitfyd/ShowJCR/master/中科院分区表及JCR原始数据文件/CCF2026-UTF8.csv",
+    "bytes": 115730,
+    "reused": true
+  },
+  "ccfddl": {
+    "repo": "https://github.com/ccfddl/ccf-deadlines.git",
+    "commit": "683e441c6074c8c8c16789b58d6a2904d7083429",
+    "conferences": 385,
+    "domains": 10
+  }
+}

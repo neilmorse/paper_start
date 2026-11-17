@@ -1,0 +1,3138 @@
+{
+  "source": "https://github.com/ccfddl/ccf-deadlines.git",
+  "commit": "683e441c6074c8c8c16789b58d6a2904d7083429",
+  "domains": [
+    {
+      "sub": "DS",
+      "name": "计算机体系结构/并行与分布计算/存储系统",
+      "nameEn": "Computer Architecture/Parallel Programming/Storage Technology"
+    },
+    {
+      "sub": "NW",
+      "name": "计算机网络",
+      "nameEn": "Network System"
+    },
+    {
+      "sub": "SC",
+      "name": "网络与信息安全",
+      "nameEn": "Network and System Security"
+    },
+    {
+      "sub": "SE",
+      "name": "软件工程/系统软件/程序设计语言",
+      "nameEn": "Software Engineering/Operating System/Programming Language Design"
+    },
+    {
+      "sub": "DB",
+      "name": "数据库/数据挖掘/内容检索",
+      "nameEn": "Database/Data Mining/Information Retrieval"
+    },
+    {
+      "sub": "CT",
+      "name": "计算机科学理论",
+      "nameEn": "Computing Theory"
+    },
+    {
+      "sub": "CG",
+      "name": "计算机图形学与多媒体",
+      "nameEn": "Graphics"
+    },
+    {
+      "sub": "AI",
+      "name": "人工智能",
+      "nameEn": "Artificial Intelligence"
+    },
+    {
+      "sub": "HI",
+      "name": "人机交互与普适计算",
+      "nameEn": "Computer-Human Interaction"
+    },
+    {
+      "sub": "MX",
+      "name": "交叉/综合/新兴",
+      "nameEn": "Interdiscipline/Mixture/Emerging"
+    }
+  ],
+  "conferences": [
+    {
+      "abbr": "AAAI",
+      "name": "AAAI Conference on Artificial Intelligence",
+      "sub": "AI",
+      "ccf": "A",
+      "dblp": "aaai",
+      "file": "conference/AI/aaai.yml"
+    },
+    {
+      "abbr": "AAMAS",
+      "name": "International Conference on Autonomous Agents and Multiagent Systems",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "ifaamas",
+      "file": "conference/AI/aamas.yml"
+    },
+    {
+      "abbr": "ACCV",
+      "name": "Asian Conference on Computer Vision",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "accv",
+      "file": "conference/AI/accv.yml"
+    },
+    {
+      "abbr": "ACL",
+      "name": "Annual Meeting of the Association for Computational Linguistics",
+      "sub": "AI",
+      "ccf": "A",
+      "dblp": "acl",
+      "file": "conference/AI/acl.yml"
+    },
+    {
+      "abbr": "ACML",
+      "name": "Asian Conference on Machine Learning",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "acml",
+      "file": "conference/AI/acml.yml"
+    },
+    {
+      "abbr": "AISTATS",
+      "name": "International Conference on Artificial Intelligence and Statistics",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "aistats",
+      "file": "conference/AI/aistats.yml"
+    },
+    {
+      "abbr": "ALT",
+      "name": "International Conference on Algorithmic Learning Theory",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "alt",
+      "file": "conference/AI/alt.yml"
+    },
+    {
+      "abbr": "BMVC",
+      "name": "British Machine Vision Conference",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "bmvc",
+      "file": "conference/AI/bmvc.yml"
+    },
+    {
+      "abbr": "IEEE CEC",
+      "name": "IEEE Congress on Evolutionary Computation",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "cec",
+      "file": "conference/AI/cec.yml"
+    },
+    {
+      "abbr": "CICAI",
+      "name": "CAAI International Conference on Artificial Intelligence",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "cicai",
+      "file": "conference/AI/cicai.yml"
+    },
+    {
+      "abbr": "COLING",
+      "name": "International Conference on Computational Linguistics",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "coling",
+      "file": "conference/AI/coling.yml"
+    },
+    {
+      "abbr": "COLM",
+      "name": "Conference on Language Modeling",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "colm",
+      "file": "conference/AI/colm.yml"
+    },
+    {
+      "abbr": "COLT",
+      "name": "Annual Conference on Learning Theory",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "colt",
+      "file": "conference/AI/colt.yml"
+    },
+    {
+      "abbr": "CoNLL",
+      "name": "Conference on Computational Natural Language Learning",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "conll",
+      "file": "conference/AI/conll.yml"
+    },
+    {
+      "abbr": "CoRL",
+      "name": "The Conference on Robot Learning",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "corl",
+      "file": "conference/AI/corl.yml"
+    },
+    {
+      "abbr": "CPAL",
+      "name": "The Conference on Parsimony and Learning",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "cpal",
+      "file": "conference/AI/cpal.yml"
+    },
+    {
+      "abbr": "CVC",
+      "name": "Computer Vision Conference",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "cvc",
+      "file": "conference/AI/cvc.yml"
+    },
+    {
+      "abbr": "CVPR",
+      "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "sub": "AI",
+      "ccf": "A",
+      "dblp": "cvpr",
+      "file": "conference/AI/cvpr.yml"
+    },
+    {
+      "abbr": "DAI",
+      "name": "International Conference on Distributed Artificial Intelligence",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "dai2",
+      "file": "conference/AI/dai.yml"
+    },
+    {
+      "abbr": "EACL",
+      "name": "The Annual Conference of the European Chapter of the Association for Computational Linguistics",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "eacl",
+      "file": "conference/AI/eacl.yml"
+    },
+    {
+      "abbr": "ECAI",
+      "name": "European Conference on Artificial Intelligence",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "ecai",
+      "file": "conference/AI/ecai.yml"
+    },
+    {
+      "abbr": "ECCV",
+      "name": "European Conference on Computer Vision",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "eccv",
+      "file": "conference/AI/eccv.yml"
+    },
+    {
+      "abbr": "EMNLP",
+      "name": "The annual Conference on Empirical Methods in Natural Language Processing",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "emnlp",
+      "file": "conference/AI/emnlp.yml"
+    },
+    {
+      "abbr": "ESANN",
+      "name": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "esann",
+      "file": "conference/AI/esann.yml"
+    },
+    {
+      "abbr": "EuroGP",
+      "name": "European Conference on Genetic Programming",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "eurogp",
+      "file": "conference/AI/eurogp.yml"
+    },
+    {
+      "abbr": "EUVIP",
+      "name": "European Conference on Visual Information Processing",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "euvip",
+      "file": "conference/AI/euvip.yml"
+    },
+    {
+      "abbr": "EvoApplications",
+      "name": "International Conference on the Applications of Evolutionary Computation",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "evoapps",
+      "file": "conference/AI/evoapps.yml"
+    },
+    {
+      "abbr": "EvoCOP",
+      "name": "European Conference on Evolutionary Computation in Combinatorial Optimisation",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "evocop",
+      "file": "conference/AI/evocop.yml"
+    },
+    {
+      "abbr": "EvoMUSART",
+      "name": "International Conference on Artificial Intelligence in Music, Sound, Art and Design",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "evomusart",
+      "file": "conference/AI/evomusart.yml"
+    },
+    {
+      "abbr": "FG",
+      "name": "International Conference on Automatic Face and Gesture Recognition",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "fg",
+      "file": "conference/AI/fg.yml"
+    },
+    {
+      "abbr": "GECCO",
+      "name": "Genetic and Evolutionary Computation Conference",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "gecco",
+      "file": "conference/AI/gecco.yml"
+    },
+    {
+      "abbr": "ICANN",
+      "name": "International Conference on Artificial Neural Networks",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "icann",
+      "file": "conference/AI/icann.yml"
+    },
+    {
+      "abbr": "ICAPS",
+      "name": "International Conference on Automated Planning and Scheduling",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "icaps",
+      "file": "conference/AI/icaps.yml"
+    },
+    {
+      "abbr": "ICCBR",
+      "name": "International Conference on Case-Based Reasoning",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "iccbr",
+      "file": "conference/AI/iccbr.yml"
+    },
+    {
+      "abbr": "ICCV",
+      "name": "IEEE International Conference on Computer Vision",
+      "sub": "AI",
+      "ccf": "A",
+      "dblp": "iccv",
+      "file": "conference/AI/iccv.yml"
+    },
+    {
+      "abbr": "ICDAR",
+      "name": "International Conference on Document Analysis and Recognition",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "icdar",
+      "file": "conference/AI/icdar.yml"
+    },
+    {
+      "abbr": "ICLR",
+      "name": "International Conference on Learning Representations",
+      "sub": "AI",
+      "ccf": "A",
+      "dblp": "iclr",
+      "file": "conference/AI/iclr.yml"
+    },
+    {
+      "abbr": "ICML",
+      "name": "International Conference on Machine Learning",
+      "sub": "AI",
+      "ccf": "A",
+      "dblp": "icml",
+      "file": "conference/AI/icml.yml"
+    },
+    {
+      "abbr": "ICMLA",
+      "name": "International Conference on Machine Learning and Applications",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "icmla",
+      "file": "conference/AI/icmla.yml"
+    },
+    {
+      "abbr": "ICONIP",
+      "name": "International Conference on Neural Information Processing",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "iconip",
+      "file": "conference/AI/iconip.yml"
+    },
+    {
+      "abbr": "ICPR",
+      "name": "International Conference on Pattern Recognition",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "icpr",
+      "file": "conference/AI/icpr.yml"
+    },
+    {
+      "abbr": "ICRA",
+      "name": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "icra",
+      "file": "conference/AI/icra.yml"
+    },
+    {
+      "abbr": "ICTAI",
+      "name": "International Conference on Tools with Artificial Intellignce",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "ictai",
+      "file": "conference/AI/ictai.yml"
+    },
+    {
+      "abbr": "IJCAI",
+      "name": "International Joint Conference on Artificial Intelligence",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "ijcai",
+      "file": "conference/AI/ijcai.yml"
+    },
+    {
+      "abbr": "IJCB",
+      "name": "International Joint Conference on Biometrics",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "icb",
+      "file": "conference/AI/ijcb.yml"
+    },
+    {
+      "abbr": "IJCNLP",
+      "name": "International Joint Conference on Natural Language Processing",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "ijcnlp",
+      "file": "conference/AI/ijcnlp.yml"
+    },
+    {
+      "abbr": "IJCNN",
+      "name": "International Joint Conference on Neural Networks",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "ijcnn",
+      "file": "conference/AI/ijcnn.yml"
+    },
+    {
+      "abbr": "IntelliSys",
+      "name": "Intelligent Systems Conference",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "intellisys",
+      "file": "conference/AI/intellisys.yml"
+    },
+    {
+      "abbr": "IROS",
+      "name": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "iros",
+      "file": "conference/AI/iros.yml"
+    },
+    {
+      "abbr": "KR",
+      "name": "International Conference on Principles of Knowledge Representation and Reasoning",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "kr",
+      "file": "conference/AI/kr.yml"
+    },
+    {
+      "abbr": "KSEM",
+      "name": "International Conference on Knowledge Science, Engineering and Management",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "ksem",
+      "file": "conference/AI/ksem.yml"
+    },
+    {
+      "abbr": "LOG",
+      "name": "Learning on Graphs Conference",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "log",
+      "file": "conference/AI/log.yml"
+    },
+    {
+      "abbr": "NAACL",
+      "name": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "naacl",
+      "file": "conference/AI/naacl.yml"
+    },
+    {
+      "abbr": "NeurIPS",
+      "name": "Conference on Neural Information Processing Systems",
+      "sub": "AI",
+      "ccf": "A",
+      "dblp": "nips",
+      "file": "conference/AI/nips.yml"
+    },
+    {
+      "abbr": "NLPCC",
+      "name": "CCF International Conference on Natural Language Processing and Chinese Computing",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "nlpcc",
+      "file": "conference/AI/nlpcc.yml"
+    },
+    {
+      "abbr": "PPSN",
+      "name": "International Conference on Parallel Problem Solving From Nature",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "ppsn",
+      "file": "conference/AI/ppsn.yml"
+    },
+    {
+      "abbr": "PRICAI",
+      "name": "Pacific Rim International Conference on Artificial Intelligence",
+      "sub": "AI",
+      "ccf": "C",
+      "dblp": "pricai",
+      "file": "conference/AI/pricai.yml"
+    },
+    {
+      "abbr": "ProbML",
+      "name": "Symposium on Probabilistic Machine Learning",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "probml",
+      "file": "conference/AI/probml.yml"
+    },
+    {
+      "abbr": "RSS",
+      "name": "Robotics Science and Systems",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "rss",
+      "file": "conference/AI/rss.yml"
+    },
+    {
+      "abbr": "RuleML+RR",
+      "name": "International Joint Conference on Rules and Reasoning",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "rulemlrr",
+      "file": "conference/AI/rulemlrr.yml"
+    },
+    {
+      "abbr": "UAI",
+      "name": "Conference on Uncertainty in Artificial Intelligence",
+      "sub": "AI",
+      "ccf": "B",
+      "dblp": "uai",
+      "file": "conference/AI/uai.yml"
+    },
+    {
+      "abbr": "WACV",
+      "name": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "sub": "AI",
+      "ccf": "N",
+      "dblp": "wacv",
+      "file": "conference/AI/wacv.yml"
+    },
+    {
+      "abbr": "3DV",
+      "name": "International Conference on 3D Vision",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "3dim",
+      "file": "conference/CG/3dv.yml"
+    },
+    {
+      "abbr": "CASA",
+      "name": "International Conference on Computer Animation and Social Agents",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "ca",
+      "file": "conference/CG/casa.yml"
+    },
+    {
+      "abbr": "CCCG",
+      "name": "Canadian Conference on Computational Geometry",
+      "sub": "CG",
+      "ccf": "N",
+      "dblp": "cccg",
+      "file": "conference/CG/cccg.yml"
+    },
+    {
+      "abbr": "CGI",
+      "name": "Computer Graphics International",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "cgi",
+      "file": "conference/CG/cgi.yml"
+    },
+    {
+      "abbr": "IEEE CoG",
+      "name": "IEEE Conference on Games",
+      "sub": "CG",
+      "ccf": "N",
+      "dblp": "cig",
+      "file": "conference/CG/cog.yml"
+    },
+    {
+      "abbr": "CVM",
+      "name": "The international conference on Computational Visual Media",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "cvm",
+      "file": "conference/CG/cvm.yml"
+    },
+    {
+      "abbr": "DCC",
+      "name": "Data Compression Conference",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "dcc",
+      "file": "conference/CG/dcc.yml"
+    },
+    {
+      "abbr": "Eurographics",
+      "name": "Eurographics",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "eurographics",
+      "file": "conference/CG/eg.yml"
+    },
+    {
+      "abbr": "EGSR",
+      "name": "Eurographics Symposium on Rendering",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "rt",
+      "file": "conference/CG/egsr.yml"
+    },
+    {
+      "abbr": "EuroVis",
+      "name": "Eurographics Conference on Visualization",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "vissym",
+      "file": "conference/CG/eurovis.yml"
+    },
+    {
+      "abbr": "EUSIPCO",
+      "name": "European Signal Processing Conference",
+      "sub": "CG",
+      "ccf": "N",
+      "dblp": "eusipco",
+      "file": "conference/CG/eusipco.yml"
+    },
+    {
+      "abbr": "GMP",
+      "name": "International Conference on Geometric Modeling and Processing",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "gmp",
+      "file": "conference/CG/gmp.yml"
+    },
+    {
+      "abbr": "ICASSP",
+      "name": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "icassp",
+      "file": "conference/CG/icassp.yml"
+    },
+    {
+      "abbr": "ICIP",
+      "name": "The IEEE International Conference on Image Processing",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "icip",
+      "file": "conference/CG/icip.yml"
+    },
+    {
+      "abbr": "ICME",
+      "name": "The IEEE International Conference on Multimedia & Expo",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "icme",
+      "file": "conference/CG/icme.yml"
+    },
+    {
+      "abbr": "ICMR",
+      "name": "ACM SIGMM International Conference on Multimedia Retrieval",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "mir",
+      "file": "conference/CG/icmr.yml"
+    },
+    {
+      "abbr": "ICVRV",
+      "name": "International Conference on Virtual Reality and Visualization",
+      "sub": "CG",
+      "ccf": "N",
+      "dblp": "icvrv",
+      "file": "conference/CG/icvrv.yml"
+    },
+    {
+      "abbr": "InterSpeech",
+      "name": "Conference of the International Speech Communication Association",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "interspeech",
+      "file": "conference/CG/interspeech.yml"
+    },
+    {
+      "abbr": "ISMAR",
+      "name": "International Symposium on Mixed and Augmented Reality",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "ismar",
+      "file": "conference/CG/ismar.yml"
+    },
+    {
+      "abbr": "ACM MM",
+      "name": "ACM International Conference on Multimedia",
+      "sub": "CG",
+      "ccf": "A",
+      "dblp": "mm",
+      "file": "conference/CG/mm.yml"
+    },
+    {
+      "abbr": "MMAsia",
+      "name": "ACM Multimedia Asia",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "mmasia",
+      "file": "conference/CG/mmasia.yml"
+    },
+    {
+      "abbr": "MMM",
+      "name": "International Conference on Multimedia Modeling",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "mmm",
+      "file": "conference/CG/mmm.yml"
+    },
+    {
+      "abbr": "NCMMSC",
+      "name": "National Conference on Man-Machine Speech Communication",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "ncmmsc",
+      "file": "conference/CG/ncmmsc.yml"
+    },
+    {
+      "abbr": "PacificVis",
+      "name": "IEEE Pacific Visualization Symposium",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "pacificvis",
+      "file": "conference/CG/pacificvis.yml"
+    },
+    {
+      "abbr": "PG",
+      "name": "Pacific Graphics, The Pacific Conference on Computer Graphics and Applications",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "pg",
+      "file": "conference/CG/pg.yml"
+    },
+    {
+      "abbr": "PRCV",
+      "name": "Chinese Conference on Pattern Recognition and Computer Vision",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "prcv",
+      "file": "conference/CG/prcv.yml"
+    },
+    {
+      "abbr": "SCA",
+      "name": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "sca",
+      "file": "conference/CG/sca.yml"
+    },
+    {
+      "abbr": "SGP",
+      "name": "Eurographics Symposium on Geometry Processing",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "sgp",
+      "file": "conference/CG/sgp.yml"
+    },
+    {
+      "abbr": "ACM SIGGRAPH",
+      "name": "ACM SIGGRAPH Annual Conference",
+      "sub": "CG",
+      "ccf": "A",
+      "dblp": "siggraph",
+      "file": "conference/CG/sig.yml"
+    },
+    {
+      "abbr": "ACM SIGGRAPH ASIA",
+      "name": "ACM SIGGRAPH Annual Conference in Asia",
+      "sub": "CG",
+      "ccf": "N",
+      "dblp": "siggrapha",
+      "file": "conference/CG/siga.yml"
+    },
+    {
+      "abbr": "SLT",
+      "name": "IEEE Spoken Language Technology (SLT) Workshop",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "slt",
+      "file": "conference/CG/slt.yml"
+    },
+    {
+      "abbr": "SMI",
+      "name": "Shape Modeling International",
+      "sub": "CG",
+      "ccf": "C",
+      "dblp": "smi",
+      "file": "conference/CG/smi.yml"
+    },
+    {
+      "abbr": "SPM",
+      "name": "Symposium on Solid and Physical Modeling",
+      "sub": "CG",
+      "ccf": "B",
+      "dblp": "sma",
+      "file": "conference/CG/spm.yml"
+    },
+    {
+      "abbr": "VINCI",
+      "name": "International Symposium on Visual Information Communication and Interaction",
+      "sub": "CG",
+      "ccf": "N",
+      "dblp": "vinci",
+      "file": "conference/CG/vinci.yml"
+    },
+    {
+      "abbr": "IEEE VIS",
+      "name": "IEEE Visualization Conference",
+      "sub": "CG",
+      "ccf": "A",
+      "dblp": "visualization",
+      "file": "conference/CG/vis.yml"
+    },
+    {
+      "abbr": "IEEE VR",
+      "name": "IEEE Virtual Reality",
+      "sub": "CG",
+      "ccf": "A",
+      "dblp": "vr",
+      "file": "conference/CG/vr.yml"
+    },
+    {
+      "abbr": "CADE",
+      "name": "The Conference on Automated Deduction",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "cade",
+      "file": "conference/CT/cade.yml"
+    },
+    {
+      "abbr": "CAV",
+      "name": "International Conference on Computer-Aided Verification",
+      "sub": "CT",
+      "ccf": "A",
+      "dblp": "cav",
+      "file": "conference/CT/cav.yml"
+    },
+    {
+      "abbr": "CCC",
+      "name": "Computational Complexity Conference",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "coco",
+      "file": "conference/CT/ccc.yml"
+    },
+    {
+      "abbr": "COCOON",
+      "name": "International Computing and Combinatorics Conference",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "cocoon",
+      "file": "conference/CT/cocoon.yml"
+    },
+    {
+      "abbr": "CONCUR",
+      "name": "International Conference on Concurrency Theory",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "concur",
+      "file": "conference/CT/concur.yml"
+    },
+    {
+      "abbr": "ESA",
+      "name": "European Symposium on Algorithms",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "esa",
+      "file": "conference/CT/esa.yml"
+    },
+    {
+      "abbr": "FMCAD",
+      "name": "Formal Methods in Computer-Aided Design",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "fmcad",
+      "file": "conference/CT/fmcad.yml"
+    },
+    {
+      "abbr": "FOCS",
+      "name": "IEEE Symposium on Foundations of Computer Science",
+      "sub": "CT",
+      "ccf": "A",
+      "dblp": "focs",
+      "file": "conference/CT/focs.yml"
+    },
+    {
+      "abbr": "FSCD",
+      "name": "International Conference on Formal Structures for Computation and Deduction",
+      "sub": "CT",
+      "ccf": "C",
+      "dblp": "fscd",
+      "file": "conference/CT/fscd.yml"
+    },
+    {
+      "abbr": "HSCC",
+      "name": "International Conference on Hybrid Systems: Computation and Control",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "hybrid",
+      "file": "conference/CT/hscc.yml"
+    },
+    {
+      "abbr": "ICALP",
+      "name": "EATCS International Colloquium on Automata, Languages, and Programming",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "icalp",
+      "file": "conference/CT/icalp.yml"
+    },
+    {
+      "abbr": "IJCAR",
+      "name": "International Joint Conference on Automated Reasoning",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "ijcar",
+      "file": "conference/CT/ijcar.yml"
+    },
+    {
+      "abbr": "ISAAC",
+      "name": "International Symposium on Algorithms and Computation",
+      "sub": "CT",
+      "ccf": "C",
+      "dblp": "isaac",
+      "file": "conference/CT/isaac.yml"
+    },
+    {
+      "abbr": "ISIT",
+      "name": "IEEE International Symposium on Information Theory",
+      "sub": "CT",
+      "ccf": "N",
+      "dblp": "isit",
+      "file": "conference/CT/isit.yml"
+    },
+    {
+      "abbr": "LICS",
+      "name": "IEEE Symposium on Logic in Computer Science",
+      "sub": "CT",
+      "ccf": "A",
+      "dblp": "lics",
+      "file": "conference/CT/lics.yml"
+    },
+    {
+      "abbr": "SAT",
+      "name": "International Conference on Theory and Applications of Satisfiability Testing",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "sat",
+      "file": "conference/CT/sat.yml"
+    },
+    {
+      "abbr": "SETTA",
+      "name": "Symposium on Dependable Software Engineering: Theories, Tools and Applications",
+      "sub": "CT",
+      "ccf": "C",
+      "dblp": "setta",
+      "file": "conference/CT/setta.yml"
+    },
+    {
+      "abbr": "SOCG",
+      "name": "International Symposium on Computational Geometry",
+      "sub": "CT",
+      "ccf": "B",
+      "dblp": "compgeom",
+      "file": "conference/CT/socg.yml"
+    },
+    {
+      "abbr": "SODA",
+      "name": "ACM-SIAM Symposium on Discrete Algorithms",
+      "sub": "CT",
+      "ccf": "A",
+      "dblp": "soda",
+      "file": "conference/CT/soda.yml"
+    },
+    {
+      "abbr": "STOC",
+      "name": "ACM Symposium on the Theory of Computing",
+      "sub": "CT",
+      "ccf": "A",
+      "dblp": "stoc",
+      "file": "conference/CT/stoc.yml"
+    },
+    {
+      "abbr": "ADMA",
+      "name": "The International Conference on Advanced Data Mining and Applications",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "adma",
+      "file": "conference/DB/adma.yml"
+    },
+    {
+      "abbr": "APWeb-WAIM",
+      "name": "APWeb-WAIM joint international conference on Web and Big Data",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "APWeb",
+      "file": "conference/DB/apweb.yml"
+    },
+    {
+      "abbr": "CHIIR",
+      "name": "ACM SIGIR Conference on Human Information Interaction and Retrieval",
+      "sub": "DB",
+      "ccf": "N",
+      "dblp": "chiir",
+      "file": "conference/DB/chiir.yml"
+    },
+    {
+      "abbr": "CIDR",
+      "name": "International Conference on Innovative Data Systems Research",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "cidr",
+      "file": "conference/DB/cidr.yml"
+    },
+    {
+      "abbr": "CIKM",
+      "name": "ACM International Conference on Information and Knowledge Management",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "cikm",
+      "file": "conference/DB/cikm.yml"
+    },
+    {
+      "abbr": "CLEF",
+      "name": "Conference and Labs of the Evaluation Forum",
+      "sub": "DB",
+      "ccf": "N",
+      "dblp": "clef",
+      "file": "conference/DB/clef.yml"
+    },
+    {
+      "abbr": "DASFAA",
+      "name": "Database Systems for Advanced Applications",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "dasfaa",
+      "file": "conference/DB/dasfaa.yml"
+    },
+    {
+      "abbr": "DEXA",
+      "name": "International Conference on Database and Expert Systems Applications",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "dexa",
+      "file": "conference/DB/dexa.yml"
+    },
+    {
+      "abbr": "ECIR",
+      "name": "European Conference on Information Retrieval",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "ecir",
+      "file": "conference/DB/ecir.yml"
+    },
+    {
+      "abbr": "EDBT",
+      "name": "International Conference on Extending Database Technology",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "edbt",
+      "file": "conference/DB/edbt.yml"
+    },
+    {
+      "abbr": "ER",
+      "name": "International Conference on Conceptual Modeling",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "er",
+      "file": "conference/DB/er.yml"
+    },
+    {
+      "abbr": "ESWC",
+      "name": "European Semantic Web Conference",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "esws",
+      "file": "conference/DB/eswc.yml"
+    },
+    {
+      "abbr": "ICDE",
+      "name": "IEEE International Conference on Data Engineering",
+      "sub": "DB",
+      "ccf": "A",
+      "dblp": "icde",
+      "file": "conference/DB/icde.yml"
+    },
+    {
+      "abbr": "ICDM",
+      "name": "IEEE International Conference on Data Mining",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "icdm",
+      "file": "conference/DB/icdm.yml"
+    },
+    {
+      "abbr": "ICDT",
+      "name": "International Conference on Database Theory",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "icdt",
+      "file": "conference/DB/icdt.yml"
+    },
+    {
+      "abbr": "ICTIR",
+      "name": "International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval",
+      "sub": "DB",
+      "ccf": "N",
+      "dblp": "ictir",
+      "file": "conference/DB/ictir.yml"
+    },
+    {
+      "abbr": "ISWC",
+      "name": "International Semantic Web Conference",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "semweb",
+      "file": "conference/DB/iswc.yml"
+    },
+    {
+      "abbr": "MDM",
+      "name": "IEEE International Conference on Mobile Data Management",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "mdm",
+      "file": "conference/DB/mdm.yml"
+    },
+    {
+      "abbr": "PAKDD",
+      "name": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "pakdd",
+      "file": "conference/DB/pakdd.yml"
+    },
+    {
+      "abbr": "ECML-PKDD",
+      "name": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "pkdd",
+      "file": "conference/DB/pkdd.yml"
+    },
+    {
+      "abbr": "PODS",
+      "name": "ACM Symposium on Principles of Database Systems",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "pods",
+      "file": "conference/DB/pods.yml"
+    },
+    {
+      "abbr": "RecSys",
+      "name": "ACM Conference on Recommender Systems",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "recsys",
+      "file": "conference/DB/recsys.yml"
+    },
+    {
+      "abbr": "SDM",
+      "name": "SIAM International Conference on Data Mining",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "sdm",
+      "file": "conference/DB/sdm.yml"
+    },
+    {
+      "abbr": "SIGIR-AP",
+      "name": "International ACM SIGIR Conference on Information Retrieval in the Asia Pacific",
+      "sub": "DB",
+      "ccf": "N",
+      "dblp": "sigir-ap",
+      "file": "conference/DB/sigir-ap.yml"
+    },
+    {
+      "abbr": "SIGIR",
+      "name": "International Conference on Research on Development in Information Retrieval",
+      "sub": "DB",
+      "ccf": "A",
+      "dblp": "sigir",
+      "file": "conference/DB/sigir.yml"
+    },
+    {
+      "abbr": "SIGKDD",
+      "name": "ACM Knowledge Discovery and Data Mining",
+      "sub": "DB",
+      "ccf": "A",
+      "dblp": "kdd",
+      "file": "conference/DB/sigkdd.yml"
+    },
+    {
+      "abbr": "SIGMOD",
+      "name": "ACM Conference on Management of Data",
+      "sub": "DB",
+      "ccf": "A",
+      "dblp": "sigmod",
+      "file": "conference/DB/sigmod.yml"
+    },
+    {
+      "abbr": "VLDB",
+      "name": "International Conference on Very Large Data Bases",
+      "sub": "DB",
+      "ccf": "A",
+      "dblp": "vldb",
+      "file": "conference/DB/vldb.yml"
+    },
+    {
+      "abbr": "WISA",
+      "name": "Web Information Systems and Applications",
+      "sub": "DB",
+      "ccf": "C",
+      "dblp": "wisa",
+      "file": "conference/DB/wisa.yml"
+    },
+    {
+      "abbr": "WISE",
+      "name": "International Conference on Web Information Systems Engineering",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "wise",
+      "file": "conference/DB/wise.yml"
+    },
+    {
+      "abbr": "WSDM",
+      "name": "International Conference on Web Search and Data Mining",
+      "sub": "DB",
+      "ccf": "B",
+      "dblp": "wsdm",
+      "file": "conference/DB/wsdm.yml"
+    },
+    {
+      "abbr": "APPT",
+      "name": "International Symposium on Advanced Parallel Programming Technologies",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "appt",
+      "file": "conference/DS/appt.yml"
+    },
+    {
+      "abbr": "APSys",
+      "name": "ACM SIGOPS Asia-Pacific Workshop on Systems",
+      "sub": "DS",
+      "ccf": "N",
+      "dblp": "apsys",
+      "file": "conference/DS/apsys.yml"
+    },
+    {
+      "abbr": "ASAP",
+      "name": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "asap",
+      "file": "conference/DS/asap.yml"
+    },
+    {
+      "abbr": "ASP-DAC",
+      "name": "Asia and South Pacific Design Automation Conference",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "aspdac",
+      "file": "conference/DS/aspdac.yml"
+    },
+    {
+      "abbr": "ASPLOS",
+      "name": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "asplos",
+      "file": "conference/DS/asplos.yml"
+    },
+    {
+      "abbr": "SIGOPS ATC",
+      "name": "ACM SIGOPS Annual Technical Conference",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "usenix",
+      "file": "conference/DS/atc.yml"
+    },
+    {
+      "abbr": "ATS",
+      "name": "IEEE Asian Test Symposium",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "ats",
+      "file": "conference/DS/ats.yml"
+    },
+    {
+      "abbr": "CCGRID",
+      "name": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "ccgrid",
+      "file": "conference/DS/ccgrid.yml"
+    },
+    {
+      "abbr": "CF",
+      "name": "ACM International Conference on Computing Frontiers",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "cf",
+      "file": "conference/DS/cf.yml"
+    },
+    {
+      "abbr": "IEEE/ACM CGO",
+      "name": "The International Symposium on Code Generation and Optimization",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "cgo",
+      "file": "conference/DS/cgo.yml"
+    },
+    {
+      "abbr": "CLUSTER",
+      "name": "IEEE International Conference on Cluster Computing",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "cluster",
+      "file": "conference/DS/cluster.yml"
+    },
+    {
+      "abbr": "CODES+ISSS",
+      "name": "International Conference on Hardware/Software Co-design and System Synthesis",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "codes",
+      "file": "conference/DS/codesisss.yml"
+    },
+    {
+      "abbr": "DAC",
+      "name": "Design Automation Conference",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "dac",
+      "file": "conference/DS/dac.yml"
+    },
+    {
+      "abbr": "DATE",
+      "name": "Design, Automation & Test in Europe",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "date",
+      "file": "conference/DS/date.yml"
+    },
+    {
+      "abbr": "ETS",
+      "name": "IEEE European Test Symposium",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "ets",
+      "file": "conference/DS/ets.yml"
+    },
+    {
+      "abbr": "Euro-Par",
+      "name": "European Conference on Parallel and Distributed Computing",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "europar",
+      "file": "conference/DS/europar.yml"
+    },
+    {
+      "abbr": "EuroSys",
+      "name": "European Conference on Computer Systems",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "eurosys",
+      "file": "conference/DS/eurosys.yml"
+    },
+    {
+      "abbr": "FAST",
+      "name": "USENIX Conference on File and Storage Technologies",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "fast",
+      "file": "conference/DS/fast.yml"
+    },
+    {
+      "abbr": "FCCM",
+      "name": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "fccm",
+      "file": "conference/DS/fccm.yml"
+    },
+    {
+      "abbr": "FPGA",
+      "name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "fpga",
+      "file": "conference/DS/fpga.yml"
+    },
+    {
+      "abbr": "FPT",
+      "name": "International Conference on Field Programmable Technology",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "fpt",
+      "file": "conference/DS/fpt.yml"
+    },
+    {
+      "abbr": "GLSVLSI",
+      "name": "Great Lakes Symposium on VLSI",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "glvlsi",
+      "file": "conference/DS/glsvlsi.yml"
+    },
+    {
+      "abbr": "HiPEAC",
+      "name": "International Conference on High Performance and Embedded Architectures and Compilers",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "hipeac",
+      "file": "conference/DS/hipeac.yml"
+    },
+    {
+      "abbr": "Hot Chips",
+      "name": "Hot Chips: A Symposium on High Performance Chips",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "hotchips",
+      "file": "conference/DS/hotchips.yml"
+    },
+    {
+      "abbr": "HotStorage",
+      "name": "ACM Workshop on Hot Topics in Storage and File Systems",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "hotstorage",
+      "file": "conference/DS/hotstorage.yml"
+    },
+    {
+      "abbr": "HPCA",
+      "name": "IEEE International Symposium on High-Performance Computer Architecture",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "hpca",
+      "file": "conference/DS/hpca.yml"
+    },
+    {
+      "abbr": "HPCC",
+      "name": "IEEE International Conference on High Performance Computing and Communications",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "hpcc",
+      "file": "conference/DS/hpcc.yml"
+    },
+    {
+      "abbr": "HPDC",
+      "name": "ACM Symposium on High-Performance Parallel and Distributed Computing",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "hpdc",
+      "file": "conference/DS/hpdc.yml"
+    },
+    {
+      "abbr": "ICA3PP",
+      "name": "International Conference on Algorithms and Architectures for Parallel Processing",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "ica3pp",
+      "file": "conference/DS/ica3pp.yml"
+    },
+    {
+      "abbr": "ICCAD",
+      "name": "IEEE/ACM International Conference on Computer-Aided Design",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "iccad",
+      "file": "conference/DS/iccad.yml"
+    },
+    {
+      "abbr": "ICCD",
+      "name": "International Conference on Computer Design",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "iccd",
+      "file": "conference/DS/iccd.yml"
+    },
+    {
+      "abbr": "ICDCS",
+      "name": "IEEE International Conference on Distributed Computing Systems",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "icdcs",
+      "file": "conference/DS/icdcs.yml"
+    },
+    {
+      "abbr": "ICPADS",
+      "name": "IEEE International Conference on Parallel and Distributed Systems",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "icpads",
+      "file": "conference/DS/icpads.yml"
+    },
+    {
+      "abbr": "ICPP",
+      "name": "International Conference on Parallel Processing",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "icpp",
+      "file": "conference/DS/icpp.yml"
+    },
+    {
+      "abbr": "ICS",
+      "name": "ACM International Conference on Supercomputing",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "ics",
+      "file": "conference/DS/ics.yml"
+    },
+    {
+      "abbr": "IISWC",
+      "name": "IEEE International Symposium on Workload Characterization",
+      "sub": "DS",
+      "ccf": "N",
+      "dblp": "iiswc",
+      "file": "conference/DS/iiswc.yml"
+    },
+    {
+      "abbr": "IPDPS",
+      "name": "IEEE International Parallel and Distributed Processing Symposium",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "ipps",
+      "file": "conference/DS/ipdps.yml"
+    },
+    {
+      "abbr": "ISCA",
+      "name": "International Symposium on Computer Architecture",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "isca",
+      "file": "conference/DS/isca.yml"
+    },
+    {
+      "abbr": "ISCAS",
+      "name": "IEEE International Symposium on Circuits and Systems",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "iscas",
+      "file": "conference/DS/iscas.yml"
+    },
+    {
+      "abbr": "ISPA",
+      "name": "IEEE International Symposium on Parallel and Distributed Processing with Applications",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "ispa",
+      "file": "conference/DS/ispa.yml"
+    },
+    {
+      "abbr": "ISPD",
+      "name": "International Symposium on Physical Design",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "ispd",
+      "file": "conference/DS/ispd.yml"
+    },
+    {
+      "abbr": "ITC-Asia",
+      "name": "IEEE International Test Conference in Asia",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "itc-asia",
+      "file": "conference/DS/itc-asia.yml"
+    },
+    {
+      "abbr": "ITC",
+      "name": "International Test Conference",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "itc",
+      "file": "conference/DS/itc.yml"
+    },
+    {
+      "abbr": "JCC",
+      "name": "International Conference on JointCloud Computing",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "N",
+      "file": "conference/DS/jcc.yml"
+    },
+    {
+      "abbr": "LISA",
+      "name": "Large Installation System Administration Conference",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "lisa",
+      "file": "conference/DS/lisa.yml"
+    },
+    {
+      "abbr": "MICRO",
+      "name": "IEEE/ACM International Symposium on Microarchitecture",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "micro",
+      "file": "conference/DS/micro.yml"
+    },
+    {
+      "abbr": "MSST",
+      "name": "International Conference on Massive Storage Systems and Technology",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "mss",
+      "file": "conference/DS/msst.yml"
+    },
+    {
+      "abbr": "NETYS",
+      "name": "The International Conference on Networked Systems",
+      "sub": "DS",
+      "ccf": "N",
+      "dblp": "netys",
+      "file": "conference/DS/netys.yml"
+    },
+    {
+      "abbr": "PACT",
+      "name": "International Conference on Parallel Architectures and Compilation Techniques",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "pact",
+      "file": "conference/DS/pact.yml"
+    },
+    {
+      "abbr": "PDCAT",
+      "name": "International Conference on Parallel and Distributed Computing, Applications and Technologies",
+      "sub": "DS",
+      "ccf": "N",
+      "dblp": "pdcat",
+      "file": "conference/DS/pdcat.yml"
+    },
+    {
+      "abbr": "Performance",
+      "name": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "performance",
+      "file": "conference/DS/performance.yml"
+    },
+    {
+      "abbr": "PODC",
+      "name": "ACM Symposium on Principles of Distributed Computing",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "podc",
+      "file": "conference/DS/podc.yml"
+    },
+    {
+      "abbr": "PPoPP",
+      "name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "ppopp",
+      "file": "conference/DS/ppopp.yml"
+    },
+    {
+      "abbr": "RTAS",
+      "name": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "rtas",
+      "file": "conference/DS/rtas.yml"
+    },
+    {
+      "abbr": "SC",
+      "name": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+      "sub": "DS",
+      "ccf": "A",
+      "dblp": "sc",
+      "file": "conference/DS/sc.yml"
+    },
+    {
+      "abbr": "SEC",
+      "name": "ACM/IEEE Symposium on Edge Computing",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "ieeesec",
+      "file": "conference/DS/sec.yml"
+    },
+    {
+      "abbr": "SIGMETRICS",
+      "name": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "sigmetrics",
+      "file": "conference/DS/sigmetrics.yml"
+    },
+    {
+      "abbr": "SoCC",
+      "name": "ACM Symposium on Cloud Computing",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "cloud",
+      "file": "conference/DS/socc.yml"
+    },
+    {
+      "abbr": "SPAA",
+      "name": "ACM Symposium on Parallelism in Algorithms and Architectures",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "spaa",
+      "file": "conference/DS/spaa.yml"
+    },
+    {
+      "abbr": "SYSTOR",
+      "name": "The ACM International Systems and Storage Conference",
+      "sub": "DS",
+      "ccf": "C",
+      "dblp": "systor",
+      "file": "conference/DS/systor.yml"
+    },
+    {
+      "abbr": "VEE",
+      "name": "Virtual Execution Environments",
+      "sub": "DS",
+      "ccf": "B",
+      "dblp": "vee",
+      "file": "conference/DS/vee.yml"
+    },
+    {
+      "abbr": "ASSETS",
+      "name": "ACM SIGACCESS Conference on Computers and Accessibility",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "assets",
+      "file": "conference/HI/assets.yml"
+    },
+    {
+      "abbr": "CHI",
+      "name": "ACM Conference on Human Factors in Computing Systems",
+      "sub": "HI",
+      "ccf": "A",
+      "dblp": "chi",
+      "file": "conference/HI/chi.yml"
+    },
+    {
+      "abbr": "CollaborateCom",
+      "name": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "colcom",
+      "file": "conference/HI/collaboratecom.yml"
+    },
+    {
+      "abbr": "CSCW",
+      "name": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "ccf": "A",
+      "dblp": "cscw",
+      "file": "conference/HI/cscw.yml"
+    },
+    {
+      "abbr": "CSCWD",
+      "name": "International Conference on Computer Supported Cooperative Work in Design",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "cscwd",
+      "file": "conference/HI/cscwd.yml"
+    },
+    {
+      "abbr": "DIS",
+      "name": "ACM Conference on Designing Interactive Systems",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "ACMdis",
+      "file": "conference/HI/dis.yml"
+    },
+    {
+      "abbr": "ECSCW",
+      "name": "European Conference on Computer Supported Cooperative Work",
+      "sub": "HI",
+      "ccf": "B",
+      "dblp": "ecscw",
+      "file": "conference/HI/ecscw.yml"
+    },
+    {
+      "abbr": "GI",
+      "name": "Graphics Interface",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "graphicsinterface",
+      "file": "conference/HI/gi.yml"
+    },
+    {
+      "abbr": "GROUP",
+      "name": "ACM International Conference on Supporting Group Work",
+      "sub": "HI",
+      "ccf": "B",
+      "dblp": "group",
+      "file": "conference/HI/group.yml"
+    },
+    {
+      "abbr": "HICSS",
+      "name": "Hawaii International Conference on System Sciences",
+      "sub": "HI",
+      "ccf": "N",
+      "dblp": "hicss",
+      "file": "conference/HI/hicss.yml"
+    },
+    {
+      "abbr": "ICMI",
+      "name": "ACM International Conference on Multimodal Interaction",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "icmi",
+      "file": "conference/HI/icmi.yml"
+    },
+    {
+      "abbr": "ICWSM",
+      "name": "The International AAAI Conference on Web and Social Media",
+      "sub": "HI",
+      "ccf": "B",
+      "dblp": "icwsm",
+      "file": "conference/HI/icwsm.yml"
+    },
+    {
+      "abbr": "IDC",
+      "name": "ACM Interaction Design and Children Conference",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "acmidc",
+      "file": "conference/HI/idc.yml"
+    },
+    {
+      "abbr": "INTERACT",
+      "name": "IFIP TC13 International Conference on Human-Computer Interaction",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "interact",
+      "file": "conference/HI/interact.yml"
+    },
+    {
+      "abbr": "ISS",
+      "name": "ACM International Conference on Interactive Surfaces and Spaces",
+      "sub": "HI",
+      "ccf": "B",
+      "dblp": "tabletop",
+      "file": "conference/HI/iss.yml"
+    },
+    {
+      "abbr": "IUI",
+      "name": "ACM Conference on Intelligent User Interfaces",
+      "sub": "HI",
+      "ccf": "B",
+      "dblp": "iui",
+      "file": "conference/HI/iui.yml"
+    },
+    {
+      "abbr": "MobileHCI",
+      "name": "ACM International Conference on Mobile Human-Computer Interaction",
+      "sub": "HI",
+      "ccf": "B",
+      "dblp": "mhci",
+      "file": "conference/HI/mobilehci.yml"
+    },
+    {
+      "abbr": "PerCom",
+      "name": "IEEE International Conference on Pervasive Computing and Communications",
+      "sub": "HI",
+      "ccf": "B",
+      "dblp": "percom",
+      "file": "conference/HI/percom.yml"
+    },
+    {
+      "abbr": "UbiComp/ISWC",
+      "name": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+      "sub": "HI",
+      "ccf": "A",
+      "dblp": "huc",
+      "file": "conference/HI/ubicomp.yml"
+    },
+    {
+      "abbr": "UIC",
+      "name": "IEEE International Conference on Ubiquitous Intelligence and Computing",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "uic",
+      "file": "conference/HI/uic.yml"
+    },
+    {
+      "abbr": "UIST",
+      "name": "ACM Symposium on User Interface Software and Technology",
+      "sub": "HI",
+      "ccf": "A",
+      "dblp": "uist",
+      "file": "conference/HI/uist.yml"
+    },
+    {
+      "abbr": "WHC",
+      "name": "IEEE World Haptics Conference",
+      "sub": "HI",
+      "ccf": "C",
+      "dblp": "haptics",
+      "file": "conference/HI/whc.yml"
+    },
+    {
+      "abbr": "ACM TURC",
+      "name": "ACM Turing Award Celebration Conference - China",
+      "sub": "MX",
+      "ccf": "N",
+      "dblp": "acmturc",
+      "file": "conference/MX/acmturc.yml"
+    },
+    {
+      "abbr": "AFT",
+      "name": "Advances in Financial Technologies",
+      "sub": "MX",
+      "ccf": "C",
+      "dblp": "aft",
+      "file": "conference/MX/aft.yml"
+    },
+    {
+      "abbr": "APBC",
+      "name": "Asia Pacific Bioinformatics Conference",
+      "sub": "MX",
+      "ccf": "C",
+      "dblp": "apbc",
+      "file": "conference/MX/apbc.yml"
+    },
+    {
+      "abbr": "BIBM",
+      "name": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "sub": "MX",
+      "ccf": "B",
+      "dblp": "bibm",
+      "file": "conference/MX/bibm.yml"
+    },
+    {
+      "abbr": "BigData",
+      "name": "IEEE International Conference on Big Data",
+      "sub": "MX",
+      "ccf": "C",
+      "dblp": "bigdataconf",
+      "file": "conference/MX/bigdata.yml"
+    },
+    {
+      "abbr": "BIS",
+      "name": "International Conference on Business Information Systems",
+      "sub": "MX",
+      "ccf": "N",
+      "dblp": "bis",
+      "file": "conference/MX/bis.yml"
+    },
+    {
+      "abbr": "Cloud",
+      "name": "IEEE International Conference on Cloud Computing",
+      "sub": "MX",
+      "ccf": "C",
+      "dblp": "IEEEcloud",
+      "file": "conference/MX/cloud.yml"
+    },
+    {
+      "abbr": "CogSci",
+      "name": "Annual Meeting of the Cognitive Science Society",
+      "sub": "MX",
+      "ccf": "B",
+      "dblp": "cogsci",
+      "file": "conference/MX/cogsci.yml"
+    },
+    {
+      "abbr": "EMSOFT",
+      "name": "International Conference on Embedded Software",
+      "sub": "MX",
+      "ccf": "B",
+      "dblp": "emsoft",
+      "file": "conference/MX/emsoft.yml"
+    },
+    {
+      "abbr": "ICAIF",
+      "name": "International Conference on AI in Finance",
+      "sub": "MX",
+      "ccf": "N",
+      "dblp": "icaif",
+      "file": "conference/MX/icaif.yml"
+    },
+    {
+      "abbr": "ICIC",
+      "name": "International Conference on Intelligent Computing",
+      "sub": "MX",
+      "ccf": "C",
+      "dblp": "icic",
+      "file": "conference/MX/icic.yml"
+    },
+    {
+      "abbr": "ISBRA",
+      "name": "International Symposium on Bioinformatics Research and Applications",
+      "sub": "MX",
+      "ccf": "C",
+      "dblp": "isbra",
+      "file": "conference/MX/isbra.yml"
+    },
+    {
+      "abbr": "ISMB",
+      "name": "International Conference on Intelligent Systems for Molecular Biology",
+      "sub": "MX",
+      "ccf": "B",
+      "dblp": "ismb",
+      "file": "conference/MX/ismb.yml"
+    },
+    {
+      "abbr": "MICCAI",
+      "name": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "ccf": "B",
+      "dblp": "miccai",
+      "file": "conference/MX/miccai.yml"
+    },
+    {
+      "abbr": "MLSys",
+      "name": "Conference on Machine Learning and Systems",
+      "sub": "MX",
+      "ccf": "N",
+      "dblp": "mlsys",
+      "file": "conference/MX/mlsys.yml"
+    },
+    {
+      "abbr": "RECOMB",
+      "name": "International Conference on Research inComputational Molecular Biology",
+      "sub": "MX",
+      "ccf": "B",
+      "dblp": "recomb",
+      "file": "conference/MX/recomb.yml"
+    },
+    {
+      "abbr": "RTSS",
+      "name": "The IEEE Real-Time Systems Symposium",
+      "sub": "MX",
+      "ccf": "A",
+      "dblp": "rtss",
+      "file": "conference/MX/rtss.yml"
+    },
+    {
+      "abbr": "SAI",
+      "name": "Computing Conference (SAI)",
+      "sub": "MX",
+      "ccf": "N",
+      "dblp": "sai",
+      "file": "conference/MX/sai-computing.yml"
+    },
+    {
+      "abbr": "SIGCSE",
+      "name": "Technical Symposium on Computer Science Education Conference",
+      "sub": "MX",
+      "ccf": "N",
+      "dblp": "sigcse",
+      "file": "conference/MX/sigcse.yml"
+    },
+    {
+      "abbr": "SIGSPATIAL",
+      "name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+      "sub": "MX",
+      "ccf": "C",
+      "dblp": "sigspatial",
+      "file": "conference/MX/sigspatial.yml"
+    },
+    {
+      "abbr": "SMC",
+      "name": "IEEE International Conference on Systems, Man, and Cybernetics",
+      "sub": "MX",
+      "ccf": "C",
+      "dblp": "smc",
+      "file": "conference/MX/smc.yml"
+    },
+    {
+      "abbr": "WINE",
+      "name": "Conference on Web and Internet Economics",
+      "sub": "MX",
+      "ccf": "B",
+      "dblp": "wine",
+      "file": "conference/MX/wine.yml"
+    },
+    {
+      "abbr": "WWW",
+      "name": "International World Wide Web Conferences",
+      "sub": "MX",
+      "ccf": "A",
+      "dblp": "www",
+      "file": "conference/MX/www.yml"
+    },
+    {
+      "abbr": "APNet",
+      "name": "Asia-Pacific Workshop on Networking",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "apnet",
+      "file": "conference/NW/apnet.yml"
+    },
+    {
+      "abbr": "CoNEXT",
+      "name": "International Conference on Emerging Networking Experiments and Technologies",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "conext",
+      "file": "conference/NW/conext.yml"
+    },
+    {
+      "abbr": "FORTE",
+      "name": "International Conference on Formal Techniques for (Networked and) Distributed Systems",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "forte",
+      "file": "conference/NW/forte.yml"
+    },
+    {
+      "abbr": "GLOBECOM",
+      "name": "IEEE Global Communications Conference",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "globecom",
+      "file": "conference/NW/globecom.yml"
+    },
+    {
+      "abbr": "HotNets",
+      "name": "ACM Workshop on Hot Topics in Networks",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "hotnets",
+      "file": "conference/NW/hotnets.yml"
+    },
+    {
+      "abbr": "ICC",
+      "name": "IEEE International Conference on Communications",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "icc",
+      "file": "conference/NW/icc.yml"
+    },
+    {
+      "abbr": "ICCCN",
+      "name": "IEEE International Conference on Computer Communications and Networks",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "icccn",
+      "file": "conference/NW/icccn.yml"
+    },
+    {
+      "abbr": "ICNP",
+      "name": "IEEE International Conference on Network Protocols",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "icnp",
+      "file": "conference/NW/icnp.yml"
+    },
+    {
+      "abbr": "IMC",
+      "name": "ACM Internet Measurement Conference",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "imc",
+      "file": "conference/NW/imc.yml"
+    },
+    {
+      "abbr": "INFOCOM",
+      "name": "IEEE International Conference on Computer Communications",
+      "sub": "NW",
+      "ccf": "A",
+      "dblp": "infocom",
+      "file": "conference/NW/infocom.yml"
+    },
+    {
+      "abbr": "IPSN",
+      "name": "ACM/IEEE International Conference on Information Processing in Sensor Networks",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "ipsn",
+      "file": "conference/NW/ipsn.yml"
+    },
+    {
+      "abbr": "ISCC",
+      "name": "IEEE Symposium on Computers and Communications",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "iscc",
+      "file": "conference/NW/iscc.yml"
+    },
+    {
+      "abbr": "IWQoS",
+      "name": "IEEE/ACM International Symposium on Quality of Service",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "iwqos",
+      "file": "conference/NW/iwqos.yml"
+    },
+    {
+      "abbr": "LCN",
+      "name": "IEEE Conference on Local Computer Networks",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "lcn",
+      "file": "conference/NW/lcn.yml"
+    },
+    {
+      "abbr": "MMSys",
+      "name": "ACM International Conference on Multimedia Systems",
+      "sub": "NW",
+      "ccf": "N",
+      "dblp": "mmsys",
+      "file": "conference/NW/mmsys.yml"
+    },
+    {
+      "abbr": "MobiCom",
+      "name": "ACM Annual International Conference On Mobile Computing And Networking",
+      "sub": "NW",
+      "ccf": "A",
+      "dblp": "mobicom",
+      "file": "conference/NW/mobicom.yml"
+    },
+    {
+      "abbr": "MobiHoc",
+      "name": "International Symposium on Mobile Ad Hoc Networking and Computing",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "mobihoc",
+      "file": "conference/NW/mobihoc.yml"
+    },
+    {
+      "abbr": "MobiSys",
+      "name": "ACM International Conference on Mobile Systems, Applications, and Services",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "mobisys",
+      "file": "conference/NW/mobisys.yml"
+    },
+    {
+      "abbr": "MSN",
+      "name": "International Conference on Mobility, Sensing and Networking",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "msn",
+      "file": "conference/NW/msn.yml"
+    },
+    {
+      "abbr": "MSWiM",
+      "name": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "mswim",
+      "file": "conference/NW/mswim.yml"
+    },
+    {
+      "abbr": "Networking",
+      "name": "IFIP International Conference on Networking",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "networking",
+      "file": "conference/NW/networking.yml"
+    },
+    {
+      "abbr": "NOSSDAV",
+      "name": "International Workshop on Network and Operating System Support for Digital Audio and Video",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "nossdav",
+      "file": "conference/NW/nossdav.yml"
+    },
+    {
+      "abbr": "NSDI",
+      "name": "USENIX Symposium on Networked Systems Design and Implementation",
+      "sub": "NW",
+      "ccf": "A",
+      "dblp": "nsdi",
+      "file": "conference/NW/nsdi.yml"
+    },
+    {
+      "abbr": "SECON",
+      "name": "IEEE International Conference on Sensing, Communication, and Networking",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "secon",
+      "file": "conference/NW/secon.yml"
+    },
+    {
+      "abbr": "SenSys",
+      "name": "ACM Conference on Embedded Networked Sensor Systems",
+      "sub": "NW",
+      "ccf": "B",
+      "dblp": "sensys",
+      "file": "conference/NW/sensys.yml"
+    },
+    {
+      "abbr": "SIGCOMM",
+      "name": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+      "sub": "NW",
+      "ccf": "A",
+      "dblp": "sigcomm",
+      "file": "conference/NW/sigcomm.yml"
+    },
+    {
+      "abbr": "WASA",
+      "name": "International Conference on Wireless Algorithms, Systems, and Applications",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "wasa",
+      "file": "conference/NW/wasa.yml"
+    },
+    {
+      "abbr": "WCNC",
+      "name": "IEEE Wireless Communications and Networking Conference",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "wcnc",
+      "file": "conference/NW/wcnc.yml"
+    },
+    {
+      "abbr": "WiCON",
+      "name": "International Wireless Internet Conference",
+      "sub": "NW",
+      "ccf": "N",
+      "dblp": "wicon",
+      "file": "conference/NW/wicon.yml"
+    },
+    {
+      "abbr": "WoWMoM",
+      "name": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+      "sub": "NW",
+      "ccf": "C",
+      "dblp": "wowmom",
+      "file": "conference/NW/wowmom.yml"
+    },
+    {
+      "abbr": "ACISP",
+      "name": "Australasia Conference on Information Security and Privacy",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "acisp",
+      "file": "conference/SC/acisp.yml"
+    },
+    {
+      "abbr": "ACNS",
+      "name": "Applied Cryptography and Network Security",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "acns",
+      "file": "conference/SC/acns.yml"
+    },
+    {
+      "abbr": "ACSAC",
+      "name": "Annual Computer Security Applications Conference",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "acsac",
+      "file": "conference/SC/acsac.yml"
+    },
+    {
+      "abbr": "AsiaCCS",
+      "name": "Asia Conference on Computer and Communications Security",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "ccs",
+      "file": "conference/SC/asiaccs.yml"
+    },
+    {
+      "abbr": "ASIACRYPT",
+      "name": "International Conference on the Theory and Application of Cryptology and Information Security",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "asiacrypt",
+      "file": "conference/SC/asiacrypt.yml"
+    },
+    {
+      "abbr": "BlockSys",
+      "name": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "blocksys",
+      "file": "conference/SC/blocksys.yml"
+    },
+    {
+      "abbr": "CCS",
+      "name": "ACM Conference on Computer and Communications Security",
+      "sub": "SC",
+      "ccf": "A",
+      "dblp": "ccs",
+      "file": "conference/SC/ccs.yml"
+    },
+    {
+      "abbr": "CHES",
+      "name": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "ches",
+      "file": "conference/SC/ches.yml"
+    },
+    {
+      "abbr": "CNS",
+      "name": "IEEE Conference on Communications and Network Security",
+      "sub": "SC",
+      "ccf": "N",
+      "dblp": "cns",
+      "file": "conference/SC/cns.yml"
+    },
+    {
+      "abbr": "CODASPY",
+      "name": "ACM Conference on Data and Application Security and Privacy",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "codaspy",
+      "file": "conference/SC/codaspy.yml"
+    },
+    {
+      "abbr": "CRYPTO",
+      "name": "International Cryptology Conference",
+      "sub": "SC",
+      "ccf": "A",
+      "dblp": "crypto",
+      "file": "conference/SC/crypto.yml"
+    },
+    {
+      "abbr": "CSCloud",
+      "name": "IEEE International Conference on Cyber Security and Cloud Computing",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "cscloud",
+      "file": "conference/SC/cscloud.yml"
+    },
+    {
+      "abbr": "CSFW",
+      "name": "IEEE Computer Security Foundations Symposium",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "csfw",
+      "file": "conference/SC/csfw.yml"
+    },
+    {
+      "abbr": "CT-RSA",
+      "name": "Cryptographer's Track at RSA Conference",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "ctrsa",
+      "file": "conference/SC/ct-rsa.yml"
+    },
+    {
+      "abbr": "DFRWS APAC",
+      "name": "Digital Forensic Research Workshop Asia Pacific",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "di",
+      "file": "conference/SC/dfrws-apac.yml"
+    },
+    {
+      "abbr": "DFRWS",
+      "name": "Digital Forensic Research Workshop",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "dfrws",
+      "file": "conference/SC/dfrws.yml"
+    },
+    {
+      "abbr": "DIMVA",
+      "name": "Detection of Intrusions and Malware & Vulnerability Assessment",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "dimva",
+      "file": "conference/SC/dimva.yml"
+    },
+    {
+      "abbr": "DSN",
+      "name": "International Conference on Dependable Systems and Networks",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "dsn",
+      "file": "conference/SC/dsn.yml"
+    },
+    {
+      "abbr": "ESORICS",
+      "name": "European Symposium on Research in Computer Security",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "esorics",
+      "file": "conference/SC/esorics.yml"
+    },
+    {
+      "abbr": "EUROCRYPT",
+      "name": "European Cryptology Conference",
+      "sub": "SC",
+      "ccf": "A",
+      "dblp": "eurocrypt",
+      "file": "conference/SC/eurocrypt.yml"
+    },
+    {
+      "abbr": "EuroS&P",
+      "name": "IEEE European Symposium on Security and Privacy",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "eurosp",
+      "file": "conference/SC/eurosp.yml"
+    },
+    {
+      "abbr": "FC",
+      "name": "Financial Cryptography and Data Security",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "fc",
+      "file": "conference/SC/fc.yml"
+    },
+    {
+      "abbr": "FSE",
+      "name": "Fast Software Encryption",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "fse",
+      "file": "conference/SC/fse.yml"
+    },
+    {
+      "abbr": "HotSec",
+      "name": "USENIX Workshop on Hot Topics in Security",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "events",
+      "file": "conference/SC/hotsec.yml"
+    },
+    {
+      "abbr": "ICDF2C",
+      "name": "International Conference on Digital Forensics & Cyber Crime",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "icdf2c",
+      "file": "conference/SC/icdf2c.yml"
+    },
+    {
+      "abbr": "ICICS",
+      "name": "International Conference on Information and Communications Security",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "icics",
+      "file": "conference/SC/icics.yml"
+    },
+    {
+      "abbr": "IFIP WG 11.9",
+      "name": "IFIP WG 11.9 International Conference on Digital Forensics",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "NO DBLP",
+      "file": "conference/SC/ifip119.yml"
+    },
+    {
+      "abbr": "IH&MMSec",
+      "name": "ACM Workshop on Information Hiding and Multimedia Security",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "ih",
+      "file": "conference/SC/ih&mmsec.yml"
+    },
+    {
+      "abbr": "INDOCRYPT",
+      "name": "International Conference on Cryptology in India",
+      "sub": "SC",
+      "ccf": "N",
+      "dblp": "indocrypt",
+      "file": "conference/SC/indocrypt.yml"
+    },
+    {
+      "abbr": "INSCRYPT",
+      "name": "International Conference on Information Security and Cryptology",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "cisc",
+      "file": "conference/SC/inscrypt.yml"
+    },
+    {
+      "abbr": "ISC",
+      "name": "Information Security Conference",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "isw",
+      "file": "conference/SC/isc.yml"
+    },
+    {
+      "abbr": "NDSS",
+      "name": "Network and Distributed System Security (NDSS) Symposium",
+      "sub": "SC",
+      "ccf": "A",
+      "dblp": "ndss",
+      "file": "conference/SC/ndss.yml"
+    },
+    {
+      "abbr": "NOMS",
+      "name": "IEEE/IFIP Network Operations and Management Symposium",
+      "sub": "SC",
+      "ccf": "N",
+      "dblp": "noms",
+      "file": "conference/SC/noms.yml"
+    },
+    {
+      "abbr": "NSPW",
+      "name": "New Security Paradigms Workshop",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "nspw",
+      "file": "conference/SC/nspw.yml"
+    },
+    {
+      "abbr": "PAM",
+      "name": "Passive and Active Measurement Conference",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "pam",
+      "file": "conference/SC/pam.yml"
+    },
+    {
+      "abbr": "PETS",
+      "name": "Privacy Enhancing Technologies Symposium",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "pet",
+      "file": "conference/SC/pets.yml"
+    },
+    {
+      "abbr": "PKC",
+      "name": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "pkc",
+      "file": "conference/SC/pkc.yml"
+    },
+    {
+      "abbr": "RAID",
+      "name": "International Symposium on Recent Advances in Intrusion Detection",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "raid",
+      "file": "conference/SC/raid.yml"
+    },
+    {
+      "abbr": "SAC",
+      "name": "Selected Areas in Cryptography",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "sacrypt",
+      "file": "conference/SC/sac.yml"
+    },
+    {
+      "abbr": "SACMAT",
+      "name": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "sacmat",
+      "file": "conference/SC/sacmat.yml"
+    },
+    {
+      "abbr": "SAIS",
+      "name": "USENIX Conference on Secure Agentic-AI Systems",
+      "sub": "SC",
+      "ccf": "N",
+      "dblp": "",
+      "file": "conference/SC/sais.yml"
+    },
+    {
+      "abbr": "SATML",
+      "name": "IEEE Conference on Secure and Trustworthy Machine Learning",
+      "sub": "SC",
+      "ccf": "N",
+      "dblp": "satml",
+      "file": "conference/SC/satml.yml"
+    },
+    {
+      "abbr": "SEC",
+      "name": "IFIP International Information Security Conference",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "sec",
+      "file": "conference/SC/sec.yml"
+    },
+    {
+      "abbr": "SecureComm",
+      "name": "International Conference on Security and Privacy in Communication Networks",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "securecomm",
+      "file": "conference/SC/securecomm.yml"
+    },
+    {
+      "abbr": "SOUPS",
+      "name": "Symposium On Usable Privacy and Security",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "soups",
+      "file": "conference/SC/soups.yml"
+    },
+    {
+      "abbr": "S&P",
+      "name": "IEEE Symposium on Security and Privacy",
+      "sub": "SC",
+      "ccf": "A",
+      "dblp": "sp",
+      "file": "conference/SC/sp.yml"
+    },
+    {
+      "abbr": "SRDS",
+      "name": "IEEE International Symposium on Reliable Distributed Systems",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "srds",
+      "file": "conference/SC/srds.yml"
+    },
+    {
+      "abbr": "TCC",
+      "name": "Theory of Cryptography Conference",
+      "sub": "SC",
+      "ccf": "B",
+      "dblp": "tcc",
+      "file": "conference/SC/tcc.yml"
+    },
+    {
+      "abbr": "TrustCom",
+      "name": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "trustcom",
+      "file": "conference/SC/trustcom.yml"
+    },
+    {
+      "abbr": "USENIX Security",
+      "name": "USENIX Security Symposium",
+      "sub": "SC",
+      "ccf": "A",
+      "dblp": "uss",
+      "file": "conference/SC/uss.yml"
+    },
+    {
+      "abbr": "WiSec",
+      "name": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+      "sub": "SC",
+      "ccf": "C",
+      "dblp": "wisec",
+      "file": "conference/SC/wisec.yml"
+    },
+    {
+      "abbr": "APLAS",
+      "name": "Asian Symposium on Programming Languages and Systems",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "aplas",
+      "file": "conference/SE/aplas.yml"
+    },
+    {
+      "abbr": "APSEC",
+      "name": "Asia-Pacific Software Engineering Conference",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "apsec",
+      "file": "conference/SE/apsec.yml"
+    },
+    {
+      "abbr": "ASE",
+      "name": "International Conference on Automated Software Engineering",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "kbse",
+      "file": "conference/SE/ase.yml"
+    },
+    {
+      "abbr": "ATVA",
+      "name": "International Symposium on Automated Technology for Verification and Analysis",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "atva",
+      "file": "conference/SE/atva.yml"
+    },
+    {
+      "abbr": "CAiSE",
+      "name": "International Conference on Advanced Information Systems Engineering",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "caise",
+      "file": "conference/SE/caise.yml"
+    },
+    {
+      "abbr": "CC",
+      "name": "International Conference on Compiler Construction",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "cc",
+      "file": "conference/SE/cc.yml"
+    },
+    {
+      "abbr": "COMPSAC",
+      "name": "International Computer Software and Applications Conference",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "compsac",
+      "file": "conference/SE/compsac.yml"
+    },
+    {
+      "abbr": "CP",
+      "name": "International Conference on Principles and Practice of Constraint Programming",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "cp",
+      "file": "conference/SE/cp.yml"
+    },
+    {
+      "abbr": "EASE",
+      "name": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "ease",
+      "file": "conference/SE/ease.yml"
+    },
+    {
+      "abbr": "ECOOP",
+      "name": "European Conference on Object-Oriented Programming",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "ecoop",
+      "file": "conference/SE/ecoop.yml"
+    },
+    {
+      "abbr": "ESEM",
+      "name": "International Symposium on Empirical Software Engineering and Measurement",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "esem",
+      "file": "conference/SE/esem.yml"
+    },
+    {
+      "abbr": "ETAPS",
+      "name": "European Joint Conferences on Theory and Practice of Software",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "etaps",
+      "file": "conference/SE/etaps.yml"
+    },
+    {
+      "abbr": "FM",
+      "name": "International Symposium on Formal Methods",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "fm",
+      "file": "conference/SE/fm.yml"
+    },
+    {
+      "abbr": "FSE",
+      "name": "ACM International Conference on the Foundations of Software Engineering",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "sigsoft",
+      "file": "conference/SE/fse.yml"
+    },
+    {
+      "abbr": "HotOS",
+      "name": "USENIX Workshop on Hot Topics in Operating Systems",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "hotos",
+      "file": "conference/SE/hotos.yml"
+    },
+    {
+      "abbr": "ICECCS",
+      "name": "International Conference on Engineering of Complex Computer Systems",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "iceccs",
+      "file": "conference/SE/iceccs.yml"
+    },
+    {
+      "abbr": "ICFEM",
+      "name": "International Conference on Formal Engineering Methods",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "icfem",
+      "file": "conference/SE/icfem.yml"
+    },
+    {
+      "abbr": "ICFP",
+      "name": "International Conference on Function Programming",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "icfp",
+      "file": "conference/SE/icfp.yml"
+    },
+    {
+      "abbr": "ICPC",
+      "name": "IEEE International Conference on Program Comprehension",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "icpc",
+      "file": "conference/SE/icpc.yml"
+    },
+    {
+      "abbr": "ICSE",
+      "name": "International Conference on Software Engineering",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "icse",
+      "file": "conference/SE/icse.yml"
+    },
+    {
+      "abbr": "ICSME",
+      "name": "International Conference on Software Maintenance and Evolution",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "icsm",
+      "file": "conference/SE/icsme.yml"
+    },
+    {
+      "abbr": "ICSOC",
+      "name": "International Conference on Service Oriented Computing",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "icsoc",
+      "file": "conference/SE/icsoc.yml"
+    },
+    {
+      "abbr": "ICST",
+      "name": "IEEE International Conference on Software Testing, Verification and Validation",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "icst",
+      "file": "conference/SE/icst.yml"
+    },
+    {
+      "abbr": "ICWS",
+      "name": "IEEE International Conference on Web Services (Research Track)",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "icws",
+      "file": "conference/SE/icws.yml"
+    },
+    {
+      "abbr": "Internetware",
+      "name": "Asia-Pacific Symposium on Internetware",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "internetware",
+      "file": "conference/SE/internetware.yml"
+    },
+    {
+      "abbr": "ISPASS",
+      "name": "International Symposium on Performance Analysis of Systems and Software",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "ispass",
+      "file": "conference/SE/ispass.yml"
+    },
+    {
+      "abbr": "ISSRE",
+      "name": "International Symposium on Software Reliability Engineering",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "issre",
+      "file": "conference/SE/issre.yml"
+    },
+    {
+      "abbr": "ISSTA",
+      "name": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "issta",
+      "file": "conference/SE/issta.yml"
+    },
+    {
+      "abbr": "LCTES",
+      "name": "International Conference on Languages, Compilers and Tools for Embedded Systems",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "lctrts",
+      "file": "conference/SE/lctes.yml"
+    },
+    {
+      "abbr": "Middleware",
+      "name": "International Middleware Conference",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "middleware",
+      "file": "conference/SE/middleware.yml"
+    },
+    {
+      "abbr": "MoDELS",
+      "name": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "models",
+      "file": "conference/SE/models.yml"
+    },
+    {
+      "abbr": "MSR",
+      "name": "International Conference on Mining Software Repositories",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "msr",
+      "file": "conference/SE/msr.yml"
+    },
+    {
+      "abbr": "OOPSLA",
+      "name": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "oopsla",
+      "file": "conference/SE/oopsla.yml"
+    },
+    {
+      "abbr": "OSDI",
+      "name": "USENIX Symposium on Operating Systems Design and Implementation",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "osdi",
+      "file": "conference/SE/osdi.yml"
+    },
+    {
+      "abbr": "PEPM",
+      "name": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "pepm",
+      "file": "conference/SE/pepm.yml"
+    },
+    {
+      "abbr": "PLDI",
+      "name": "ACM SIGPLAN Conference on Programming Language Design & Implementation",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "pldi",
+      "file": "conference/SE/pldi.yml"
+    },
+    {
+      "abbr": "POPL",
+      "name": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "popl",
+      "file": "conference/SE/popl.yml"
+    },
+    {
+      "abbr": "QRS",
+      "name": "IEEE International Conference on Software Quality, Reliability and Security",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "qrs",
+      "file": "conference/SE/qrs.yml"
+    },
+    {
+      "abbr": "RE",
+      "name": "IEEE International Requirements Engineering Conference",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "re",
+      "file": "conference/SE/re.yml"
+    },
+    {
+      "abbr": "REFSQ",
+      "name": "Requirements Engineering: Foundation for Software Quality",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "refsq",
+      "file": "conference/SE/refsq.yml"
+    },
+    {
+      "abbr": "RV",
+      "name": "International Conference on Runtime Verification",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "rv",
+      "file": "conference/SE/rv.yml"
+    },
+    {
+      "abbr": "SANER",
+      "name": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "wcre",
+      "file": "conference/SE/saner.yml"
+    },
+    {
+      "abbr": "SAS",
+      "name": "International Static Analysis Symposium",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "sas",
+      "file": "conference/SE/sas.yml"
+    },
+    {
+      "abbr": "SCAM",
+      "name": "IEEE International Working Conference on Source Code Analysis and Manipulation",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "scam",
+      "file": "conference/SE/scam.yml"
+    },
+    {
+      "abbr": "SEKE",
+      "name": "International Conference on Software Engineering and Knowledge Engineering",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "seke",
+      "file": "conference/SE/seke.yml"
+    },
+    {
+      "abbr": "SOSP",
+      "name": "ACM Symposium on Operating Systems Principles",
+      "sub": "SE",
+      "ccf": "A",
+      "dblp": "sosp",
+      "file": "conference/SE/sosp.yml"
+    },
+    {
+      "abbr": "SSE",
+      "name": "IEEE International Conference on Software Services Engineering",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "IEEEscc",
+      "file": "conference/SE/sse.yml"
+    },
+    {
+      "abbr": "TASE",
+      "name": "Theoretical Aspects of Software Engineering",
+      "sub": "SE",
+      "ccf": "C",
+      "dblp": "tase",
+      "file": "conference/SE/tase.yml"
+    },
+    {
+      "abbr": "VMCAI",
+      "name": "International Conference on Verification, Model Checking, and Abstract Interpretation",
+      "sub": "SE",
+      "ccf": "B",
+      "dblp": "vmcai",
+      "file": "conference/SE/vmcai.yml"
+    }
+  ]
+}
