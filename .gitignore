@@ -9,5 +9,7 @@ dist/
 .qoder-sites.json
 data/cache/
 data/parsed/
-.qoder/design/
+.qoder/
 *.qoder.site
+.agents
+skills-lock.json

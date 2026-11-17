@@ -1,0 +1,38 @@
+{
+  "TPAMI": {
+    "sourceIds": ["S199944782"],
+    "note": "计划锚点：IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  },
+  "ICML": {
+    "sourceIds": ["S4306419644"],
+    "note": "计划锚点：International Conference on Machine Learning"
+  },
+  "NeurIPS": {
+    "sourceIds": ["S4363606243"],
+    "note": "计划锚点：Neural Information Processing Systems；覆盖偏低（约 2.16 万条），coverageWarning"
+  },
+  "OSDI": {
+    "sourceIds": ["S4306420647"],
+    "note": "人工裁决：Operating Systems Design and Implementation；CSV 全称复数 Implementations 致检索失配；OpenAlex 收录偏少 works=319"
+  },
+  "NSDI": {
+    "sourceIds": ["S4306420602"],
+    "note": "人工裁决：Networked Systems Design and Implementation；CSV 名误作 Network System；收录偏少 works=403"
+  },
+  "ACM SIGOPS ATC": {
+    "sourceIds": ["S4306421113"],
+    "note": "人工裁决：USENIX Annual Technical Conference（CSV 缩写 ACM SIGOPS ATC）；works=867"
+  },
+  "EUROCRYPT": {
+    "sourceIds": ["S4306421060"],
+    "note": "人工裁决：Theory and Application of Cryptographic Techniques；OpenAlex 单数 Application 致 CSV 复数失配；收录偏少 works=102"
+  },
+  "FM": {
+    "sourceIds": ["S4306418431"],
+    "note": "人工裁决：Formal Methods（International Symposium on Formal Methods）；名称相似度 borderline 评 low，正确源 works=566"
+  },
+  "ASE": {
+    "sourceIds": ["S4363608212"],
+    "note": "人工裁决：IEEE/ACM International Conference on Automated Software Engineering；自动匹配误选 works=8 的 Proceedings 桩源，正确源 works=3782"
+  }
+}

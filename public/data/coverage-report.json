@@ -1,0 +1,5753 @@
+{
+  "version": "ccf-2026-03",
+  "generatedAt": "2026-11-17T12:59:13.408Z",
+  "overall": {
+    "total": 681,
+    "resolved": 638,
+    "resolutionRate": 0.937,
+    "journal": {
+      "total": 295,
+      "resolved": 290
+    },
+    "conference": {
+      "total": 386,
+      "resolved": 348
+    }
+  },
+  "byRankType": [
+    {
+      "key": "A-journal",
+      "total": 37,
+      "resolved": 37,
+      "rate": 1
+    },
+    {
+      "key": "B-journal",
+      "total": 113,
+      "resolved": 111,
+      "rate": 0.982
+    },
+    {
+      "key": "C-journal",
+      "total": 145,
+      "resolved": 142,
+      "rate": 0.979
+    },
+    {
+      "key": "A-conference",
+      "total": 58,
+      "resolved": 58,
+      "rate": 1
+    },
+    {
+      "key": "B-conference",
+      "total": 132,
+      "resolved": 119,
+      "rate": 0.902
+    },
+    {
+      "key": "C-conference",
+      "total": 196,
+      "resolved": 171,
+      "rate": 0.872
+    }
+  ],
+  "byDomain": [
+    {
+      "key": "交叉/综合/新兴",
+      "total": 57,
+      "resolved": 52,
+      "rate": 0.912
+    },
+    {
+      "key": "人工智能",
+      "total": 107,
+      "resolved": 105,
+      "rate": 0.981
+    },
+    {
+      "key": "人机交互与普适计算",
+      "total": 41,
+      "resolved": 36,
+      "rate": 0.878
+    },
+    {
+      "key": "数据库/数据挖掘/内容检索",
+      "total": 65,
+      "resolved": 62,
+      "rate": 0.954
+    },
+    {
+      "key": "网络与信息安全",
+      "total": 63,
+      "resolved": 51,
+      "rate": 0.81
+    },
+    {
+      "key": "计算机体系结构/并行与分布计算/存储系统",
+      "total": 95,
+      "resolved": 91,
+      "rate": 0.958
+    },
+    {
+      "key": "计算机图形学与多媒体",
+      "total": 63,
+      "resolved": 58,
+      "rate": 0.921
+    },
+    {
+      "key": "计算机科学理论",
+      "total": 53,
+      "resolved": 49,
+      "rate": 0.925
+    },
+    {
+      "key": "计算机网络",
+      "total": 55,
+      "resolved": 53,
+      "rate": 0.964
+    },
+    {
+      "key": "软件工程/系统软件/程序设计语言",
+      "total": 82,
+      "resolved": 81,
+      "rate": 0.988
+    }
+  ],
+  "byRankTypeDomain": [
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "total": 4,
+      "resolved": 4,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "total": 15,
+      "resolved": 14,
+      "rate": 0.933
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "total": 16,
+      "resolved": 16,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "人工智能",
+      "total": 4,
+      "resolved": 4,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "人工智能",
+      "total": 21,
+      "resolved": 21,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "total": 39,
+      "resolved": 38,
+      "rate": 0.974
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "total": 2,
+      "resolved": 2,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "total": 8,
+      "resolved": 7,
+      "rate": 0.875
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "total": 5,
+      "resolved": 4,
+      "rate": 0.8
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "total": 4,
+      "resolved": 4,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "total": 14,
+      "resolved": 14,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "total": 16,
+      "resolved": 16,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "total": 3,
+      "resolved": 3,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "total": 5,
+      "resolved": 5,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "total": 9,
+      "resolved": 9,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "total": 6,
+      "resolved": 6,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "total": 10,
+      "resolved": 10,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "total": 12,
+      "resolved": 12,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "total": 4,
+      "resolved": 4,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "total": 9,
+      "resolved": 9,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "total": 15,
+      "resolved": 14,
+      "rate": 0.933
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "total": 3,
+      "resolved": 3,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "total": 13,
+      "resolved": 13,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "total": 12,
+      "resolved": 12,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "计算机网络",
+      "total": 3,
+      "resolved": 3,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机网络",
+      "total": 6,
+      "resolved": 6,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机网络",
+      "total": 12,
+      "resolved": 12,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "total": 4,
+      "resolved": 4,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "total": 12,
+      "resolved": 12,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "total": 9,
+      "resolved": 9,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "total": 2,
+      "resolved": 2,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "人工智能",
+      "total": 7,
+      "resolved": 7,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "total": 4,
+      "resolved": 4,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "total": 5,
+      "resolved": 5,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "total": 6,
+      "resolved": 6,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "total": 11,
+      "resolved": 11,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "total": 4,
+      "resolved": 4,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "total": 5,
+      "resolved": 5,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机网络",
+      "total": 4,
+      "resolved": 4,
+      "rate": 1
+    },
+    {
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "total": 10,
+      "resolved": 10,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "total": 7,
+      "resolved": 5,
+      "rate": 0.714
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "人工智能",
+      "total": 14,
+      "resolved": 14,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "total": 7,
+      "resolved": 7,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "total": 13,
+      "resolved": 11,
+      "rate": 0.846
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "total": 11,
+      "resolved": 9,
+      "rate": 0.818
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "total": 26,
+      "resolved": 23,
+      "rate": 0.885
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "total": 14,
+      "resolved": 12,
+      "rate": 0.857
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "total": 10,
+      "resolved": 8,
+      "rate": 0.8
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "total": 10,
+      "resolved": 10,
+      "rate": 1
+    },
+    {
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "total": 20,
+      "resolved": 20,
+      "rate": 1
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "total": 13,
+      "resolved": 11,
+      "rate": 0.846
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "total": 22,
+      "resolved": 21,
+      "rate": 0.955
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "total": 15,
+      "resolved": 12,
+      "rate": 0.8
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "total": 13,
+      "resolved": 12,
+      "rate": 0.923
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "total": 29,
+      "resolved": 19,
+      "rate": 0.655
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "total": 30,
+      "resolved": 29,
+      "rate": 0.967
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "total": 17,
+      "resolved": 15,
+      "rate": 0.882
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "total": 10,
+      "resolved": 8,
+      "rate": 0.8
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "total": 20,
+      "resolved": 18,
+      "rate": 0.9
+    },
+    {
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "total": 27,
+      "resolved": 26,
+      "rate": 0.963
+    }
+  ],
+  "coverageWarnings": [
+    {
+      "key": "journal:www",
+      "abbr": "WWW",
+      "name": "World Wide Web-Internet and Web Information Systems",
+      "rank": "B",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "journal:fcs",
+      "abbr": "FCS",
+      "name": "Frontiers of Computer Science",
+      "rank": "B",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 1642,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1642）"
+      ]
+    },
+    {
+      "key": "journal:bcra",
+      "abbr": "BCRA",
+      "name": "Blockchain: Research and Applications",
+      "rank": "B",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 450,
+      "reasons": [
+        "OpenAlex 收录偏少（works=450）"
+      ]
+    },
+    {
+      "key": "journal:tbd",
+      "abbr": "TBD",
+      "name": "IEEE Transactions on Big Data",
+      "rank": "C",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 1165,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1165）"
+      ]
+    },
+    {
+      "key": "journal:tcps",
+      "abbr": "TCPS",
+      "name": "ACM Transactions on Cyber-Physical Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 444,
+      "reasons": [
+        "OpenAlex 收录偏少（works=444）"
+      ]
+    },
+    {
+      "key": "journal:toce",
+      "abbr": "TOCE",
+      "name": "ACM Transactions on Computing Education",
+      "rank": "C",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 699,
+      "reasons": [
+        "OpenAlex 收录偏少（works=699）"
+      ]
+    },
+    {
+      "key": "journal:fitee",
+      "abbr": "FITEE",
+      "name": "Frontiers of Information Technology & Electronic Engineering",
+      "rank": "C",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 1462,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1462）"
+      ]
+    },
+    {
+      "key": "journal:health",
+      "abbr": "HEALTH",
+      "name": "ACM Transactions on Computing for Healthcare",
+      "rank": "C",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 388,
+      "reasons": [
+        "OpenAlex 收录偏少（works=388）"
+      ]
+    },
+    {
+      "key": "journal:acm dlt",
+      "abbr": "ACM DLT",
+      "name": "ACM Distributed Ledger Technologies: Research and Practice",
+      "rank": "C",
+      "type": "journal",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 202,
+      "reasons": [
+        "OpenAlex 收录偏少（works=202）"
+      ]
+    },
+    {
+      "key": "journal:tpami",
+      "abbr": "TPAMI",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "rank": "A",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 12668,
+      "reasons": [
+        "计划锚点：IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      ]
+    },
+    {
+      "key": "journal:jmlr",
+      "abbr": "JMLR",
+      "name": "Journal of Machine Learning Research",
+      "rank": "A",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1275,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1275）"
+      ]
+    },
+    {
+      "key": "journal:tap",
+      "abbr": "TAP",
+      "name": "ACM Transactions on Applied Perception",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 596,
+      "reasons": [
+        "OpenAlex 收录偏少（works=596）"
+      ]
+    },
+    {
+      "key": "journal:aamas",
+      "abbr": "AAMAS",
+      "name": "Autonomous Agents and Multi-Agent Systems",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 986,
+      "reasons": [
+        "OpenAlex 收录偏少（works=986）"
+      ]
+    },
+    {
+      "key": "journal:computational linguistics",
+      "abbr": "",
+      "name": "Computational Linguistics",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1388,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1388）"
+      ]
+    },
+    {
+      "key": "journal:tac",
+      "abbr": "TAC",
+      "name": "IEEE Transactions on Affective Computing",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1799,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1799）"
+      ]
+    },
+    {
+      "key": "journal:jair",
+      "abbr": "JAIR",
+      "name": "Journal of Artificial Intelligence Research",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1896,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1896）"
+      ]
+    },
+    {
+      "key": "journal:journal of automated reasoning",
+      "abbr": "",
+      "name": "Journal of Automated Reasoning",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1433,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1433）"
+      ]
+    },
+    {
+      "key": "journal:tacl",
+      "abbr": "TACL",
+      "name": "Transactions of the Association for Computational Linguistics",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 942,
+      "reasons": [
+        "OpenAlex 收录偏少（works=942）"
+      ]
+    },
+    {
+      "key": "journal:tallip",
+      "abbr": "TALLIP",
+      "name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1342,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1342）"
+      ]
+    },
+    {
+      "key": "journal:artificial life",
+      "abbr": "",
+      "name": "Artificial Life",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1224,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1224）"
+      ]
+    },
+    {
+      "key": "journal:computer speech and language",
+      "abbr": "",
+      "name": "Computer Speech and Language",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1907,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1907）"
+      ]
+    },
+    {
+      "key": "journal:connection science",
+      "abbr": "",
+      "name": "Connection Science",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1150,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1150）"
+      ]
+    },
+    {
+      "key": "journal:tg",
+      "abbr": "TG",
+      "name": "IEEE Transactions on Games",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 721,
+      "reasons": [
+        "OpenAlex 收录偏少（works=721）"
+      ]
+    },
+    {
+      "key": "journal:iet cvi",
+      "abbr": "IET-CVI",
+      "name": "IET Computer Vision",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1394,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1394）"
+      ]
+    },
+    {
+      "key": "journal:iet signal processing",
+      "abbr": "",
+      "name": "IET Signal Processing",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1664,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1664）"
+      ]
+    },
+    {
+      "key": "journal:ida",
+      "abbr": "IDA",
+      "name": "Intelligent Data Analysis",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1991,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1991）"
+      ]
+    },
+    {
+      "key": "journal:ijcia",
+      "abbr": "IJCIA",
+      "name": "International Journal of Computational Intelligence and Applications",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 860,
+      "reasons": [
+        "OpenAlex 收录偏少（works=860）"
+      ]
+    },
+    {
+      "key": "journal:ijns",
+      "abbr": "IJNS",
+      "name": "International Journal of Neural Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1962,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1962）"
+      ]
+    },
+    {
+      "key": "journal:ijdar",
+      "abbr": "IJDAR",
+      "name": "International Journal on Document Analysis and Recognition",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 779,
+      "reasons": [
+        "OpenAlex 收录偏少（works=779）"
+      ]
+    },
+    {
+      "key": "journal:jetai",
+      "abbr": "JETAI",
+      "name": "Journal of Experimental & Theoretical Artificial Intelligence",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1320,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1320）"
+      ]
+    },
+    {
+      "key": "journal:machine translation",
+      "abbr": "",
+      "name": "Machine Translation",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 651,
+      "reasons": [
+        "OpenAlex 收录偏少（works=651）"
+      ]
+    },
+    {
+      "key": "journal:nle",
+      "abbr": "NLE",
+      "name": "Natural Language Engineering",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 1034,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1034）"
+      ]
+    },
+    {
+      "key": "journal:nca",
+      "abbr": "NCA",
+      "name": "Neural Computing & Applications",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "journal:wi",
+      "abbr": "WI",
+      "name": "Web Intelligence",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 677,
+      "reasons": [
+        "OpenAlex 收录偏少（works=677）"
+      ]
+    },
+    {
+      "key": "journal:tiis",
+      "abbr": "TIIS",
+      "name": "ACM Transactions on Interactive Intelligent Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 475,
+      "reasons": [
+        "OpenAlex 收录偏少（works=475）"
+      ]
+    },
+    {
+      "key": "journal:telo",
+      "abbr": "TELO",
+      "name": "ACM Transactions on Evolutionary Learning and Optimization",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 162,
+      "reasons": [
+        "OpenAlex 收录偏少（works=162）"
+      ]
+    },
+    {
+      "key": "journal:jats",
+      "abbr": "JATS",
+      "name": "ACM Journal on Autonomous Transportation Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能",
+      "worksCount": 74,
+      "reasons": [
+        "OpenAlex 收录偏少（works=74）"
+      ]
+    },
+    {
+      "key": "journal:tochi",
+      "abbr": "TOCHI",
+      "name": "ACM Transactions on Computer-Human Interaction",
+      "rank": "A",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": 1138,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1138）"
+      ]
+    },
+    {
+      "key": "journal:cscw",
+      "abbr": "CSCW",
+      "name": "Computer Supported Cooperative Work-The Journal of Collaborative Computing and Work Practices",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "journal:ieee transactions on human machine systems",
+      "abbr": "",
+      "name": "IEEE Transactions on Human-Machine Systems",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": 1709,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1709）"
+      ]
+    },
+    {
+      "key": "journal:iwc",
+      "abbr": "IWC",
+      "name": "Interacting with Computers",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": 1684,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1684）"
+      ]
+    },
+    {
+      "key": "journal:umuai",
+      "abbr": "UMUAI",
+      "name": "User Modeling and User-Adapted Interaction",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": 705,
+      "reasons": [
+        "OpenAlex 收录偏少（works=705）"
+      ]
+    },
+    {
+      "key": "journal:ccf tpci",
+      "abbr": "CCF TPCI",
+      "name": "CCF Transactions on Pervasive Computing and Interaction",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": 277,
+      "reasons": [
+        "OpenAlex 收录偏少（works=277）"
+      ]
+    },
+    {
+      "key": "journal:bit",
+      "abbr": "BIT",
+      "name": "Behaviour & Information Technology",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "journal:pmc",
+      "abbr": "PMC",
+      "name": "Pervasive and Mobile Computing",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": 1690,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1690）"
+      ]
+    },
+    {
+      "key": "journal:thri",
+      "abbr": "THRI",
+      "name": "ACM Transactions on Human-Robot Interaction",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人机交互与普适计算",
+      "worksCount": 502,
+      "reasons": [
+        "OpenAlex 收录偏少（works=502）"
+      ]
+    },
+    {
+      "key": "journal:tods",
+      "abbr": "TODS",
+      "name": "ACM Transactions on Database Systems",
+      "rank": "A",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1189,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1189）"
+      ]
+    },
+    {
+      "key": "journal:tois",
+      "abbr": "TOIS",
+      "name": "ACM Transactions on Information Systems",
+      "rank": "A",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1678,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1678）"
+      ]
+    },
+    {
+      "key": "journal:vldbj",
+      "abbr": "VLDBJ",
+      "name": "VLDB Journal",
+      "rank": "A",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1309,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1309）"
+      ]
+    },
+    {
+      "key": "journal:tkdd",
+      "abbr": "TKDD",
+      "name": "ACM Transactions on Knowledge Discovery from Data",
+      "rank": "B",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1530,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1530）"
+      ]
+    },
+    {
+      "key": "journal:tweb",
+      "abbr": "TWEB",
+      "name": "ACM Transactions on the Web",
+      "rank": "B",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 591,
+      "reasons": [
+        "OpenAlex 收录偏少（works=591）"
+      ]
+    },
+    {
+      "key": "journal:dmkd",
+      "abbr": "DMKD",
+      "name": "Data Mining and Knowledge Discovery",
+      "rank": "B",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1429,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1429）"
+      ]
+    },
+    {
+      "key": "journal:ejis",
+      "abbr": "EJIS",
+      "name": "European Journal of Information Systems",
+      "rank": "B",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1546,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1546）"
+      ]
+    },
+    {
+      "key": "journal:geoinformatica",
+      "abbr": "",
+      "name": "GeoInformatica",
+      "rank": "B",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 770,
+      "reasons": [
+        "OpenAlex 收录偏少（works=770）"
+      ]
+    },
+    {
+      "key": "journal:jws",
+      "abbr": "JWS",
+      "name": "Journal of Web Semantics",
+      "rank": "B",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 764,
+      "reasons": [
+        "OpenAlex 收录偏少（works=764）"
+      ]
+    },
+    {
+      "key": "journal:dse",
+      "abbr": "DSE",
+      "name": "Data Science and Engineering",
+      "rank": "B",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 371,
+      "reasons": [
+        "OpenAlex 收录偏少（works=371）"
+      ]
+    },
+    {
+      "key": "journal:dpd",
+      "abbr": "DPD",
+      "name": "Distributed and Parallel Databases",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 662,
+      "reasons": [
+        "OpenAlex 收录偏少（works=662）"
+      ]
+    },
+    {
+      "key": "journal:ir",
+      "abbr": "IR",
+      "name": "Information Retrieval Journal",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 666,
+      "reasons": [
+        "OpenAlex 收录偏少（works=666）"
+      ]
+    },
+    {
+      "key": "journal:ijcis",
+      "abbr": "IJCIS",
+      "name": "International Journal of Cooperative Information Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 622,
+      "reasons": [
+        "OpenAlex 收录偏少（works=622）"
+      ]
+    },
+    {
+      "key": "journal:ijgis",
+      "abbr": "IJGIS",
+      "name": "International Journal of Geographical Information Science",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 521,
+      "reasons": [
+        "OpenAlex 收录偏少（works=521）"
+      ]
+    },
+    {
+      "key": "journal:ijkm",
+      "abbr": "IJKM",
+      "name": "International Journal of Knowledge Management",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 724,
+      "reasons": [
+        "OpenAlex 收录偏少（works=724）"
+      ]
+    },
+    {
+      "key": "journal:ijswis",
+      "abbr": "IJSWIS",
+      "name": "International Journal on Semantic Web and Information Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 658,
+      "reasons": [
+        "OpenAlex 收录偏少（works=658）"
+      ]
+    },
+    {
+      "key": "journal:jdm",
+      "abbr": "JDM",
+      "name": "Journal of Database Management",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 799,
+      "reasons": [
+        "OpenAlex 收录偏少（works=799）"
+      ]
+    },
+    {
+      "key": "journal:jgitm",
+      "abbr": "JGITM",
+      "name": "Journal of Global Information Technology Management",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1456,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1456）"
+      ]
+    },
+    {
+      "key": "journal:jiis",
+      "abbr": "JIIS",
+      "name": "Journal of Intelligent Information Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1461,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1461）"
+      ]
+    },
+    {
+      "key": "journal:jsis",
+      "abbr": "JSIS",
+      "name": "Journal of Strategic Information Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1151,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1151）"
+      ]
+    },
+    {
+      "key": "journal:tist",
+      "abbr": "TIST",
+      "name": "ACM Transactions on Intelligent Systems and Technology",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1576,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1576）"
+      ]
+    },
+    {
+      "key": "journal:tors",
+      "abbr": "TORS",
+      "name": "ACM Transactions on Recommender Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 239,
+      "reasons": [
+        "OpenAlex 收录偏少（works=239）"
+      ]
+    },
+    {
+      "key": "journal:journal of cryptology",
+      "abbr": "",
+      "name": "Journal of Cryptology",
+      "rank": "A",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 929,
+      "reasons": [
+        "OpenAlex 收录偏少（works=929）"
+      ]
+    },
+    {
+      "key": "journal:tops",
+      "abbr": "TOPS",
+      "name": "ACM Transactions on Privacy and Security",
+      "rank": "B",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 362,
+      "reasons": [
+        "OpenAlex 收录偏少（works=362）"
+      ]
+    },
+    {
+      "key": "journal:jcs",
+      "abbr": "JCS",
+      "name": "Journal of Computer Security",
+      "rank": "B",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 819,
+      "reasons": [
+        "OpenAlex 收录偏少（works=819）"
+      ]
+    },
+    {
+      "key": "journal:cybersecurity",
+      "abbr": "Cybersecurity",
+      "name": "Cybersecurity",
+      "rank": "B",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 644,
+      "reasons": [
+        "OpenAlex 收录偏少（works=644）"
+      ]
+    },
+    {
+      "key": "journal:clsr",
+      "abbr": "CLSR",
+      "name": "Computer Law & Security Review",
+      "rank": "C",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 1876,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1876）"
+      ]
+    },
+    {
+      "key": "journal:eurasip journal on information security",
+      "abbr": "",
+      "name": "EURASIP Journal on Information Security",
+      "rank": "C",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 295,
+      "reasons": [
+        "OpenAlex 收录偏少（works=295）"
+      ]
+    },
+    {
+      "key": "journal:iet information security",
+      "abbr": "",
+      "name": "IET Information Security",
+      "rank": "C",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 952,
+      "reasons": [
+        "OpenAlex 收录偏少（works=952）"
+      ]
+    },
+    {
+      "key": "journal:imcs",
+      "abbr": "IMCS",
+      "name": "Information and Computer Security",
+      "rank": "C",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 496,
+      "reasons": [
+        "OpenAlex 收录偏少（works=496）"
+      ]
+    },
+    {
+      "key": "journal:ijics",
+      "abbr": "IJICS",
+      "name": "International Journal of Information and Computer Security",
+      "rank": "C",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 777,
+      "reasons": [
+        "OpenAlex 收录偏少（works=777）"
+      ]
+    },
+    {
+      "key": "journal:ijisp",
+      "abbr": "IJISP",
+      "name": "International Journal of Information Security and Privacy",
+      "rank": "C",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 555,
+      "reasons": [
+        "OpenAlex 收录偏少（works=555）"
+      ]
+    },
+    {
+      "key": "journal:hcc",
+      "abbr": "HCC",
+      "name": "High-Confidence Computing",
+      "rank": "C",
+      "type": "journal",
+      "domain": "网络与信息安全",
+      "worksCount": 264,
+      "reasons": [
+        "OpenAlex 收录偏少（works=264）"
+      ]
+    },
+    {
+      "key": "journal:tocs",
+      "abbr": "TOCS",
+      "name": "ACM Transactions on Computer Systems",
+      "rank": "A",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 629,
+      "reasons": [
+        "OpenAlex 收录偏少（works=629）"
+      ]
+    },
+    {
+      "key": "journal:tos",
+      "abbr": "TOS",
+      "name": "ACM Transactions on Storage",
+      "rank": "A",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 635,
+      "reasons": [
+        "OpenAlex 收录偏少（works=635）"
+      ]
+    },
+    {
+      "key": "journal:taco",
+      "abbr": "TACO",
+      "name": "ACM Transactions on Architecture and Code Optimization",
+      "rank": "A",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1450,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1450）"
+      ]
+    },
+    {
+      "key": "journal:taas",
+      "abbr": "TAAS",
+      "name": "ACM Transactions on Autonomous and Adaptive Systems",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 564,
+      "reasons": [
+        "OpenAlex 收录偏少（works=564）"
+      ]
+    },
+    {
+      "key": "journal:todaes",
+      "abbr": "TODAES",
+      "name": "ACM Transactions on Design Automation of Electronic Systems",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1902,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1902）"
+      ]
+    },
+    {
+      "key": "journal:trets",
+      "abbr": "TRETS",
+      "name": "ACM Transactions on Reconfigurable Technology and Systems",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 730,
+      "reasons": [
+        "OpenAlex 收录偏少（works=730）"
+      ]
+    },
+    {
+      "key": "journal:tcc",
+      "abbr": "TCC",
+      "name": "IEEE Transactions on Cloud Computing",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1570,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1570）"
+      ]
+    },
+    {
+      "key": "journal:jetc",
+      "abbr": "JETC",
+      "name": "ACM Journal on Emerging Technologies in Computing Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 785,
+      "reasons": [
+        "OpenAlex 收录偏少（works=785）"
+      ]
+    },
+    {
+      "key": "journal:jgc",
+      "abbr": "JGC",
+      "name": "Journal of Grid computing",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 918,
+      "reasons": [
+        "OpenAlex 收录偏少（works=918）"
+      ]
+    },
+    {
+      "key": "journal:rts",
+      "abbr": "RTS",
+      "name": "Real-Time Systems",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 925,
+      "reasons": [
+        "OpenAlex 收录偏少（works=925）"
+      ]
+    },
+    {
+      "key": "journal:ccf thpc",
+      "abbr": "CCF-THPC",
+      "name": "CCF Transactions on High Performance Computing",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 281,
+      "reasons": [
+        "OpenAlex 收录偏少（works=281）"
+      ]
+    },
+    {
+      "key": "journal:tsusc",
+      "abbr": "TSUSC",
+      "name": "IEEE Transactions on Sustainable Computing",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 607,
+      "reasons": [
+        "OpenAlex 收录偏少（works=607）"
+      ]
+    },
+    {
+      "key": "journal:siims",
+      "abbr": "SIIMS",
+      "name": "SIAM Journal on Imaging Sciences",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 1323,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1323）"
+      ]
+    },
+    {
+      "key": "journal:cvmj",
+      "abbr": "CVMJ",
+      "name": "Computational Visual Media",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 586,
+      "reasons": [
+        "OpenAlex 收录偏少（works=586）"
+      ]
+    },
+    {
+      "key": "journal:cgta",
+      "abbr": "CGTA",
+      "name": "Computational Geometry-Theory and Applications",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "journal:cavw",
+      "abbr": "CAVW",
+      "name": "Computer Animation and Virtual Worlds",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 1607,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1607）"
+      ]
+    },
+    {
+      "key": "journal:vi",
+      "abbr": "VI",
+      "name": "Visual Informatics",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 337,
+      "reasons": [
+        "OpenAlex 收录偏少（works=337）"
+      ]
+    },
+    {
+      "key": "journal:vrih",
+      "abbr": "VRIH",
+      "name": "Virtual Reality & Intelligent Hardware",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 292,
+      "reasons": [
+        "OpenAlex 收录偏少（works=292）"
+      ]
+    },
+    {
+      "key": "journal:gmod",
+      "abbr": "GMOD",
+      "name": "Graphical Models",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 913,
+      "reasons": [
+        "OpenAlex 收录偏少（works=913）"
+      ]
+    },
+    {
+      "key": "journal:talg",
+      "abbr": "TALG",
+      "name": "ACM Transactions on Algorithms",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 1068,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1068）"
+      ]
+    },
+    {
+      "key": "journal:tocl",
+      "abbr": "TOCL",
+      "name": "ACM Transactions on Computational Logic",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 819,
+      "reasons": [
+        "OpenAlex 收录偏少（works=819）"
+      ]
+    },
+    {
+      "key": "journal:toms",
+      "abbr": "TOMS",
+      "name": "ACM Transactions on Mathematical Software",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 1916,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1916）"
+      ]
+    },
+    {
+      "key": "journal:cc",
+      "abbr": "CC",
+      "name": "Computational complexity",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 595,
+      "reasons": [
+        "OpenAlex 收录偏少（works=595）"
+      ]
+    },
+    {
+      "key": "journal:fac",
+      "abbr": "FAC",
+      "name": "Formal Aspects of Computing",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 1233,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1233）"
+      ]
+    },
+    {
+      "key": "journal:fmsd",
+      "abbr": "FMSD",
+      "name": "Formal Methods in System Design",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 825,
+      "reasons": [
+        "OpenAlex 收录偏少（works=825）"
+      ]
+    },
+    {
+      "key": "journal:mscs",
+      "abbr": "MSCS",
+      "name": "Mathematical Structures in Computer Science",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 1478,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1478）"
+      ]
+    },
+    {
+      "key": "journal:acta",
+      "abbr": "ACTA",
+      "name": "Acta Informatica",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 1880,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1880）"
+      ]
+    },
+    {
+      "key": "journal:jcomplexity",
+      "abbr": "JCOMPLEXITY",
+      "name": "Journal of Complexity",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 1954,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1954）"
+      ]
+    },
+    {
+      "key": "journal:lmcs",
+      "abbr": "LMCS",
+      "name": "Logical Methods in Computer Science",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 1866,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1866）"
+      ]
+    },
+    {
+      "key": "journal:tqc",
+      "abbr": "TQC",
+      "name": "ACM Transactions in Quantum Computing",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机科学理论",
+      "worksCount": 185,
+      "reasons": [
+        "OpenAlex 收录偏少（works=185）"
+      ]
+    },
+    {
+      "key": "journal:ton",
+      "abbr": "TON",
+      "name": "IEEE-ACM Transactions on Networking",
+      "rank": "A",
+      "type": "journal",
+      "domain": "计算机网络",
+      "worksCount": 814,
+      "reasons": [
+        "OpenAlex 收录偏少（works=814）"
+      ]
+    },
+    {
+      "key": "journal:toit",
+      "abbr": "TOIT",
+      "name": "ACM Transactions on Internet Technology",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机网络",
+      "worksCount": 957,
+      "reasons": [
+        "OpenAlex 收录偏少（works=957）"
+      ]
+    },
+    {
+      "key": "journal:tosn",
+      "abbr": "TOSN",
+      "name": "ACM Transactions on Sensor Networks",
+      "rank": "B",
+      "type": "journal",
+      "domain": "计算机网络",
+      "worksCount": 1219,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1219）"
+      ]
+    },
+    {
+      "key": "journal:tiot",
+      "abbr": "TIOT",
+      "name": "ACM Transactions on Internet of Things",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机网络",
+      "worksCount": 227,
+      "reasons": [
+        "OpenAlex 收录偏少（works=227）"
+      ]
+    },
+    {
+      "key": "journal:toplas",
+      "abbr": "TOPLAS",
+      "name": "ACM Transactions on Programming Languages and Systems",
+      "rank": "A",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1306,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1306）"
+      ]
+    },
+    {
+      "key": "journal:ase",
+      "abbr": "ASE",
+      "name": "Automated Software Engineering",
+      "rank": "B",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 3782,
+      "reasons": [
+        "人工裁决：IEEE/ACM International Conference on Automated Software Engineering；自动匹配误选 works=8 的 Proceedings 桩源，正确源 works=3782"
+      ]
+    },
+    {
+      "key": "journal:iets",
+      "abbr": "IETS",
+      "name": "IET Software",
+      "rank": "B",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 868,
+      "reasons": [
+        "OpenAlex 收录偏少（works=868）"
+      ]
+    },
+    {
+      "key": "journal:jfp",
+      "abbr": "JFP",
+      "name": "Journal of Functional Programming",
+      "rank": "B",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1114,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1114）"
+      ]
+    },
+    {
+      "key": "journal:journal of software evolution and process",
+      "abbr": "",
+      "name": "Journal of Software-Evolution and Process",
+      "rank": "B",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1524,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1524）"
+      ]
+    },
+    {
+      "key": "journal:re",
+      "abbr": "RE",
+      "name": "Requirements Engineering",
+      "rank": "B",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 981,
+      "reasons": [
+        "OpenAlex 收录偏少（works=981）"
+      ]
+    },
+    {
+      "key": "journal:sosym",
+      "abbr": "SoSyM",
+      "name": "Software and Systems Modeling",
+      "rank": "B",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1556,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1556）"
+      ]
+    },
+    {
+      "key": "journal:stvr",
+      "abbr": "STVR",
+      "name": "Software Testing Verification & Reliability",
+      "rank": "B",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1139,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1139）"
+      ]
+    },
+    {
+      "key": "journal:cl",
+      "abbr": "CL",
+      "name": "Computer Languages, Systems and Structures",
+      "rank": "C",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1237,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1237）"
+      ]
+    },
+    {
+      "key": "journal:sttt",
+      "abbr": "STTT",
+      "name": "International Journal on Software Tools for Technology Transfer",
+      "rank": "C",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1096,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1096）"
+      ]
+    },
+    {
+      "key": "journal:jlamp",
+      "abbr": "JLAMP",
+      "name": "Journal of Logical and Algebraic Methods in Programming",
+      "rank": "C",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 788,
+      "reasons": [
+        "OpenAlex 收录偏少（works=788）"
+      ]
+    },
+    {
+      "key": "journal:jwe",
+      "abbr": "JWE",
+      "name": "Journal of Web Engineering",
+      "rank": "C",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1291,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1291）"
+      ]
+    },
+    {
+      "key": "journal:soca",
+      "abbr": "SOCA",
+      "name": "Service Oriented Computing and Applications",
+      "rank": "C",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 502,
+      "reasons": [
+        "OpenAlex 收录偏少（works=502）"
+      ]
+    },
+    {
+      "key": "journal:sqj",
+      "abbr": "SQJ",
+      "name": "Software Quality Journal",
+      "rank": "C",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1129,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1129）"
+      ]
+    },
+    {
+      "key": "journal:tplp",
+      "abbr": "TPLP",
+      "name": "Theory and Practice of Logic Programming",
+      "rank": "C",
+      "type": "journal",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1068,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1068）"
+      ]
+    },
+    {
+      "key": "conference:rtss",
+      "abbr": "RTSS",
+      "name": "IEEE Real-Time Systems Symposium",
+      "rank": "A",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 1946,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1946）"
+      ]
+    },
+    {
+      "key": "conference:neurips",
+      "abbr": "NeurIPS",
+      "name": "Conference on Neural Information Processing Systems",
+      "rank": "A",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 21600,
+      "reasons": [
+        "计划锚点：Neural Information Processing Systems；覆盖偏低（约 2.16 万条），coverageWarning"
+      ]
+    },
+    {
+      "key": "conference:icml",
+      "abbr": "ICML",
+      "name": "International Conference on Machine Learning",
+      "rank": "A",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 2826,
+      "reasons": [
+        "计划锚点：International Conference on Machine Learning"
+      ]
+    },
+    {
+      "key": "conference:iclr",
+      "abbr": "ICLR",
+      "name": "International Conference on Learning Representations",
+      "rank": "A",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 609,
+      "reasons": [
+        "OpenAlex 收录偏少（works=609）"
+      ]
+    },
+    {
+      "key": "conference:eurocrypt",
+      "abbr": "EUROCRYPT",
+      "name": "International Conference on the Theory and Applications of Cryptographic Techniques",
+      "rank": "A",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 102,
+      "reasons": [
+        "OpenAlex 收录偏少（works=102）",
+        "人工裁决：Theory and Application of Cryptographic Techniques；OpenAlex 单数 Application 致 CSV 复数失配；收录偏少 works=102"
+      ]
+    },
+    {
+      "key": "conference:crypto",
+      "abbr": "CRYPTO",
+      "name": "International Cryptology Conference",
+      "rank": "A",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 147,
+      "reasons": [
+        "OpenAlex 收录偏少（works=147）"
+      ]
+    },
+    {
+      "key": "conference:usenix security",
+      "abbr": "USENIX Security",
+      "name": "USENIX Security Symposium",
+      "rank": "A",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 859,
+      "reasons": [
+        "OpenAlex 收录偏少（works=859）"
+      ]
+    },
+    {
+      "key": "conference:ndss",
+      "abbr": "NDSS",
+      "name": "Network and Distributed System Security Symposium",
+      "rank": "A",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 1633,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1633）"
+      ]
+    },
+    {
+      "key": "conference:ppopp",
+      "abbr": "PPoPP",
+      "name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1260,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1260）"
+      ]
+    },
+    {
+      "key": "conference:fast",
+      "abbr": "FAST",
+      "name": "USENIX Conference on File and Storage Technologies",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 318,
+      "reasons": [
+        "OpenAlex 收录偏少（works=318）"
+      ]
+    },
+    {
+      "key": "conference:hpca",
+      "abbr": "HPCA",
+      "name": "IEEE International Symposium on High Performance Computer Architecture",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1832,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1832）"
+      ]
+    },
+    {
+      "key": "conference:acm sigops atc",
+      "abbr": "ACM SIGOPS ATC",
+      "name": "ACM SIGOPS Annual Technical Conference",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 867,
+      "reasons": [
+        "OpenAlex 收录偏少（works=867）",
+        "人工裁决：USENIX Annual Technical Conference（CSV 缩写 ACM SIGOPS ATC）；works=867"
+      ]
+    },
+    {
+      "key": "conference:eurosys",
+      "abbr": "EuroSys",
+      "name": "European Conference on Computer Systems",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 930,
+      "reasons": [
+        "OpenAlex 收录偏少（works=930）"
+      ]
+    },
+    {
+      "key": "conference:hpdc",
+      "abbr": "HPDC",
+      "name": "The International ACM Symposium on High-Performance Parallel and Distributed Computing",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1598,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1598）"
+      ]
+    },
+    {
+      "key": "conference:soda",
+      "abbr": "SODA",
+      "name": "ACM-SIAM Symposium on Discrete Algorithms",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 1423,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1423）"
+      ]
+    },
+    {
+      "key": "conference:cav",
+      "abbr": "CAV",
+      "name": "International Conference on Computer Aided Verification",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 39,
+      "reasons": [
+        "OpenAlex 收录偏少（works=39）"
+      ]
+    },
+    {
+      "key": "conference:nsdi",
+      "abbr": "NSDI",
+      "name": "Symposium on Network System Design and Implementation",
+      "rank": "A",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 403,
+      "reasons": [
+        "OpenAlex 收录偏少（works=403）",
+        "人工裁决：Networked Systems Design and Implementation；CSV 名误作 Network System；收录偏少 works=403"
+      ]
+    },
+    {
+      "key": "conference:pldi",
+      "abbr": "PLDI",
+      "name": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1651,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1651）"
+      ]
+    },
+    {
+      "key": "conference:popl",
+      "abbr": "POPL",
+      "name": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1653,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1653）"
+      ]
+    },
+    {
+      "key": "conference:sosp",
+      "abbr": "SOSP",
+      "name": "ACM Symposium on Operating Systems Principles",
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 968,
+      "reasons": [
+        "OpenAlex 收录偏少（works=968）"
+      ]
+    },
+    {
+      "key": "conference:oopsla",
+      "abbr": "OOPSLA",
+      "name": "Conference on Object-Oriented Programming Systems, Languages,and Applications",
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1374,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1374）"
+      ]
+    },
+    {
+      "key": "conference:ase",
+      "abbr": "ASE",
+      "name": "International Conference on Automated Software Engineering",
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 3782,
+      "reasons": [
+        "人工裁决：IEEE/ACM International Conference on Automated Software Engineering；自动匹配误选 works=8 的 Proceedings 桩源，正确源 works=3782"
+      ]
+    },
+    {
+      "key": "conference:issta",
+      "abbr": "ISSTA",
+      "name": "International Symposium on Software Testing and Analysis",
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 948,
+      "reasons": [
+        "OpenAlex 收录偏少（works=948）"
+      ]
+    },
+    {
+      "key": "conference:osdi",
+      "abbr": "OSDI",
+      "name": "USENIX Symposium on Operating Systems Design and Implementations",
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 319,
+      "reasons": [
+        "OpenAlex 收录偏少（works=319）",
+        "人工裁决：Operating Systems Design and Implementation；CSV 全称复数 Implementations 致检索失配；OpenAlex 收录偏少 works=319"
+      ]
+    },
+    {
+      "key": "conference:fm",
+      "abbr": "FM",
+      "name": "International Symposium on Formal Methods",
+      "rank": "A",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 566,
+      "reasons": [
+        "OpenAlex 收录偏少（works=566）",
+        "人工裁决：Formal Methods（International Symposium on Formal Methods）；名称相似度 borderline 评 low，正确源 works=566"
+      ]
+    },
+    {
+      "key": "conference:emsoft",
+      "abbr": "EMSOFT",
+      "name": "International Conference on Embedded Software",
+      "rank": "B",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 574,
+      "reasons": [
+        "OpenAlex 收录偏少（works=574）"
+      ]
+    },
+    {
+      "key": "conference:ismb",
+      "abbr": "ISMB",
+      "name": "International conference on Intelligent Systems for Molecular Biology",
+      "rank": "B",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:recomb",
+      "abbr": "RECOMB",
+      "name": "Annual International Conference on Research inComputational Molecular Biology",
+      "rank": "B",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 437,
+      "reasons": [
+        "OpenAlex 收录偏少（works=437）"
+      ]
+    },
+    {
+      "key": "conference:miccai",
+      "abbr": "MICCAI",
+      "name": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "rank": "B",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 44,
+      "reasons": [
+        "OpenAlex 收录偏少（works=44）"
+      ]
+    },
+    {
+      "key": "conference:wine",
+      "abbr": "WINE",
+      "name": "Conference on Web and Internet Economics",
+      "rank": "B",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:colt",
+      "abbr": "COLT",
+      "name": "Annual Conference on Computational Learning Theory",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 692,
+      "reasons": [
+        "OpenAlex 收录偏少（works=692）"
+      ]
+    },
+    {
+      "key": "conference:eccv",
+      "abbr": "ECCV",
+      "name": "European Conference on Computer Vision",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 18,
+      "reasons": [
+        "OpenAlex 收录偏少（works=18）"
+      ]
+    },
+    {
+      "key": "conference:icaps",
+      "abbr": "ICAPS",
+      "name": "International Conference on Automated Planning and Scheduling",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 199,
+      "reasons": [
+        "OpenAlex 收录偏少（works=199）"
+      ]
+    },
+    {
+      "key": "conference:iccbr",
+      "abbr": "ICCBR",
+      "name": "International Conference on Case-Based Reasoning",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 6,
+      "reasons": [
+        "OpenAlex 收录偏少（works=6）"
+      ]
+    },
+    {
+      "key": "conference:kr",
+      "abbr": "KR",
+      "name": "International Conference on Principles of Knowledge Representation and Reasoning",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 1212,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1212）"
+      ]
+    },
+    {
+      "key": "conference:uai",
+      "abbr": "UAI",
+      "name": "Conference on Uncertainty in Artificial Intelligence",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 519,
+      "reasons": [
+        "OpenAlex 收录偏少（works=519）"
+      ]
+    },
+    {
+      "key": "conference:ppsn",
+      "abbr": "PPSN",
+      "name": "Parallel Problem Solving from Nature",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 61,
+      "reasons": [
+        "OpenAlex 收录偏少（works=61）"
+      ]
+    },
+    {
+      "key": "conference:group",
+      "abbr": "GROUP",
+      "name": "ACM International Conference on Supporting Group Work",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 811,
+      "reasons": [
+        "OpenAlex 收录偏少（works=811）"
+      ]
+    },
+    {
+      "key": "conference:its",
+      "abbr": "ITS",
+      "name": "ACM International Conference on Interactive Tabletops and Surfaces",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 528,
+      "reasons": [
+        "OpenAlex 收录偏少（works=528）"
+      ]
+    },
+    {
+      "key": "conference:ecscw",
+      "abbr": "ECSCW",
+      "name": "European Conference on Computer Supported Cooperative Work",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 31,
+      "reasons": [
+        "OpenAlex 收录偏少（works=31）"
+      ]
+    },
+    {
+      "key": "conference:mobilehci",
+      "abbr": "MobileHCI",
+      "name": "ACM International Conference on Mobile Human-Computer Interaction",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 1664,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1664）"
+      ]
+    },
+    {
+      "key": "conference:icwsm",
+      "abbr": "ICWSM",
+      "name": "The International AAAI Conference on Web and Social Media",
+      "rank": "B",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 0,
+      "reasons": [
+        "OpenAlex 收录偏少（works=0）"
+      ]
+    },
+    {
+      "key": "conference:pods",
+      "abbr": "PODS",
+      "name": "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 1576,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1576）"
+      ]
+    },
+    {
+      "key": "conference:dasfaa",
+      "abbr": "DASFAA",
+      "name": "International Conference on Database Systems for Advanced Applications",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 416,
+      "reasons": [
+        "OpenAlex 收录偏少（works=416）"
+      ]
+    },
+    {
+      "key": "conference:ecml pkdd",
+      "abbr": "ECML-PKDD",
+      "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:iswc",
+      "abbr": "ISWC",
+      "name": "IEEE International Semantic Web Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 441,
+      "reasons": [
+        "OpenAlex 收录偏少（works=441）"
+      ]
+    },
+    {
+      "key": "conference:icdt",
+      "abbr": "ICDT",
+      "name": "International Conference on Database Theory",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 782,
+      "reasons": [
+        "OpenAlex 收录偏少（works=782）"
+      ]
+    },
+    {
+      "key": "conference:edbt",
+      "abbr": "EDBT",
+      "name": "International Conference on Extending DatabaseTechnology",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 572,
+      "reasons": [
+        "OpenAlex 收录偏少（works=572）"
+      ]
+    },
+    {
+      "key": "conference:cidr",
+      "abbr": "CIDR",
+      "name": "Conference on Innovative DataSystems Research",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:wise",
+      "abbr": "WISE",
+      "name": "Web Information Systems Engineering Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 239,
+      "reasons": [
+        "OpenAlex 收录偏少（works=239）"
+      ]
+    },
+    {
+      "key": "conference:acsac",
+      "abbr": "ACSAC",
+      "name": "Annual Computer Security Applications Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 1937,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1937）"
+      ]
+    },
+    {
+      "key": "conference:asiacrypt",
+      "abbr": "ASIACRYPT",
+      "name": "Annual International Conference on the Theory and Application of Cryptology and Information Security",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 4,
+      "reasons": [
+        "OpenAlex 收录偏少（works=4）"
+      ]
+    },
+    {
+      "key": "conference:esorics",
+      "abbr": "ESORICS",
+      "name": "European Symposium on Research in Computer Security",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 26,
+      "reasons": [
+        "OpenAlex 收录偏少（works=26）"
+      ]
+    },
+    {
+      "key": "conference:fse",
+      "abbr": "FSE",
+      "name": "Fast Software Encryption",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 4,
+      "reasons": [
+        "OpenAlex 收录偏少（works=4）"
+      ]
+    },
+    {
+      "key": "conference:csfw",
+      "abbr": "CSFW",
+      "name": "IEEE Computer Security Foundations Workshop",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 1214,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1214）"
+      ]
+    },
+    {
+      "key": "conference:srds",
+      "abbr": "SRDS",
+      "name": "IEEE International Symposium on Reliable Distributed Systems",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 1563,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1563）"
+      ]
+    },
+    {
+      "key": "conference:ches",
+      "abbr": "CHES",
+      "name": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:dsn",
+      "abbr": "DSN",
+      "name": "International Conference on Dependable Systems and Networks",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 846,
+      "reasons": [
+        "OpenAlex 收录偏少（works=846）"
+      ]
+    },
+    {
+      "key": "conference:raid",
+      "abbr": "RAID",
+      "name": "International Symposium on Recent Advances in Intrusion Detection",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 62,
+      "reasons": [
+        "OpenAlex 收录偏少（works=62）"
+      ]
+    },
+    {
+      "key": "conference:pkc",
+      "abbr": "PKC",
+      "name": "International Workshop on Practice and Theory in Public Key Cryptography",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:tcc",
+      "abbr": "TCC",
+      "name": "Theory of Cryptography Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 7,
+      "reasons": [
+        "OpenAlex 收录偏少（works=7）"
+      ]
+    },
+    {
+      "key": "conference:socc",
+      "abbr": "SOCC",
+      "name": "ACM Symposium on Cloud Computing",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 581,
+      "reasons": [
+        "OpenAlex 收录偏少（works=581）"
+      ]
+    },
+    {
+      "key": "conference:spaa",
+      "abbr": "SPAA",
+      "name": "ACM Symposium on Parallelism in Algorithms and Architectures",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1878,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1878）"
+      ]
+    },
+    {
+      "key": "conference:fpga",
+      "abbr": "FPGA",
+      "name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1923,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1923）"
+      ]
+    },
+    {
+      "key": "conference:cgo",
+      "abbr": "CGO",
+      "name": "The International Symposium on Code Generation and Optimization",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 885,
+      "reasons": [
+        "OpenAlex 收录偏少（works=885）"
+      ]
+    },
+    {
+      "key": "conference:hot chips",
+      "abbr": "HOT CHIPS",
+      "name": "Hot Chips: A Symposium on High Performance Chips",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 4,
+      "reasons": [
+        "OpenAlex 收录偏少（works=4）"
+      ]
+    },
+    {
+      "key": "conference:codes isss",
+      "abbr": "CODES+ISSS",
+      "name": "International Conference on Hardware/Software Co-design and System Synthesis",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1039,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1039）"
+      ]
+    },
+    {
+      "key": "conference:hipeac",
+      "abbr": "HiPEAC",
+      "name": "International Conference on High Performance and Embedded Architectures and Compilers",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:pact",
+      "abbr": "PACT",
+      "name": "International Conference on Parallel Architectures and Compilation Techniques",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1419,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1419）"
+      ]
+    },
+    {
+      "key": "conference:vee",
+      "abbr": "VEE",
+      "name": "International Conference on Virtual Execution Environments",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 329,
+      "reasons": [
+        "OpenAlex 收录偏少（works=329）"
+      ]
+    },
+    {
+      "key": "conference:performance",
+      "abbr": "Performance",
+      "name": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1832,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1832）"
+      ]
+    },
+    {
+      "key": "conference:lisa",
+      "abbr": "LISA",
+      "name": "Large Installation system Administration Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:msst",
+      "abbr": "MSST",
+      "name": "Mass Storage Systems and Technologies",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 596,
+      "reasons": [
+        "OpenAlex 收录偏少（works=596）"
+      ]
+    },
+    {
+      "key": "conference:rtas",
+      "abbr": "RTAS",
+      "name": "IEEE Real-Time and Embedded Technology and ApplicationsSymposium",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1308,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1308）"
+      ]
+    },
+    {
+      "key": "conference:euro par",
+      "abbr": "Euro-Par",
+      "name": "European Conference on Parallel and Distributed Computing",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:icmr",
+      "abbr": "ICMR",
+      "name": "ACM SIGMM International Conference on Multimedia Retrieval",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 1889,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1889）"
+      ]
+    },
+    {
+      "key": "conference:i3d",
+      "abbr": "I3D",
+      "name": "ACM SIGGRAPH Symposium onInteractive 3D Graphics and Games",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 582,
+      "reasons": [
+        "OpenAlex 收录偏少（works=582）"
+      ]
+    },
+    {
+      "key": "conference:sca",
+      "abbr": "SCA",
+      "name": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 231,
+      "reasons": [
+        "OpenAlex 收录偏少（works=231）"
+      ]
+    },
+    {
+      "key": "conference:eurographics",
+      "abbr": "Eurographics",
+      "name": "Annual Conference of the European Association for Computer Graphics",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:eurovis",
+      "abbr": "EuroVis",
+      "name": "Eurographics Conference on Visualization",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:sgp",
+      "abbr": "SGP",
+      "name": "Eurographics Symposium on Geometry Processing",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 25,
+      "reasons": [
+        "OpenAlex 收录偏少（works=25）"
+      ]
+    },
+    {
+      "key": "conference:egsr",
+      "abbr": "EGSR",
+      "name": "Eurographics Symposium on Rendering",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 35,
+      "reasons": [
+        "OpenAlex 收录偏少（works=35）"
+      ]
+    },
+    {
+      "key": "conference:pg",
+      "abbr": "PG",
+      "name": "Pacific Conference on Computer Graphics and Applications",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 510,
+      "reasons": [
+        "OpenAlex 收录偏少（works=510）"
+      ]
+    },
+    {
+      "key": "conference:spm",
+      "abbr": "SPM",
+      "name": "Symposium on Solid and Physical Modeling",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 225,
+      "reasons": [
+        "OpenAlex 收录偏少（works=225）"
+      ]
+    },
+    {
+      "key": "conference:socg",
+      "abbr": "SoCG",
+      "name": "International Symposium on Computational Geometry",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 1639,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1639）"
+      ]
+    },
+    {
+      "key": "conference:esa",
+      "abbr": "ESA",
+      "name": "European Symposium on Algorithms",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 412,
+      "reasons": [
+        "OpenAlex 收录偏少（works=412）"
+      ]
+    },
+    {
+      "key": "conference:ccc",
+      "abbr": "CCC",
+      "name": "Conference on Computational Complexity",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 808,
+      "reasons": [
+        "OpenAlex 收录偏少（works=808）"
+      ]
+    },
+    {
+      "key": "conference:icalp",
+      "abbr": "ICALP",
+      "name": "International Colloquium on Automata, Languages and Programming",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 188,
+      "reasons": [
+        "OpenAlex 收录偏少（works=188）"
+      ]
+    },
+    {
+      "key": "conference:international conference on automated deduction international joint conference on automated reasoning",
+      "abbr": "",
+      "name": "International Conference on Automated Deduction/International Joint Conference on Automated Reasoning",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:concur",
+      "abbr": "CONCUR",
+      "name": "International Conference on Concurrency Theory",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 28,
+      "reasons": [
+        "OpenAlex 收录偏少（works=28）"
+      ]
+    },
+    {
+      "key": "conference:hscc",
+      "abbr": "HSCC",
+      "name": "International Conference on Hybrid Systems: Computation and Control",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 256,
+      "reasons": [
+        "OpenAlex 收录偏少（works=256）"
+      ]
+    },
+    {
+      "key": "conference:sat",
+      "abbr": "SAT",
+      "name": "International Conference on Theory and Applications of Satisfiability Testing",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 1001,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1001）"
+      ]
+    },
+    {
+      "key": "conference:cocoon",
+      "abbr": "COCOON",
+      "name": "International Computing and Combinatorics Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 17,
+      "reasons": [
+        "OpenAlex 收录偏少（works=17）"
+      ]
+    },
+    {
+      "key": "conference:fmcad",
+      "abbr": "FMCAD",
+      "name": "Formal Method in Computer-Aided Design",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:conext",
+      "abbr": "CoNEXT",
+      "name": "ACM International Conference on emerging Networking EXperiments and Technologies",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 855,
+      "reasons": [
+        "OpenAlex 收录偏少（works=855）"
+      ]
+    },
+    {
+      "key": "conference:secon",
+      "abbr": "SECON",
+      "name": "IEEE International Conference on Sensing, Communication, and Networking",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 1940,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1940）"
+      ]
+    },
+    {
+      "key": "conference:ipsn",
+      "abbr": "IPSN",
+      "name": "International Conference on Information Processing in Sensor Networks",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 1644,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1644）"
+      ]
+    },
+    {
+      "key": "conference:mobisys",
+      "abbr": "MobiSys",
+      "name": "ACM International Conference on Mobile Systems, Applications, and Services",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 245,
+      "reasons": [
+        "OpenAlex 收录偏少（works=245）"
+      ]
+    },
+    {
+      "key": "conference:icnp",
+      "abbr": "ICNP",
+      "name": "IEEE International Conference on Network Protocols",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 1909,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1909）"
+      ]
+    },
+    {
+      "key": "conference:mobihoc",
+      "abbr": "MobiHoc",
+      "name": "International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 445,
+      "reasons": [
+        "OpenAlex 收录偏少（works=445）"
+      ]
+    },
+    {
+      "key": "conference:nossdav",
+      "abbr": "NOSSDAV",
+      "name": "International Workshop on Network and Operating System Support for Digital Audio and Video",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 501,
+      "reasons": [
+        "OpenAlex 收录偏少（works=501）"
+      ]
+    },
+    {
+      "key": "conference:iwqos",
+      "abbr": "IWQoS",
+      "name": "IEEE/ACM International Workshop on Quality of Service",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 1713,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1713）"
+      ]
+    },
+    {
+      "key": "conference:imc",
+      "abbr": "IMC",
+      "name": "ACM Internet Measurement Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 1283,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1283）"
+      ]
+    },
+    {
+      "key": "conference:ecoop",
+      "abbr": "ECOOP",
+      "name": "European Conference on Object-Oriented Programming",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 54,
+      "reasons": [
+        "OpenAlex 收录偏少（works=54）"
+      ]
+    },
+    {
+      "key": "conference:etaps",
+      "abbr": "ETAPS",
+      "name": "European Joint Conferences on Theory and Practice of Software",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 4,
+      "reasons": [
+        "OpenAlex 收录偏少（works=4）"
+      ]
+    },
+    {
+      "key": "conference:icpc",
+      "abbr": "ICPC",
+      "name": "IEEE International Conference on Program Comprehension",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1318,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1318）"
+      ]
+    },
+    {
+      "key": "conference:caise",
+      "abbr": "CAiSE",
+      "name": "International Conference on Advanced Information Systems Engineering",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 108,
+      "reasons": [
+        "OpenAlex 收录偏少（works=108）"
+      ]
+    },
+    {
+      "key": "conference:icfp",
+      "abbr": "ICFP",
+      "name": "ACM SIGPLAN International Conference on Function Programming",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 812,
+      "reasons": [
+        "OpenAlex 收录偏少（works=812）"
+      ]
+    },
+    {
+      "key": "conference:lctes",
+      "abbr": "LCTES",
+      "name": "ACM SIGPLAN/SIGBED International Conference on Languages, Compilers andTools for Embedded Systems",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 547,
+      "reasons": [
+        "OpenAlex 收录偏少（works=547）"
+      ]
+    },
+    {
+      "key": "conference:models",
+      "abbr": "MoDELS",
+      "name": "ACM/IEEE International Conference on Model Driven Engineering Languages and Systems",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 841,
+      "reasons": [
+        "OpenAlex 收录偏少（works=841）"
+      ]
+    },
+    {
+      "key": "conference:cp",
+      "abbr": "CP",
+      "name": "International Conference on Principles and Practice of Constraint Programming",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 112,
+      "reasons": [
+        "OpenAlex 收录偏少（works=112）"
+      ]
+    },
+    {
+      "key": "conference:icsoc",
+      "abbr": "ICSOC",
+      "name": "International Conference on Service Oriented Computing",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 44,
+      "reasons": [
+        "OpenAlex 收录偏少（works=44）"
+      ]
+    },
+    {
+      "key": "conference:saner",
+      "abbr": "SANER",
+      "name": "IEEE International Conference on Software Analysis, Evolution,and Reengineering",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1359,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1359）"
+      ]
+    },
+    {
+      "key": "conference:vmcai",
+      "abbr": "VMCAI",
+      "name": "International Conference on Verification,Model Checking, and Abstract Interpretation",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 24,
+      "reasons": [
+        "OpenAlex 收录偏少（works=24）"
+      ]
+    },
+    {
+      "key": "conference:middleware",
+      "abbr": "Middleware",
+      "name": "International Middleware Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 466,
+      "reasons": [
+        "OpenAlex 收录偏少（works=466）"
+      ]
+    },
+    {
+      "key": "conference:sas",
+      "abbr": "SAS",
+      "name": "International Static Analysis Symposium",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 117,
+      "reasons": [
+        "OpenAlex 收录偏少（works=117）"
+      ]
+    },
+    {
+      "key": "conference:esem",
+      "abbr": "ESEM",
+      "name": "International Symposium on Empirical Software Engineering and Measurement",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1132,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1132）"
+      ]
+    },
+    {
+      "key": "conference:issre",
+      "abbr": "ISSRE",
+      "name": "IEEE International Symposium on Software Reliability Engineering",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1699,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1699）"
+      ]
+    },
+    {
+      "key": "conference:hotos",
+      "abbr": "HotOS",
+      "name": "USENIX Workshop on Hot Topics in Operating Systems",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 486,
+      "reasons": [
+        "OpenAlex 收录偏少（works=486）"
+      ]
+    },
+    {
+      "key": "conference:cc",
+      "abbr": "CC",
+      "name": "International Conference on Compiler Construction",
+      "rank": "B",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 112,
+      "reasons": [
+        "OpenAlex 收录偏少（works=112）"
+      ]
+    },
+    {
+      "key": "conference:amia",
+      "abbr": "AMIA",
+      "name": "American Medical Informatics Association Annual Symposium",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 47,
+      "reasons": [
+        "OpenAlex 收录偏少（works=47）"
+      ]
+    },
+    {
+      "key": "conference:apbc",
+      "abbr": "APBC",
+      "name": "Asia Pacific Bioinformatics Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 243,
+      "reasons": [
+        "OpenAlex 收录偏少（works=243）"
+      ]
+    },
+    {
+      "key": "conference:ieee cloud",
+      "abbr": "IEEE CLOUD",
+      "name": "IEEE International Conference on Cloud Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 1972,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1972）"
+      ]
+    },
+    {
+      "key": "conference:cosit",
+      "abbr": "COSIT",
+      "name": "International Conference on Spatial Information Theory",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 4,
+      "reasons": [
+        "OpenAlex 收录偏少（works=4）"
+      ]
+    },
+    {
+      "key": "conference:isbra",
+      "abbr": "ISBRA",
+      "name": "International Symposium on Bioinformatics Research and Applications",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 6,
+      "reasons": [
+        "OpenAlex 收录偏少（works=6）"
+      ]
+    },
+    {
+      "key": "conference:sagt",
+      "abbr": "SAGT",
+      "name": "International Symposium on Algorithmic Game Theory",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 51,
+      "reasons": [
+        "OpenAlex 收录偏少（works=51）"
+      ]
+    },
+    {
+      "key": "conference:sigspatial",
+      "abbr": "SIGSPATIAL",
+      "name": "ACM Special Interest Group on Spatial Information",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:icic",
+      "abbr": "ICIC",
+      "name": "International Conference on Intelligent Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 328,
+      "reasons": [
+        "OpenAlex 收录偏少（works=328）"
+      ]
+    },
+    {
+      "key": "conference:icss",
+      "abbr": "ICSS",
+      "name": "International Conference on Service Science",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 206,
+      "reasons": [
+        "OpenAlex 收录偏少（works=206）"
+      ]
+    },
+    {
+      "key": "conference:aft",
+      "abbr": "AFT",
+      "name": "Advances in Financial Technologies",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": 73,
+      "reasons": [
+        "OpenAlex 收录偏少（works=73）"
+      ]
+    },
+    {
+      "key": "conference:ijtcs faw",
+      "abbr": "IJTCS-FAW",
+      "name": "International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:aistats",
+      "abbr": "AISTATS",
+      "name": "International Conference on Artificial Intelligence and Statistics",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 915,
+      "reasons": [
+        "OpenAlex 收录偏少（works=915）"
+      ]
+    },
+    {
+      "key": "conference:accv",
+      "abbr": "ACCV",
+      "name": "Asian Conference on Computer Vision",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 71,
+      "reasons": [
+        "OpenAlex 收录偏少（works=71）"
+      ]
+    },
+    {
+      "key": "conference:acml",
+      "abbr": "ACML",
+      "name": "Asian Conference on Machine Learning",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 229,
+      "reasons": [
+        "OpenAlex 收录偏少（works=229）"
+      ]
+    },
+    {
+      "key": "conference:nlpcc",
+      "abbr": "NLPCC",
+      "name": "CCF International Conference on Natural Language Processing and Chinese Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:conll",
+      "abbr": "CoNLL",
+      "name": "Conference on Computational Natural Language Learning",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 1037,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1037）"
+      ]
+    },
+    {
+      "key": "conference:alt",
+      "abbr": "ALT",
+      "name": "International Conference on Algorithmic Learning Theory",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 88,
+      "reasons": [
+        "OpenAlex 收录偏少（works=88）"
+      ]
+    },
+    {
+      "key": "conference:icann",
+      "abbr": "ICANN",
+      "name": "International Conference on Artificial Neural Networks",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 453,
+      "reasons": [
+        "OpenAlex 收录偏少（works=453）"
+      ]
+    },
+    {
+      "key": "conference:ilp",
+      "abbr": "ILP",
+      "name": "International Conference on Inductive Logic Programming",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 42,
+      "reasons": [
+        "OpenAlex 收录偏少（works=42）"
+      ]
+    },
+    {
+      "key": "conference:ksem",
+      "abbr": "KSEM",
+      "name": "International conference on Knowledge Science,Engineering and Management",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 4,
+      "reasons": [
+        "OpenAlex 收录偏少（works=4）"
+      ]
+    },
+    {
+      "key": "conference:iconip",
+      "abbr": "ICONIP",
+      "name": "International Conference on Neural Information Processing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 1943,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1943）"
+      ]
+    },
+    {
+      "key": "conference:ijcb",
+      "abbr": "IJCB",
+      "name": "International Joint Conference onBiometrics",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 886,
+      "reasons": [
+        "OpenAlex 收录偏少（works=886）"
+      ]
+    },
+    {
+      "key": "conference:pricai",
+      "abbr": "PRICAI",
+      "name": "Pacific Rim International Conference on Artificial Intelligence",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 16,
+      "reasons": [
+        "OpenAlex 收录偏少（works=16）"
+      ]
+    },
+    {
+      "key": "conference:dai",
+      "abbr": "DAI",
+      "name": "International Conference on Distributed Artificial Intelligence",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能",
+      "worksCount": 30,
+      "reasons": [
+        "OpenAlex 收录偏少（works=30）"
+      ]
+    },
+    {
+      "key": "conference:dis",
+      "abbr": "DIS",
+      "name": "ACM SIGCHI Conference on Designing Interactive Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:gi",
+      "abbr": "GI",
+      "name": "Graphics Interface",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 431,
+      "reasons": [
+        "OpenAlex 收录偏少（works=431）"
+      ]
+    },
+    {
+      "key": "conference:uic",
+      "abbr": "UIC",
+      "name": "IEEE International Conference on Ubiquitous Intelligence and Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 508,
+      "reasons": [
+        "OpenAlex 收录偏少（works=508）"
+      ]
+    },
+    {
+      "key": "conference:ieee world haptics conference",
+      "abbr": "",
+      "name": "IEEE World Haptics Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 1174,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1174）"
+      ]
+    },
+    {
+      "key": "conference:interact",
+      "abbr": "INTERACT",
+      "name": "International Conference on Human-Computer Interaction of International Federation for Information Processing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 48,
+      "reasons": [
+        "OpenAlex 收录偏少（works=48）"
+      ]
+    },
+    {
+      "key": "conference:collaboratecom",
+      "abbr": "CollaborateCom",
+      "name": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 660,
+      "reasons": [
+        "OpenAlex 收录偏少（works=660）"
+      ]
+    },
+    {
+      "key": "conference:coopis",
+      "abbr": "CoopIS",
+      "name": "International Conference on Cooperative Information Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 224,
+      "reasons": [
+        "OpenAlex 收录偏少（works=224）"
+      ]
+    },
+    {
+      "key": "conference:mobiquitous",
+      "abbr": "MobiQuitous",
+      "name": "International Conference on Mobile and Ubiquitous Systems: Computing,Networking and Services",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 968,
+      "reasons": [
+        "OpenAlex 收录偏少（works=968）"
+      ]
+    },
+    {
+      "key": "conference:avi",
+      "abbr": "AVI",
+      "name": "International Working Conference on Advanced Visual Interfaces",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": 1190,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1190）"
+      ]
+    },
+    {
+      "key": "conference:gpc",
+      "abbr": "GPC",
+      "name": "Conference on Green, Pervasive and Cloud Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:icxr",
+      "abbr": "ICXR",
+      "name": "CCF International Conference on Extended Reality",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:apweb",
+      "abbr": "APWeb",
+      "name": "Asia Pacific Web Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 91,
+      "reasons": [
+        "OpenAlex 收录偏少（works=91）"
+      ]
+    },
+    {
+      "key": "conference:ecir",
+      "abbr": "ECIR",
+      "name": "European Conference on Information Retrieval",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 36,
+      "reasons": [
+        "OpenAlex 收录偏少（works=36）"
+      ]
+    },
+    {
+      "key": "conference:eswc",
+      "abbr": "ESWC",
+      "name": "Extended Semantic Web Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 19,
+      "reasons": [
+        "OpenAlex 收录偏少（works=19）"
+      ]
+    },
+    {
+      "key": "conference:webdb",
+      "abbr": "WebDB",
+      "name": "International Workshop on Web andDatabases",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:er",
+      "abbr": "ER",
+      "name": "International Conference on Conceptual Modeling",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 54,
+      "reasons": [
+        "OpenAlex 收录偏少（works=54）"
+      ]
+    },
+    {
+      "key": "conference:ssdbm",
+      "abbr": "SSDBM",
+      "name": "International Conference on Scientific andStatistical Database Management",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 861,
+      "reasons": [
+        "OpenAlex 收录偏少（works=861）"
+      ]
+    },
+    {
+      "key": "conference:waim",
+      "abbr": "WAIM",
+      "name": "International Conference on Web Age Information Management",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 155,
+      "reasons": [
+        "OpenAlex 收录偏少（works=155）"
+      ]
+    },
+    {
+      "key": "conference:sstd",
+      "abbr": "SSTD",
+      "name": "International Symposium on Spatial and Temporal Databases",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 59,
+      "reasons": [
+        "OpenAlex 收录偏少（works=59）"
+      ]
+    },
+    {
+      "key": "conference:pakdd",
+      "abbr": "PAKDD",
+      "name": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 7,
+      "reasons": [
+        "OpenAlex 收录偏少（works=7）"
+      ]
+    },
+    {
+      "key": "conference:adma",
+      "abbr": "ADMA",
+      "name": "International Conference on Advanced Data Mining and Applications",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 5,
+      "reasons": [
+        "OpenAlex 收录偏少（works=5）"
+      ]
+    },
+    {
+      "key": "conference:wisa",
+      "abbr": "WISA",
+      "name": "Web Information Systems and Applications",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索",
+      "worksCount": 327,
+      "reasons": [
+        "OpenAlex 收录偏少（works=327）"
+      ]
+    },
+    {
+      "key": "conference:wisec",
+      "abbr": "WiSec",
+      "name": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 543,
+      "reasons": [
+        "OpenAlex 收录偏少（works=543）"
+      ]
+    },
+    {
+      "key": "conference:sacmat",
+      "abbr": "SACMAT",
+      "name": "ACM Symposium on Access Control Models and Technologies",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 851,
+      "reasons": [
+        "OpenAlex 收录偏少（works=851）"
+      ]
+    },
+    {
+      "key": "conference:drm",
+      "abbr": "DRM",
+      "name": "ACM Workshop on Digital Rights Management",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 148,
+      "reasons": [
+        "OpenAlex 收录偏少（works=148）"
+      ]
+    },
+    {
+      "key": "conference:ih mmsec",
+      "abbr": "IH&MMSec",
+      "name": "ACM Workshop on Information Hiding and Multimedia Security",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 399,
+      "reasons": [
+        "OpenAlex 收录偏少（works=399）"
+      ]
+    },
+    {
+      "key": "conference:acns",
+      "abbr": "ACNS",
+      "name": "International Conference on Applied Cryptography and Network Security",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 22,
+      "reasons": [
+        "OpenAlex 收录偏少（works=22）"
+      ]
+    },
+    {
+      "key": "conference:asiaccs",
+      "abbr": "AsiaCCS",
+      "name": "ACM Asia Conference on Computer and Communications Security",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 1626,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1626）"
+      ]
+    },
+    {
+      "key": "conference:acisp",
+      "abbr": "ACISP",
+      "name": "AustralasiaConferenceonInformation SecurityandPrivacy",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:ct rsa",
+      "abbr": "CT-RSA",
+      "name": "The Cryptographer's Track at RSA Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:dimva",
+      "abbr": "DIMVA",
+      "name": "Conference on Detection of Intrusions and Malware & VulnerabilityAssessment",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:dfrws",
+      "abbr": "DFRWS",
+      "name": "Digital Forensic Research Workshop",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 12,
+      "reasons": [
+        "OpenAlex 收录偏少（works=12）"
+      ]
+    },
+    {
+      "key": "conference:fc",
+      "abbr": "FC",
+      "name": "Financial Cryptography and Data Security",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:sec",
+      "abbr": "SEC",
+      "name": "IFIP International Information Security Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 523,
+      "reasons": [
+        "OpenAlex 收录偏少（works=523）"
+      ]
+    },
+    {
+      "key": "conference:ifip wg 11 9",
+      "abbr": "IFIP WG 11.9",
+      "name": "IFIP Working Group 11.9 International Conference on Digital Forensics",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:isc",
+      "abbr": "ISC",
+      "name": "Information Security Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:icdf2c",
+      "abbr": "ICDF2C",
+      "name": "International Conference on Digital Forensics & Cyber Crime",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:securecomm",
+      "abbr": "SecureComm",
+      "name": "International Conference on Security and Privacy in Communication Networks",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 56,
+      "reasons": [
+        "OpenAlex 收录偏少（works=56）"
+      ]
+    },
+    {
+      "key": "conference:nspw",
+      "abbr": "NSPW",
+      "name": "New Security Paradigms Workshop",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 465,
+      "reasons": [
+        "OpenAlex 收录偏少（works=465）"
+      ]
+    },
+    {
+      "key": "conference:pam",
+      "abbr": "PAM",
+      "name": "Passive and Active Measurement Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:pets",
+      "abbr": "PETS",
+      "name": "Privacy Enhancing Technologies Symposium",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 5,
+      "reasons": [
+        "OpenAlex 收录偏少（works=5）"
+      ]
+    },
+    {
+      "key": "conference:sac",
+      "abbr": "SAC",
+      "name": "Selected Areas in Cryptography",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 18,
+      "reasons": [
+        "OpenAlex 收录偏少（works=18）"
+      ]
+    },
+    {
+      "key": "conference:soups",
+      "abbr": "SOUPS",
+      "name": "Symposium On Usable Privacy and Security",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 346,
+      "reasons": [
+        "OpenAlex 收录偏少（works=346）"
+      ]
+    },
+    {
+      "key": "conference:hotsec",
+      "abbr": "HotSec",
+      "name": "HotSec",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:euros p",
+      "abbr": "EuroS&P",
+      "name": "IEEE European Symposium on Security and Privacy",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 645,
+      "reasons": [
+        "OpenAlex 收录偏少（works=645）"
+      ]
+    },
+    {
+      "key": "conference:inscrypt",
+      "abbr": "Inscrypt",
+      "name": "International Conference on Information Security and Cryptology",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 22,
+      "reasons": [
+        "OpenAlex 收录偏少（works=22）"
+      ]
+    },
+    {
+      "key": "conference:codaspy",
+      "abbr": "CODASPY",
+      "name": "Conference on Data and Application Security and Privacy",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 731,
+      "reasons": [
+        "OpenAlex 收录偏少（works=731）"
+      ]
+    },
+    {
+      "key": "conference:blocksys",
+      "abbr": "BlockSys",
+      "name": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:cscloud",
+      "abbr": "CSCloud",
+      "name": "International Conference on Cyber Security and Cloud Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全",
+      "worksCount": 349,
+      "reasons": [
+        "OpenAlex 收录偏少（works=349）"
+      ]
+    },
+    {
+      "key": "conference:cf",
+      "abbr": "CF",
+      "name": "ACM International Conference on Computing Frontiers",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1162,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1162）"
+      ]
+    },
+    {
+      "key": "conference:systor",
+      "abbr": "SYSTOR",
+      "name": "ACM International Systems and Storage Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 218,
+      "reasons": [
+        "OpenAlex 收录偏少（works=218）"
+      ]
+    },
+    {
+      "key": "conference:nocs",
+      "abbr": "NOCS",
+      "name": "ACM/IEEE International Symposium on Networks-on-Chip",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 490,
+      "reasons": [
+        "OpenAlex 收录偏少（works=490）"
+      ]
+    },
+    {
+      "key": "conference:asap",
+      "abbr": "ASAP",
+      "name": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1767,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1767）"
+      ]
+    },
+    {
+      "key": "conference:ets",
+      "abbr": "ETS",
+      "name": "IEEE European Test Symposium",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1365,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1365）"
+      ]
+    },
+    {
+      "key": "conference:fccm",
+      "abbr": "FCCM",
+      "name": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1943,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1943）"
+      ]
+    },
+    {
+      "key": "conference:hipc",
+      "abbr": "HiPC",
+      "name": "IEEE International Conference on High Performance Computing, Data and Analytics",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1629,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1629）"
+      ]
+    },
+    {
+      "key": "conference:mascots",
+      "abbr": "MASCOTS",
+      "name": "International Symposium on Modeling, Analysis, andSimulation of Computer and Telecommunication Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1826,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1826）"
+      ]
+    },
+    {
+      "key": "conference:npc",
+      "abbr": "NPC",
+      "name": "IFIP International Conference on Network and Parallel Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 213,
+      "reasons": [
+        "OpenAlex 收录偏少（works=213）"
+      ]
+    },
+    {
+      "key": "conference:ica3pp",
+      "abbr": "ICA3PP",
+      "name": "International Conference on Algorithms and Architectures for Parallel Processing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 432,
+      "reasons": [
+        "OpenAlex 收录偏少（works=432）"
+      ]
+    },
+    {
+      "key": "conference:cases",
+      "abbr": "CASES",
+      "name": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 808,
+      "reasons": [
+        "OpenAlex 收录偏少（works=808）"
+      ]
+    },
+    {
+      "key": "conference:fpt",
+      "abbr": "FPT",
+      "name": "International Conference on Field-Programmable Technology",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1898,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1898）"
+      ]
+    },
+    {
+      "key": "conference:ispd",
+      "abbr": "ISPD",
+      "name": "International Symposium on Physical Design",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 1295,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1295）"
+      ]
+    },
+    {
+      "key": "conference:hoti",
+      "abbr": "HOTI",
+      "name": "IEEE Symposium on High-Performance Interconnects",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 762,
+      "reasons": [
+        "OpenAlex 收录偏少（works=762）"
+      ]
+    },
+    {
+      "key": "conference:itc asia",
+      "abbr": "ITC-Asia",
+      "name": "International Test Conference in Asia",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 435,
+      "reasons": [
+        "OpenAlex 收录偏少（works=435）"
+      ]
+    },
+    {
+      "key": "conference:sec",
+      "abbr": "SEC",
+      "name": "ACM/IEEE Symposium on Edge Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 230,
+      "reasons": [
+        "OpenAlex 收录偏少（works=230）"
+      ]
+    },
+    {
+      "key": "conference:nas",
+      "abbr": "NAS",
+      "name": "International Conference on Networking, Architecture and Storages",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 902,
+      "reasons": [
+        "OpenAlex 收录偏少（works=902）"
+      ]
+    },
+    {
+      "key": "conference:hotstorage",
+      "abbr": "HotStorage",
+      "name": "HotStorage",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 111,
+      "reasons": [
+        "OpenAlex 收录偏少（works=111）"
+      ]
+    },
+    {
+      "key": "conference:appt",
+      "abbr": "APPT",
+      "name": "International Symposium on Advanced Parallel Processing Technology",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:jcc",
+      "abbr": "JCC",
+      "name": "International Conference on JointCloud Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "worksCount": 213,
+      "reasons": [
+        "OpenAlex 收录偏少（works=213）"
+      ]
+    },
+    {
+      "key": "conference:casa",
+      "abbr": "CASA",
+      "name": "International Conference on Computer Animation and Social Agents",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 15,
+      "reasons": [
+        "OpenAlex 收录偏少（works=15）"
+      ]
+    },
+    {
+      "key": "conference:cgi",
+      "abbr": "CGI",
+      "name": "Computer Graphics International",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 699,
+      "reasons": [
+        "OpenAlex 收录偏少（works=699）"
+      ]
+    },
+    {
+      "key": "conference:gmp",
+      "abbr": "GMP",
+      "name": "Geometric Modeling and Processing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 124,
+      "reasons": [
+        "OpenAlex 收录偏少（works=124）"
+      ]
+    },
+    {
+      "key": "conference:pacificvis",
+      "abbr": "PacificVis",
+      "name": "IEEE Pacific Visualization Symposium",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 156,
+      "reasons": [
+        "OpenAlex 收录偏少（works=156）"
+      ]
+    },
+    {
+      "key": "conference:3dv",
+      "abbr": "3DV",
+      "name": "International Conference on 3D Vision",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 1505,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1505）"
+      ]
+    },
+    {
+      "key": "conference:cad graphics",
+      "abbr": "CAD/Graphics",
+      "name": "International Conference on Computer-Aided Design and Computer Graphics",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 599,
+      "reasons": [
+        "OpenAlex 收录偏少（works=599）"
+      ]
+    },
+    {
+      "key": "conference:mmm",
+      "abbr": "MMM",
+      "name": "International Conference on Multimedia Modeling",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 231,
+      "reasons": [
+        "OpenAlex 收录偏少（works=231）"
+      ]
+    },
+    {
+      "key": "conference:mmasia",
+      "abbr": "MMAsia",
+      "name": "ACM Multimedia Asia",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 702,
+      "reasons": [
+        "OpenAlex 收录偏少（works=702）"
+      ]
+    },
+    {
+      "key": "conference:smi",
+      "abbr": "SMI",
+      "name": "Shape Modeling International",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 518,
+      "reasons": [
+        "OpenAlex 收录偏少（works=518）"
+      ]
+    },
+    {
+      "key": "conference:cvm",
+      "abbr": "CVM",
+      "name": "Computational Visual Media",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 586,
+      "reasons": [
+        "OpenAlex 收录偏少（works=586）"
+      ]
+    },
+    {
+      "key": "conference:prcv",
+      "abbr": "PRCV",
+      "name": "Chinese Conference on Pattern Recognition and Computer Vision",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:icig",
+      "abbr": "ICIG",
+      "name": "International Conference on Image and Graphics",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 922,
+      "reasons": [
+        "OpenAlex 收录偏少（works=922）"
+      ]
+    },
+    {
+      "key": "conference:ncmmsc",
+      "abbr": "NCMMSC",
+      "name": "National Conference on Man-Machine Speech Communication",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:asru",
+      "abbr": "ASRU",
+      "name": "Automatic Speech Recognition and Understanding Workshop",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 1803,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1803）"
+      ]
+    },
+    {
+      "key": "conference:slt",
+      "abbr": "SLT",
+      "name": "Spoken Language Technology",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体",
+      "worksCount": 1211,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1211）"
+      ]
+    },
+    {
+      "key": "conference:csl",
+      "abbr": "CSL",
+      "name": "Computer Science Logic",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 48,
+      "reasons": [
+        "OpenAlex 收录偏少（works=48）"
+      ]
+    },
+    {
+      "key": "conference:fsttcs",
+      "abbr": "FSTTCS",
+      "name": "Foundations of Software Technology and Theoretical Computer Science",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 40,
+      "reasons": [
+        "OpenAlex 收录偏少（works=40）"
+      ]
+    },
+    {
+      "key": "conference:dsaa",
+      "abbr": "DSAA",
+      "name": "IEEE International Conference on Data Science and Advanced Analytics",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 1237,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1237）"
+      ]
+    },
+    {
+      "key": "conference:ictac",
+      "abbr": "ICTAC",
+      "name": "International Colloquium on Theoretical Aspects of Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 3,
+      "reasons": [
+        "OpenAlex 收录偏少（works=3）"
+      ]
+    },
+    {
+      "key": "conference:ipco",
+      "abbr": "IPCO",
+      "name": "International Conference on Integer Programming and Combinatorial Optimization",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 85,
+      "reasons": [
+        "OpenAlex 收录偏少（works=85）"
+      ]
+    },
+    {
+      "key": "conference:fscd",
+      "abbr": "FSCD",
+      "name": "International Conference on Formal Structures for Computation and Deduction",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:isaac",
+      "abbr": "ISAAC",
+      "name": "International Symposium on Algorithms and Computation",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 469,
+      "reasons": [
+        "OpenAlex 收录偏少（works=469）"
+      ]
+    },
+    {
+      "key": "conference:mfcs",
+      "abbr": "MFCS",
+      "name": "International Conference on Mathematical Foundations of Computer Science",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 151,
+      "reasons": [
+        "OpenAlex 收录偏少（works=151）"
+      ]
+    },
+    {
+      "key": "conference:stacs",
+      "abbr": "STACS",
+      "name": "Symposium on Theoretical Aspects of Computer Science",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": 34,
+      "reasons": [
+        "OpenAlex 收录偏少（works=34）"
+      ]
+    },
+    {
+      "key": "conference:setta",
+      "abbr": "SETTA",
+      "name": "International Symposium on Dependable Software Engineering: Theories, Tools, and Applications",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:",
+      "abbr": "刊物名称",
+      "name": "刊物全称",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:ancs",
+      "abbr": "ANCS",
+      "name": "ACM/IEEE Symposium on Architectures for Networking and Communication Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 489,
+      "reasons": [
+        "OpenAlex 收录偏少（works=489）"
+      ]
+    },
+    {
+      "key": "conference:apnoms",
+      "abbr": "APNOMS",
+      "name": "Asia-Pacific Network Operations and Management Symposium",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 1167,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1167）"
+      ]
+    },
+    {
+      "key": "conference:forte",
+      "abbr": "FORTE",
+      "name": "International Conference on Formal Techniques for Distributed Objects, Components, and Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:p2p",
+      "abbr": "P2P",
+      "name": "IEEE International Conference on P2P Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 428,
+      "reasons": [
+        "OpenAlex 收录偏少（works=428）"
+      ]
+    },
+    {
+      "key": "conference:im",
+      "abbr": "IM",
+      "name": "IFIP/IEEE International Symposium on Integrated NetworkManagement",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 1572,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1572）"
+      ]
+    },
+    {
+      "key": "conference:msn",
+      "abbr": "MSN",
+      "name": "International Conference on Mobility, Sensing and Networking",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 817,
+      "reasons": [
+        "OpenAlex 收录偏少（works=817）"
+      ]
+    },
+    {
+      "key": "conference:mswim",
+      "abbr": "MSWiM",
+      "name": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 1179,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1179）"
+      ]
+    },
+    {
+      "key": "conference:wasa",
+      "abbr": "WASA",
+      "name": "International Conference on Wireless Algorithms, Systems, and Applications",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 85,
+      "reasons": [
+        "OpenAlex 收录偏少（works=85）"
+      ]
+    },
+    {
+      "key": "conference:hotnets",
+      "abbr": "HotNets",
+      "name": "ACM The Workshop on Hot Topics in Networks",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络",
+      "worksCount": 490,
+      "reasons": [
+        "OpenAlex 收录偏少（works=490）"
+      ]
+    },
+    {
+      "key": "conference:pepm",
+      "abbr": "PEPM",
+      "name": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 448,
+      "reasons": [
+        "OpenAlex 收录偏少（works=448）"
+      ]
+    },
+    {
+      "key": "conference:paste",
+      "abbr": "PASTE",
+      "name": "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 131,
+      "reasons": [
+        "OpenAlex 收录偏少（works=131）"
+      ]
+    },
+    {
+      "key": "conference:aplas",
+      "abbr": "APLAS",
+      "name": "Asian Symposium on Programming Languages and Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 63,
+      "reasons": [
+        "OpenAlex 收录偏少（works=63）"
+      ]
+    },
+    {
+      "key": "conference:ease",
+      "abbr": "EASE",
+      "name": "International Conference on Evaluation and Assessment in Software Engineering",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 866,
+      "reasons": [
+        "OpenAlex 收录偏少（works=866）"
+      ]
+    },
+    {
+      "key": "conference:iceccs",
+      "abbr": "ICECCS",
+      "name": "International Conference on Engineering of Complex Computer Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1158,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1158）"
+      ]
+    },
+    {
+      "key": "conference:icst",
+      "abbr": "ICST",
+      "name": "IEEE International Conference on Software Testing, Verification and Validation",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1417,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1417）"
+      ]
+    },
+    {
+      "key": "conference:ispass",
+      "abbr": "ISPASS",
+      "name": "IEEE International Symposium on Performance Analysis of Systems and Software",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1077,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1077）"
+      ]
+    },
+    {
+      "key": "conference:scam",
+      "abbr": "SCAM",
+      "name": "IEEE International Working Conference on Source Code Analysis and Manipulation",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 861,
+      "reasons": [
+        "OpenAlex 收录偏少（works=861）"
+      ]
+    },
+    {
+      "key": "conference:icfem",
+      "abbr": "ICFEM",
+      "name": "International Conference on Formal Engineering Methods",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 87,
+      "reasons": [
+        "OpenAlex 收录偏少（works=87）"
+      ]
+    },
+    {
+      "key": "conference:scc",
+      "abbr": "SCC",
+      "name": "IEEE International Conference on Services Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 112,
+      "reasons": [
+        "OpenAlex 收录偏少（works=112）"
+      ]
+    },
+    {
+      "key": "conference:icssp",
+      "abbr": "ICSSP",
+      "name": "International Conference on Software and System Process",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 316,
+      "reasons": [
+        "OpenAlex 收录偏少（works=316）"
+      ]
+    },
+    {
+      "key": "conference:qrs",
+      "abbr": "QRS",
+      "name": "International Conference on Software Quality, Reliability and Security",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1369,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1369）"
+      ]
+    },
+    {
+      "key": "conference:icsr",
+      "abbr": "ICSR",
+      "name": "International Conference on Software Reuse",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 174,
+      "reasons": [
+        "OpenAlex 收录偏少（works=174）"
+      ]
+    },
+    {
+      "key": "conference:icwe",
+      "abbr": "ICWE",
+      "name": "International Conference on Web Engineering",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 129,
+      "reasons": [
+        "OpenAlex 收录偏少（works=129）"
+      ]
+    },
+    {
+      "key": "conference:spin",
+      "abbr": "SPIN",
+      "name": "International Symposium on Model Checking of Software",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 0,
+      "reasons": [
+        "OpenAlex 收录偏少（works=0）"
+      ]
+    },
+    {
+      "key": "conference:atva",
+      "abbr": "ATVA",
+      "name": "International Symposium on Automated Technology for Verification and Analysis",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 6,
+      "reasons": [
+        "OpenAlex 收录偏少（works=6）"
+      ]
+    },
+    {
+      "key": "conference:lopstr",
+      "abbr": "LOPSTR",
+      "name": "International Symposium on Logic-based Program Synthesis and Transformation",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 26,
+      "reasons": [
+        "OpenAlex 收录偏少（works=26）"
+      ]
+    },
+    {
+      "key": "conference:tase",
+      "abbr": "TASE",
+      "name": "Theoretical Aspects of Software Engineering Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 643,
+      "reasons": [
+        "OpenAlex 收录偏少（works=643）"
+      ]
+    },
+    {
+      "key": "conference:msr",
+      "abbr": "MSR",
+      "name": "Mining Software Repositories",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 1572,
+      "reasons": [
+        "OpenAlex 收录偏少（works=1572）"
+      ]
+    },
+    {
+      "key": "conference:refsq",
+      "abbr": "REFSQ",
+      "name": "Requirements Engineering: Foundation for Software Quality",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 51,
+      "reasons": [
+        "OpenAlex 收录偏少（works=51）"
+      ]
+    },
+    {
+      "key": "conference:wicsa",
+      "abbr": "WICSA",
+      "name": "Working IEEE/IFIP Conference on Software Architecture",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 561,
+      "reasons": [
+        "OpenAlex 收录偏少（works=561）"
+      ]
+    },
+    {
+      "key": "conference:internetware",
+      "abbr": "Internetware",
+      "name": "Asia-Pacific Symposium on Internetware",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 434,
+      "reasons": [
+        "OpenAlex 收录偏少（works=434）"
+      ]
+    },
+    {
+      "key": "conference:rv",
+      "abbr": "RV",
+      "name": "International Conference on Runtime Verification",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": null,
+      "reasons": [
+        "unresolved：未解析到 OpenAlex source，退出检索过滤"
+      ]
+    },
+    {
+      "key": "conference:memocode",
+      "abbr": "MEMOCODE",
+      "name": "International Conference on Formal Methods and Models for Co-Design",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "worksCount": 657,
+      "reasons": [
+        "OpenAlex 收录偏少（works=657）"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "journal:www",
+      "abbr": "WWW",
+      "name": "World Wide Web-Internet and Web Information Systems",
+      "rank": "B",
+      "type": "journal",
+      "domain": "交叉/综合/新兴"
+    },
+    {
+      "key": "journal:nca",
+      "abbr": "NCA",
+      "name": "Neural Computing & Applications",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人工智能"
+    },
+    {
+      "key": "journal:cscw",
+      "abbr": "CSCW",
+      "name": "Computer Supported Cooperative Work-The Journal of Collaborative Computing and Work Practices",
+      "rank": "B",
+      "type": "journal",
+      "domain": "人机交互与普适计算"
+    },
+    {
+      "key": "journal:bit",
+      "abbr": "BIT",
+      "name": "Behaviour & Information Technology",
+      "rank": "C",
+      "type": "journal",
+      "domain": "人机交互与普适计算"
+    },
+    {
+      "key": "journal:cgta",
+      "abbr": "CGTA",
+      "name": "Computational Geometry-Theory and Applications",
+      "rank": "C",
+      "type": "journal",
+      "domain": "计算机图形学与多媒体"
+    },
+    {
+      "key": "conference:ismb",
+      "abbr": "ISMB",
+      "name": "International conference on Intelligent Systems for Molecular Biology",
+      "rank": "B",
+      "type": "conference",
+      "domain": "交叉/综合/新兴"
+    },
+    {
+      "key": "conference:wine",
+      "abbr": "WINE",
+      "name": "Conference on Web and Internet Economics",
+      "rank": "B",
+      "type": "conference",
+      "domain": "交叉/综合/新兴"
+    },
+    {
+      "key": "conference:ecml pkdd",
+      "abbr": "ECML-PKDD",
+      "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索"
+    },
+    {
+      "key": "conference:cidr",
+      "abbr": "CIDR",
+      "name": "Conference on Innovative DataSystems Research",
+      "rank": "B",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索"
+    },
+    {
+      "key": "conference:ches",
+      "abbr": "CHES",
+      "name": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:pkc",
+      "abbr": "PKC",
+      "name": "International Workshop on Practice and Theory in Public Key Cryptography",
+      "rank": "B",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:hipeac",
+      "abbr": "HiPEAC",
+      "name": "International Conference on High Performance and Embedded Architectures and Compilers",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统"
+    },
+    {
+      "key": "conference:lisa",
+      "abbr": "LISA",
+      "name": "Large Installation system Administration Conference",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统"
+    },
+    {
+      "key": "conference:euro par",
+      "abbr": "Euro-Par",
+      "name": "European Conference on Parallel and Distributed Computing",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统"
+    },
+    {
+      "key": "conference:eurographics",
+      "abbr": "Eurographics",
+      "name": "Annual Conference of the European Association for Computer Graphics",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体"
+    },
+    {
+      "key": "conference:eurovis",
+      "abbr": "EuroVis",
+      "name": "Eurographics Conference on Visualization",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体"
+    },
+    {
+      "key": "conference:international conference on automated deduction international joint conference on automated reasoning",
+      "abbr": "",
+      "name": "International Conference on Automated Deduction/International Joint Conference on Automated Reasoning",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论"
+    },
+    {
+      "key": "conference:fmcad",
+      "abbr": "FMCAD",
+      "name": "Formal Method in Computer-Aided Design",
+      "rank": "B",
+      "type": "conference",
+      "domain": "计算机科学理论"
+    },
+    {
+      "key": "conference:sigspatial",
+      "abbr": "SIGSPATIAL",
+      "name": "ACM Special Interest Group on Spatial Information",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴"
+    },
+    {
+      "key": "conference:ijtcs faw",
+      "abbr": "IJTCS-FAW",
+      "name": "International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom",
+      "rank": "C",
+      "type": "conference",
+      "domain": "交叉/综合/新兴"
+    },
+    {
+      "key": "conference:nlpcc",
+      "abbr": "NLPCC",
+      "name": "CCF International Conference on Natural Language Processing and Chinese Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人工智能"
+    },
+    {
+      "key": "conference:dis",
+      "abbr": "DIS",
+      "name": "ACM SIGCHI Conference on Designing Interactive Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算"
+    },
+    {
+      "key": "conference:gpc",
+      "abbr": "GPC",
+      "name": "Conference on Green, Pervasive and Cloud Computing",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算"
+    },
+    {
+      "key": "conference:icxr",
+      "abbr": "ICXR",
+      "name": "CCF International Conference on Extended Reality",
+      "rank": "C",
+      "type": "conference",
+      "domain": "人机交互与普适计算"
+    },
+    {
+      "key": "conference:webdb",
+      "abbr": "WebDB",
+      "name": "International Workshop on Web andDatabases",
+      "rank": "C",
+      "type": "conference",
+      "domain": "数据库/数据挖掘/内容检索"
+    },
+    {
+      "key": "conference:acisp",
+      "abbr": "ACISP",
+      "name": "AustralasiaConferenceonInformation SecurityandPrivacy",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:ct rsa",
+      "abbr": "CT-RSA",
+      "name": "The Cryptographer's Track at RSA Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:dimva",
+      "abbr": "DIMVA",
+      "name": "Conference on Detection of Intrusions and Malware & VulnerabilityAssessment",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:fc",
+      "abbr": "FC",
+      "name": "Financial Cryptography and Data Security",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:ifip wg 11 9",
+      "abbr": "IFIP WG 11.9",
+      "name": "IFIP Working Group 11.9 International Conference on Digital Forensics",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:isc",
+      "abbr": "ISC",
+      "name": "Information Security Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:icdf2c",
+      "abbr": "ICDF2C",
+      "name": "International Conference on Digital Forensics & Cyber Crime",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:pam",
+      "abbr": "PAM",
+      "name": "Passive and Active Measurement Conference",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:hotsec",
+      "abbr": "HotSec",
+      "name": "HotSec",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:blocksys",
+      "abbr": "BlockSys",
+      "name": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "网络与信息安全"
+    },
+    {
+      "key": "conference:appt",
+      "abbr": "APPT",
+      "name": "International Symposium on Advanced Parallel Processing Technology",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机体系结构/并行与分布计算/存储系统"
+    },
+    {
+      "key": "conference:prcv",
+      "abbr": "PRCV",
+      "name": "Chinese Conference on Pattern Recognition and Computer Vision",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体"
+    },
+    {
+      "key": "conference:ncmmsc",
+      "abbr": "NCMMSC",
+      "name": "National Conference on Man-Machine Speech Communication",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机图形学与多媒体"
+    },
+    {
+      "key": "conference:fscd",
+      "abbr": "FSCD",
+      "name": "International Conference on Formal Structures for Computation and Deduction",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论"
+    },
+    {
+      "key": "conference:setta",
+      "abbr": "SETTA",
+      "name": "International Symposium on Dependable Software Engineering: Theories, Tools, and Applications",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机科学理论"
+    },
+    {
+      "key": "conference:",
+      "abbr": "刊物名称",
+      "name": "刊物全称",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络"
+    },
+    {
+      "key": "conference:forte",
+      "abbr": "FORTE",
+      "name": "International Conference on Formal Techniques for Distributed Objects, Components, and Systems",
+      "rank": "C",
+      "type": "conference",
+      "domain": "计算机网络"
+    },
+    {
+      "key": "conference:rv",
+      "abbr": "RV",
+      "name": "International Conference on Runtime Verification",
+      "rank": "C",
+      "type": "conference",
+      "domain": "软件工程/系统软件/程序设计语言"
+    }
+  ],
+  "listedInDiff": []
+}

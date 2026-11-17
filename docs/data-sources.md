@@ -55,3 +55,16 @@ npm test                             # tests/ccf-csv.test.ts 覆盖解析/归一
 | AI | 人工智能 | Artificial Intelligence |
 | HI | 人机交互与普适计算 | Computer-Human Interaction |
 | MX | 交叉/综合/新兴 | Interdiscipline/Mixture/Emerging |
+
+## 解析实测结论（Step3–5，2026-11-17）
+
+- **总体解析率 93.7%**（638/681）：期刊 290/295（98.3%）、会议 348/386（90.2%）。**CCF-A 预设 95/95 全映射（100%）**。
+- **字段修正**：OpenAlex source 别名实为 `alternate_titles`（非 aliases）；`id` 为完整 URL（提取 S-id）；search 结果带 `relevance_score`。
+- **期刊捷径成立**：`listed_in:ccf-a/b/c` 池 293 个（A37/B111/C145），比 CSV 期刊 295 少 2（B 级），回落全称 search 补齐。
+- **会议无 ccf 标签**，逐个 search 自建映射。OpenAlex `search` 为 AND 语义且 display_name 常无组织前缀：CSV 名的前缀/单复数/用词差异（OSDI Implementations、NSDI Network System、EUROCRYPT 单数 Application）致整句失配 → 核心词检索（去停用词/前缀）回落 + 人工 override 解决。
+- **正确性守卫**：仅缩写相同不足以接受（需名称相似度 ≥0.35 或包含关系），abbr 词边界匹配——杜绝 CAV→Cavitation、CRYPTO→区块链、FAST→海运、FM⊂SEFM 这类误配污染检索。
+- **issn_l 归并实测 0 个多 source venue**：OpenAlex 并未按 issn_l 分裂改名期刊（计划预判的「最大数据坑」在此数据未出现）。
+- **会议覆盖普遍偏低**（OSDI works=319、MICCAI 44、EUROCRYPT 102）：OpenAlex 会议收录不全，coverage-report 如实标 coverageWarning（约 400 条）。
+- **人工裁决 9 个 override**（`data/manual/overrides.json`）：TPAMI/ICML/NeurIPS 锚点 + OSDI/NSDI/ACM SIGOPS ATC/EUROCRYPT/FM/ASE（A 级演示关键）。
+- **43 个未解析 + 141 条核对清单**（`data/review/unresolved.md`，含未解析/中置信/歧义，A 级优先）：裁不完标 unresolved 不阻塞，退出 source 过滤，About 页如实展示。
+- **额度**：M1 一次性建设累计 ≈$0.65（search $0.001 / filter $0.0001 / 单条 ID 免费）；全量响应缓存 `data/cache/openalex/`，调参重跑零花费。

@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 import { parseCsv } from "@/scripts/lib/csv.mjs";
-import { collapseWhitespace, dblpKeyFromUrl, matchKey } from "@/scripts/lib/normalize.mjs";
+import { collapseWhitespace, coreSearchTerm, dblpKeyFromUrl, matchKey } from "@/scripts/lib/normalize.mjs";
 import {
   EXPECTED_COUNTS,
   assertExpectedCounts,
@@ -102,6 +102,15 @@ describe("normalize", () => {
     expect(dblpKeyFromUrl("https://dblp.org/db/conf/internetware/index.html")).toBe("internetware");
     expect(dblpKeyFromUrl("https://www.journals.elsevier.com/cognition/")).toBe("");
     expect(dblpKeyFromUrl("")).toBe("");
+  });
+
+  it("coreSearchTerm strips stopwords and org prefixes", () => {
+    expect(coreSearchTerm("USENIX Symposium on Operating Systems Design and Implementations")).toBe(
+      "operating systems design implementations",
+    );
+    expect(coreSearchTerm("International Conference on Medical Image Computing and Computer-Assisted Intervention")).toBe(
+      "medical image computing computer assisted intervention",
+    );
   });
 });
 
