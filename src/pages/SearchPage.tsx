@@ -15,6 +15,7 @@ export default function SearchPage() {
   const loadCatalog = useSearchStore((s) => s.loadCatalog);
   const query = useSearchStore((s) => s.query);
   const filters = useSearchStore((s) => s.filters);
+  const view = useSearchStore((s) => s.view);
   const [detail, setDetail] = useState<Paper | null>(null);
   const [open, setOpen] = useState(false);
   const ready = useRef(false);
@@ -41,6 +42,8 @@ export default function SearchPage() {
       yearFrom: from ? Number(from) : undefined,
       yearTo: to ? Number(to) : undefined,
     });
+    const v = params.get("view");
+    st.setView(v === "list" || v === "graph" ? v : "roadmap");
     if (q) st.search();
     ready.current = true;
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -56,8 +59,9 @@ export default function SearchPage() {
     if (filters.types.length) p.set("type", filters.types.join(","));
     if (filters.yearFrom) p.set("from", String(filters.yearFrom));
     if (filters.yearTo) p.set("to", String(filters.yearTo));
+    p.set("view", view);
     setParams(p, { replace: true });
-  }, [query, filters, setParams]);
+  }, [query, filters, view, setParams]);
 
   if (catalogError) {
     return <div className="rounded-lg border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive">{catalogError}</div>;

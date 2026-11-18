@@ -38,6 +38,14 @@ export function PaperCard({ paper, onOpen }: { paper: Paper; onOpen: (p: Paper) 
         <span>{venue?.abbr || paper.venue || "未知来源"}</span>
         <span>· {paper.publication_year ?? "—"}</span>
         <span>· 引用 {paper.cited_by_count}</span>
+        {paper.refsTruncated && (
+          <span
+            className="cursor-help text-muted-foreground/70"
+            title={`参考文献共 ${paper.refsTotal} 条，截断至前 50 条参与路线图/图谱构建`}
+          >
+            · refs 50/{paper.refsTotal}
+          </span>
+        )}
         {doi && (
           <a href={doi} target="_blank" rel="noreferrer" className="text-primary underline-offset-2 hover:underline">
             DOI

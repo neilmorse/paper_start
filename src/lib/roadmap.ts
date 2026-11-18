@@ -5,6 +5,8 @@ import type { Paper, Rank } from "./types";
 export const MILESTONE_CAP = 5;
 export const SURVEY_CAP = 4;
 export const SOTA_CAP = 8;
+// 窗口内 SOTA 候选少于此数时，store 触发一次「近两年+引用降序」补充检索（单批来源才补，额度友好）。
+export const SOTA_SUPPLEMENT_MIN = 3;
 export const MILESTONE_MIN_CITED = 100;
 export const SURVEY_MIN_CITED = 20;
 export const MILESTONE_AGE = 5;
