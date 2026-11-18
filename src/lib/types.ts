@@ -94,6 +94,19 @@ export interface LibraryItem {
   note: string;
 }
 
+export interface RepoHit {
+  fullName: string;
+  url: string;
+  description: string | null;
+  stars: number;
+  language: string | null;
+  license: string | null;
+  pushedAt: string | null;
+  fork: boolean;
+  archived: boolean;
+  score: number;
+}
+
 export const DEFAULT_FILTERS: SearchFilters = { ranks: ["A"], domains: [], types: [] };
 
 export const EXAMPLE_QUERIES = ["graph neural network", "large language model", "diffusion model"];

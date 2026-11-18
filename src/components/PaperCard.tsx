@@ -1,8 +1,9 @@
-import { BookmarkCheckIcon, BookmarkIcon } from "lucide-react";
+import { BookmarkCheckIcon, BookmarkIcon, Code2Icon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { safeHref } from "@/src/lib/api";
 import { venueForSource } from "@/src/lib/ccf";
 import type { Paper } from "@/src/lib/types";
+import { useGithubStore } from "@/src/store/github";
 import { useLibraryStore } from "@/src/store/library";
 import { useSearchStore } from "@/src/store/search";
 import { CcfBadge } from "./CcfBadge";
@@ -14,6 +15,7 @@ export function PaperCard({ paper, onOpen }: { paper: Paper; onOpen: (p: Paper) 
   const saved = useLibraryStore((s) => s.has(paper.id));
   const add = useLibraryStore((s) => s.add);
   const remove = useLibraryStore((s) => s.remove);
+  const gh = useGithubStore((s) => s.byWorkId[paper.id]);
   const doi = safeHref(paper.doi);
   const oa = safeHref(paper.oaUrl);
 
@@ -44,6 +46,14 @@ export function PaperCard({ paper, onOpen }: { paper: Paper; onOpen: (p: Paper) 
             title={`参考文献共 ${paper.refsTotal} 条，截断至前 50 条参与路线图/图谱构建`}
           >
             · refs 50/{paper.refsTotal}
+          </span>
+        )}
+        {gh?.status === "ready" && gh.repos.length > 0 && (
+          <span
+            className="inline-flex cursor-help items-center gap-0.5 text-emerald-600"
+            title="已检索到相关 GitHub 仓库（非官方认证），见详情"
+          >
+            <Code2Icon className="size-3" /> 有相关仓库
           </span>
         )}
         {doi && (
