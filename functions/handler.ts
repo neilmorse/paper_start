@@ -9,8 +9,12 @@ const WORKS_TTL = 30 * 60 * 1000;
 const searchCache = new LruTtlCache(500);
 const worksCache = new LruTtlCache(500);
 
+// 综述 referenced_works 可达 200+，确定性截断前 50（上游顺序），refsTotal/refsTruncated 如实标注
+const REFS_CAP = 50;
 const WORK_SELECT =
-  "id,doi,title,display_name,publication_year,cited_by_count,authorships,primary_location,biblio,type,open_access,ids";
+  "id,doi,title,display_name,publication_year,cited_by_count,authorships,primary_location,biblio,type,open_access,ids,referenced_works";
+const SORT_WHITELIST = new Set(["cited_by_count:desc", "publication_year:desc"]);
+const TYPE_WHITELIST = new Set(["article", "review"]);
 
 // per-IP 令牌桶 120req/min（一次全目录检索 ≈8 底层请求，共享 NAT 评委不误伤）
 const RATE = 120;
@@ -40,8 +44,11 @@ function sourceIdOf(src: { id?: string } | null): string {
 }
 
 // 服务端二次投影：作者裁前 8 只留名；列表不含 abstract_inverted_index；含 biblio + source.type。
+// countries=全部作者机构国家去重排序；firstAuthorCountry 仅取第一作者第一机构，不做跨作者回落。
 function projectWork(w: Record<string, any>, withAbstract = false): Record<string, unknown> {
   const src = w.primary_location?.source ?? null;
+  const authorships: any[] = w.authorships ?? [];
+  const refs: string[] = Array.isArray(w.referenced_works) ? w.referenced_works : [];
   const out: Record<string, unknown> = {
     id: w.id,
     doi: w.doi ?? null,
@@ -50,7 +57,7 @@ function projectWork(w: Record<string, any>, withAbstract = false): Record<strin
     publication_year: w.publication_year ?? null,
     cited_by_count: w.cited_by_count ?? 0,
     type: w.type ?? null,
-    authors: (w.authorships ?? [])
+    authors: authorships
       .slice(0, 8)
       .map((a: any) => a.author?.display_name ?? "")
       .filter(Boolean),
@@ -60,6 +67,15 @@ function projectWork(w: Record<string, any>, withAbstract = false): Record<strin
     biblio: w.biblio ?? null,
     oaUrl: w.open_access?.oa_url ?? null,
     url: w.ids?.openalex ?? w.id ?? null,
+    referenced_works: refs.slice(0, REFS_CAP),
+    refsTotal: refs.length,
+    refsTruncated: refs.length > REFS_CAP,
+    countries: [
+      ...new Set(
+        authorships.flatMap((a) => (a.institutions ?? []).map((i: any) => i.country_code).filter(Boolean)),
+      ),
+    ].sort(),
+    firstAuthorCountry: authorships[0]?.institutions?.[0]?.country_code ?? null,
   };
   if (withAbstract) out.abstract_inverted_index = w.abstract_inverted_index ?? null;
   return out;
@@ -72,6 +88,8 @@ async function handleSearch(url: URL): Promise<Response> {
   const yearTo = url.searchParams.get("yearTo") ?? "";
   const perPage = Number(url.searchParams.get("perPage") ?? "25");
   const cursor = url.searchParams.get("cursor") ?? "*";
+  const sort = url.searchParams.get("sort") ?? "";
+  const type = url.searchParams.get("type") ?? "";
 
   if (!q && !sourcesRaw) return badInput("q 或 sources 必填");
   let sourceIds: string[] = [];
@@ -85,13 +103,17 @@ async function handleSearch(url: URL): Promise<Response> {
   for (const y of [yearFrom, yearTo]) {
     if (y && !/^\d{4}$/.test(y)) return badInput("年份须 YYYY");
   }
+  if (sort && !SORT_WHITELIST.has(sort)) return badInput("sort 须为 cited_by_count:desc 或 publication_year:desc");
+  if (type && !TYPE_WHITELIST.has(type)) return badInput("type 须为 article 或 review");
 
   const filterParts: string[] = [];
   if (sourceIds.length) filterParts.push(`primary_location.source.id:${sourceIds.join("|")}`);
   if (yearFrom) filterParts.push(`from_publication_year:${yearFrom}`);
   if (yearTo) filterParts.push(`to_publication_year:${yearTo}`);
+  if (type) filterParts.push(`type:${type}`);
   const params: Record<string, string> = { "per-page": String(perPage), cursor, select: WORK_SELECT };
   if (q) params.search = q;
+  if (sort) params.sort = sort;
   if (filterParts.length) params.filter = filterParts.join(",");
 
   const cacheKey = "search:" + JSON.stringify(params);

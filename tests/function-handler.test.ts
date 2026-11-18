@@ -31,12 +31,21 @@ const sampleWork = {
   publication_year: 2024,
   cited_by_count: 5,
   type: "article",
-  authorships: Array.from({ length: 10 }, (_, i) => ({ author: { display_name: `A${i}` } })),
+  authorships: Array.from({ length: 10 }, (_, i) => ({
+    author: { display_name: `A${i}` },
+    institutions:
+      i === 0 ? [{ country_code: "CN" }]
+      : i === 1 ? [{ country_code: "US" }]
+      : i === 2 ? [{ country_code: "CN" }]
+      : i === 3 ? [{}]
+      : [],
+  })),
   primary_location: { source: { id: "https://openalex.org/S199944782", display_name: "TPAMI", type: "journal" } },
   biblio: { volume: "1", issue: "2", first_page: "3", last_page: "4" },
   open_access: { oa_url: "https://oa.example" },
   ids: { openalex: "https://openalex.org/W1" },
   abstract_inverted_index: { hello: [0] },
+  referenced_works: Array.from({ length: 60 }, (_, i) => `https://openalex.org/W${100 + i}`),
 };
 
 describe("routing (gateway name replacement)", () => {
@@ -104,6 +113,80 @@ describe("projection / trimming", () => {
   it("/works validates W ids", async () => {
     expect((await handler(req("/works?ids=W1,BAD"))).status).toBe(400);
     expect((await handler(req("/works"))).status).toBe(400);
+  });
+  it("caps referenced_works at 50 in upstream order, flags refsTotal/refsTruncated", async () => {
+    fetchMock.mockResolvedValue(okJson(worksBody([sampleWork])));
+    const body = await (await handler(req("/search?q=graph"))).json();
+    const w = body.results[0];
+    expect(w.referenced_works).toHaveLength(50);
+    expect(w.referenced_works[0]).toBe("https://openalex.org/W100");
+    expect(w.referenced_works[49]).toBe("https://openalex.org/W149");
+    expect(w.refsTotal).toBe(60);
+    expect(w.refsTruncated).toBe(true);
+  });
+  it("refsTruncated false when refs ≤ 50", async () => {
+    fetchMock.mockResolvedValue(okJson(worksBody([{ ...sampleWork, referenced_works: ["https://openalex.org/W2"] }])));
+    const w = (await (await handler(req("/search?q=graph"))).json()).results[0];
+    expect(w.referenced_works).toEqual(["https://openalex.org/W2"]);
+    expect(w.refsTotal).toBe(1);
+    expect(w.refsTruncated).toBe(false);
+  });
+  it("countries dedup+sort across all authors; firstAuthorCountry from first author only", async () => {
+    fetchMock.mockResolvedValue(okJson(worksBody([sampleWork])));
+    const w = (await (await handler(req("/search?q=graph"))).json()).results[0];
+    expect(w.countries).toEqual(["CN", "US"]);
+    expect(w.firstAuthorCountry).toBe("CN");
+  });
+  it("firstAuthorCountry null without cross-author fallback", async () => {
+    const noFirstInst = {
+      ...sampleWork,
+      authorships: [
+        { author: { display_name: "A0" }, institutions: [] },
+        { author: { display_name: "A1" }, institutions: [{ country_code: "US" }] },
+      ],
+    };
+    fetchMock.mockResolvedValue(okJson(worksBody([noFirstInst])));
+    const w = (await (await handler(req("/search?q=graph"))).json()).results[0];
+    expect(w.firstAuthorCountry).toBeNull();
+    expect(w.countries).toEqual(["US"]);
+  });
+  it("/work projection also carries refs/countries", async () => {
+    fetchMock.mockResolvedValue(okJson(sampleWork));
+    const body = await (await handler(req("/work?id=W1"))).json();
+    expect(body.work.refsTotal).toBe(60);
+    expect(body.work.countries).toEqual(["CN", "US"]);
+  });
+});
+
+describe("search sort/type whitelist", () => {
+  it("passes whitelisted sort upstream and includes referenced_works in select", async () => {
+    fetchMock.mockResolvedValue(okJson(worksBody([])));
+    await handler(req("/search?q=graph&sort=cited_by_count:desc"));
+    const u = new URL(fetchMock.mock.calls[0][0]);
+    expect(u.searchParams.get("sort")).toBe("cited_by_count:desc");
+    expect(u.searchParams.get("select")).toContain("referenced_works");
+  });
+  it("accepts publication_year:desc", async () => {
+    fetchMock.mockResolvedValue(okJson(worksBody([])));
+    const res = await handler(req("/search?q=graph&sort=publication_year:desc"));
+    expect(res.status).toBe(200);
+    expect(new URL(fetchMock.mock.calls[0][0]).searchParams.get("sort")).toBe("publication_year:desc");
+  });
+  it("400 for non-whitelisted sort", async () => {
+    expect((await handler(req("/search?q=x&sort=bad"))).status).toBe(400);
+    expect((await handler(req("/search?q=x&sort=cited_by_count:asc"))).status).toBe(400);
+  });
+  it("type=review adds filter, type=bad → 400", async () => {
+    fetchMock.mockResolvedValue(okJson(worksBody([])));
+    await handler(req("/search?q=graph&type=review&yearFrom=2020"));
+    expect(new URL(fetchMock.mock.calls[0][0]).searchParams.get("filter")).toBe("from_publication_year:2020,type:review");
+    expect((await handler(req("/search?q=x&type=bad"))).status).toBe(400);
+  });
+  it("sort participates in cache key", async () => {
+    fetchMock.mockResolvedValue(okJson(worksBody([])));
+    await handler(req("/search?q=graph"));
+    await handler(req("/search?q=graph&sort=cited_by_count:desc"));
+    expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 });
 
