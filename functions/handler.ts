@@ -1,6 +1,7 @@
 // Qoder Sites app Function：OpenAlex 代理 + 缓存 + 错误映射 + LLM 桩。
 // 纯函数 handler(req)，index.ts 保持 Deno.serve(handler)。相对导入 + 显式 .ts 扩展名。
 import { LruTtlCache } from "./cache.ts";
+import { handleGithub } from "./github.ts";
 import { llmConfigured, handleAi } from "./llm.ts";
 import { openalexFetch, openalexKey, UpstreamError } from "./openalex.ts";
 
@@ -158,7 +159,7 @@ async function handleWork(url: URL): Promise<Response> {
   return json({ ok: true, work: projectWork(body, true) });
 }
 
-const GET_PATHS = ["/health", "/search", "/works", "/work"];
+const GET_PATHS = ["/health", "/search", "/works", "/work", "/github"];
 
 export async function handler(req: Request): Promise<Response> {
   const url = new URL(req.url);
@@ -177,6 +178,7 @@ export async function handler(req: Request): Promise<Response> {
     if (path === "/search" && req.method === "GET") return await handleSearch(url);
     if (path === "/works" && req.method === "GET") return await handleWorks(url);
     if (path === "/work" && req.method === "GET") return await handleWork(url);
+    if (path === "/github" && req.method === "GET") return await handleGithub(url);
     if (path === "/ai/keywords" || path === "/ai/survey") return await handleAi(path, req);
     if (GET_PATHS.includes(path)) return json({ ok: false, error: "method_not_allowed" }, 405, { Allow: "GET" });
     return json({ ok: false, error: "not_found" }, 404);
