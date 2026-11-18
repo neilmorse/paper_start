@@ -137,30 +137,20 @@ body {
 }
 
 /* 设计参数使用工程原有样式管理，工作台只临时覆盖变量。 */
+/* M7 默认深色学术风：墨蓝底 + 纸白字 + 鎏金强调；全部经 --site-* Nudge 变量消费，工作台可覆盖。 */
 :root {
-  --site-bg: #ffffff;
-  --site-fg: #171717;
-  --site-accent: #171717;
-  --site-on-accent: #fafafa;
-  --site-surface: #f5f5f5;
-  --site-muted: #737373;
-  --site-border: #e5e5e5;
-  --site-font: Arial, Helvetica, sans-serif;
+  --site-bg: #0e1420;
+  --site-fg: #e9e4d8;
+  --site-accent: #c8a24a;
+  --site-on-accent: #10141c;
+  --site-surface: #171f2c;
+  --site-muted: #9aa7b4;
+  --site-border: #2a3449;
+  --site-font: Georgia, "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", serif;
   --site-radius: 10px;
   --site-space: 1;
   --site-type: 1;
   --site-motion: 1;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --site-bg: #0a0a0a;
-    --site-fg: #ededed;
-    --site-accent: #ededed;
-    --site-on-accent: #171717;
-    --site-surface: #262626;
-    --site-muted: #a1a1a1;
-    --site-border: #ffffff1a;
-  }
 }
 
 :root {
@@ -176,6 +166,13 @@ body {
   --accent-foreground: var(--site-fg);
   --border: var(--site-border);
   --radius: var(--site-radius);
+  --card: var(--site-surface);
+  --card-foreground: var(--site-fg);
+  --popover: var(--site-surface);
+  --popover-foreground: var(--site-fg);
+  --input: var(--site-border);
+  --ring: var(--site-muted);
+  --destructive: #ff6467;
 }
 @theme inline {
   --spacing: calc(0.25rem * var(--site-space));
@@ -206,7 +203,7 @@ body {
 .md-report h2 { margin-top: 1rem; font-weight: 500; }
 .md-report h3 { margin-top: 0.5rem; font-weight: 500; }
 .md-report p { margin: 0.25rem 0; }
-.md-report table { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+.md-report table { width: 100%; border-collapse: collapse; font-size: 0.75rem; display: block; overflow-x: auto; }
 .md-report th, .md-report td { border: 1px solid var(--border); padding: 0.25rem 0.5rem; text-align: left; }
 .md-report pre { overflow-x: auto; background: var(--muted); border-radius: 0.375rem; padding: 0.5rem; }
 .md-report code { font-size: 0.7rem; }

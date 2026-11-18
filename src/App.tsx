@@ -13,7 +13,7 @@ const navClass = ({ isActive }: { isActive: boolean }) =>
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="mx-auto flex min-h-dvh max-w-5xl flex-col gap-6 p-6">
+      <div className="mx-auto flex min-h-dvh max-w-5xl flex-col gap-6 p-4 sm:p-6">
         <header className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-4">
           <div>
             <h1 className="text-xl font-semibold tracking-tight">PaperStart</h1>

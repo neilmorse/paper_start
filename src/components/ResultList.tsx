@@ -40,7 +40,7 @@ export function ResultList({ onOpen }: { onOpen: (p: Paper) => void }) {
   }
   return (
     <Tabs value={view} onValueChange={(v) => setView(v as ResultView)} className="gap-3">
-      <TabsList>
+      <TabsList className="flex-wrap">
         <TabsTrigger value="roadmap">阅读路线图</TabsTrigger>
         <TabsTrigger value="list">列表（{windowCount}）</TabsTrigger>
         <TabsTrigger value="graph">图谱</TabsTrigger>
