@@ -1,9 +1,12 @@
+import { lazy, Suspense } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { Paper } from "@/src/lib/types";
 import { useSearchStore, type ResultView } from "@/src/store/search";
 import { PaperCard } from "./PaperCard";
 import { RoadmapView } from "./RoadmapView";
+
+const GraphView = lazy(() => import("./GraphView"));
 
 function EmptyState({ text }: { text: string }) {
   return <div className="rounded-lg border border-dashed border-border p-8 text-center text-sm text-muted-foreground">{text}</div>;
@@ -40,6 +43,7 @@ export function ResultList({ onOpen }: { onOpen: (p: Paper) => void }) {
       <TabsList>
         <TabsTrigger value="roadmap">阅读路线图</TabsTrigger>
         <TabsTrigger value="list">列表（{windowCount}）</TabsTrigger>
+        <TabsTrigger value="graph">图谱</TabsTrigger>
       </TabsList>
       <TabsContent value="roadmap">
         <RoadmapView onOpen={onOpen} />
@@ -51,6 +55,11 @@ export function ResultList({ onOpen }: { onOpen: (p: Paper) => void }) {
             <PaperCard key={p.id} paper={p} onOpen={onOpen} />
           ))}
         </div>
+      </TabsContent>
+      <TabsContent value="graph">
+        <Suspense fallback={<Skeleton className="h-[560px] rounded-lg" />}>
+          <GraphView onOpen={onOpen} />
+        </Suspense>
       </TabsContent>
     </Tabs>
   );
