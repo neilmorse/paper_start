@@ -56,3 +56,25 @@ export async function apiGet<T>(subpath: string, params: Record<string, string> 
   if (!res.ok) throw new ApiError(body?.error ?? "upstream_error", body?.message);
   return body as T;
 }
+
+export async function apiPost<T>(subpath: string, body: unknown): Promise<T> {
+  const u = new URL("/functions/v1/app" + subpath, window.location.origin);
+  let res: Response;
+  try {
+    res = await fetch(u, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(body),
+    });
+  } catch {
+    throw new TypeError("network_error");
+  }
+  let b: any = null;
+  try {
+    b = await res.json();
+  } catch {
+    b = null;
+  }
+  if (!res.ok) throw new ApiError(b?.error ?? "upstream_error", b?.message);
+  return b as T;
+}

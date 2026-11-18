@@ -179,7 +179,7 @@ export async function handler(req: Request): Promise<Response> {
     if (path === "/works" && req.method === "GET") return await handleWorks(url);
     if (path === "/work" && req.method === "GET") return await handleWork(url);
     if (path === "/github" && req.method === "GET") return await handleGithub(url);
-    if (path === "/ai/keywords" || path === "/ai/survey") return await handleAi(path, req);
+    if (path === "/ai/keywords" || path === "/ai/survey" || path === "/ai/proposal") return await handleAi(path, req);
     if (GET_PATHS.includes(path)) return json({ ok: false, error: "method_not_allowed" }, 405, { Allow: "GET" });
     return json({ ok: false, error: "not_found" }, 404);
   } catch (e) {
