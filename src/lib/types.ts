@@ -53,6 +53,11 @@ export interface Paper {
   biblio: Biblio | null;
   oaUrl: string | null;
   url: string | null;
+  referenced_works: string[];
+  refsTotal: number;
+  refsTruncated: boolean;
+  countries: string[];
+  firstAuthorCountry: string | null;
   abstract_inverted_index?: Record<string, number[]> | null;
 }
 
