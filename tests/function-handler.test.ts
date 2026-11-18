@@ -87,7 +87,7 @@ describe("search validation", () => {
     fetchMock.mockResolvedValue(okJson(worksBody([])));
     await handler(req("/search?q=graph&sources=S1,S2&yearFrom=2020&yearTo=2024"));
     const u = new URL(fetchMock.mock.calls[0][0]);
-    expect(u.searchParams.get("filter")).toBe("primary_location.source.id:S1|S2,from_publication_year:2020,to_publication_year:2024");
+    expect(u.searchParams.get("filter")).toBe("primary_location.source.id:S1|S2,from_publication_date:2020-01-01,to_publication_date:2024-12-31");
     expect(u.searchParams.get("search")).toBe("graph");
   });
 });
@@ -179,7 +179,7 @@ describe("search sort/type whitelist", () => {
   it("type=review adds filter, type=bad → 400", async () => {
     fetchMock.mockResolvedValue(okJson(worksBody([])));
     await handler(req("/search?q=graph&type=review&yearFrom=2020"));
-    expect(new URL(fetchMock.mock.calls[0][0]).searchParams.get("filter")).toBe("from_publication_year:2020,type:review");
+    expect(new URL(fetchMock.mock.calls[0][0]).searchParams.get("filter")).toBe("from_publication_date:2020-01-01,type:review");
     expect((await handler(req("/search?q=x&type=bad"))).status).toBe(400);
   });
   it("sort participates in cache key", async () => {

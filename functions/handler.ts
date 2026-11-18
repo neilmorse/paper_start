@@ -108,8 +108,9 @@ async function handleSearch(url: URL): Promise<Response> {
 
   const filterParts: string[] = [];
   if (sourceIds.length) filterParts.push(`primary_location.source.id:${sourceIds.join("|")}`);
-  if (yearFrom) filterParts.push(`from_publication_year:${yearFrom}`);
-  if (yearTo) filterParts.push(`to_publication_year:${yearTo}`);
+  // 上游年份区间合法字段为 from/to_publication_date（from_publication_year 会被 400 拒绝，实测）
+  if (yearFrom) filterParts.push(`from_publication_date:${yearFrom}-01-01`);
+  if (yearTo) filterParts.push(`to_publication_date:${yearTo}-12-31`);
   if (type) filterParts.push(`type:${type}`);
   const params: Record<string, string> = { "per-page": String(perPage), cursor, select: WORK_SELECT };
   if (q) params.search = q;
