@@ -64,7 +64,7 @@
 | 端点（`/functions/v1/app/` 下） | 说明 |
 |---|---|
 | GET `/health` | `{ok, openalexKeyConfigured, llmConfigured}` 只暴露布尔 |
-| GET `/search` | `q, sources(≤100 个 S ID), yearFrom, yearTo, perPage(≤50), cursor`；校验 `^S\d+$` 与数量；拼 `filter=primary_location.source.id:...,from_publication_year:...`；`select=` 裁剪 + 服务端二次投影（作者裁前 8 只留名，**列表不返回 abstract_inverted_index**；含 biblio 与 source.type，供收藏 snapshot 离线导出） |
+| GET `/search` | `q, sources(≤100 个 S ID), yearFrom, yearTo, perPage(≤50), cursor, sort, type`；校验 `^S\d+$` 与数量；拼 `filter=primary_location.source.id:...,from_publication_date:YYYY-01-01,to_publication_date:YYYY-12-31`（**四审实测修正：上游拒绝 from/to_publication_year**）；`sort`∈{cited_by_count:desc,publication_year:desc}、`type`∈{article,review} 白名单；`select=` 裁剪 + 服务端二次投影（作者裁前 8 只留名，**列表不返回 abstract_inverted_index**；含 biblio 与 source.type、referenced_works≤50+refsTotal/refsTruncated、countries/firstAuthorCountry，供收藏 snapshot 离线导出与路线图/报告） |
 | GET `/works` | `ids=W..\|W..` ≤100 批量取文（图谱 1-hop） |
 | GET `/work` | 单篇详情含 abstract_inverted_index（前端还原摘要） |
 | POST `/ai/keywords`、`/ai/survey` | M6 实现；M2 起校验 method/body≤64KB |
@@ -241,3 +241,21 @@ curl -i -X POST 'https://<站点>/functions/v1/app/search' # 必须 405
 - **O M1 额度/排期一致（中）**：Step3 跨 D2–D3 上午（386 会议×≤2 search≈$0.77 逼近 $1/天）；全称仅低置信回落；scripts 加 mailto
 - **P M2 测试补 3 例（中）**：令牌桶 120req/min、TTL 过期、LRU 500 逐出
 - **Q 小项包（低）**：恢复 Codex for Open Source 动机（移植遗漏）；额度数学分列（CCF-A ≈1000 次/天 vs 全目录 ≈120 次/天）；95 venue 措辞；About 页 React 渲染 JSON；结果窗口/计数明示；评委第③步改切领域/年份；GIF 入材料；AI 隐私声明；href 协议校验；站点定名 check_subdomain；LLM 50s 超时待实测；11/24 改内部锚点；存储历史版本占配额；认证遇阻联系主办方
+
+**2026-11-18 四审合并（差异化方向落地 + 实测修正，Qoder CN 会话）**：
+- **R1 进度事实**：M0–M3 于 D1（11/17）完成并推送（站点含发布记录），超前原排期约 4 天；剩余窗口按 R14 重排，11/22 首次公开锚点不变
+- **R2 三个差异化方向（用户确认）**：①阅读路线图为主视图（M4 改形态：路线图默认 Tab，力导向图谱降辅 Tab，1-hop 共用）②开题报告「元数据为骨、LLM 为翼」（M6 升级：结构化零 LLM 依赖先锁定，LLM 只填背景/Gap）③GitHub 资产卡片（新增 M5.5，双段探针门禁）
+- **R3 数据层扩展**：WORK_SELECT + referenced_works（REFS_CAP=50 上游顺序截断 + refsTotal/refsTruncated 如实标注）；投影 + countries（全作者机构国家去重排序）/firstAuthorCountry（第一作者第一机构，**不跨作者回落**）；/search + sort/type 白名单（非法 400）
+- **R4 年份过滤 bug 修复（实测）**：上游 400 拒绝 `from_publication_year`/`to_publication_year`（合法字段为 from/to_publication_date）；改 `from_publication_date:YYYY-01-01`/`to_publication_date:YYYY-12-31`；M2 起潜伏、SOTA 补充检索首次真实触发才暴露；handler 测试断言同步
+- **R5 路线图规则定死（可测/可复现）**：milestone=year≤Y−5 且 cited≥100，cited↓→year↑→id↑，cap5；survey=type review 或标题 /\b(survey|review|overview|tutorial|systematic)\b/i 且 cited≥20，cap4；sota=year≥Y−2，rank(A0/B1/C2/无3)↑→cited↓→id↑，cap8；跨阶段去重优先级 milestone>survey>sota；Gap=开题报告 CTA；顶部启发式声明（非人工策展）+ 空阶段诚实文案 + refsTruncated 角标
+- **R6 SOTA 补充检索（实测偏差适配）**：GNN 演示 relevance 窗口 SOTA 仅 1 篇 → 候选 <SOTA_SUPPLEMENT_MIN=3 且来源单批时补 1 次 `yearFrom=Y−2 + sort=cited_by_count:desc + type=article + perPage=25`；多批/兜底不补（避免部分样本冒充全量）；UI 标注「SOTA 阶段含补充检索」；store 测试覆盖触发/不触发四态
+- **R7 1-hop 两段式确定性选取**：取回前 cited_by_count 不可知 → 预选 freq↓→id↑ 截 budget=min(150−core,200)（≤2 次 /works filter 请求）；取回后终排 freq↓→cited↓→id↑；图谱 CORE_CAP=100 保扩展席位、总节点 150；路线图用全量 core+≤200 扩展
+- **R8 demo 兜底重生成**：3 主文件含 refs/countries + 新增 `<slug>-refs.json` 静态 1-hop 批次；兜底模式路线图/图谱离线可渲染；api-shape 守卫断言新字段存在 + GNN 三阶段非空（评委演示价值锁定）
+- **R9 GitHub（M5.5）**：`GET /github?title=`（4..200 字符）代码内固定出站 api.github.com；24h LRU(200) + 403/429 cooldown（读 X-RateLimit-Reset，缺省 now+60s）；可选 GITHUB_TOKEN（5000/hr vs 共享出口未认证 60/hr）；scoreRepo=标题词命中×3+log(stars)+近半年活跃−fork/archived，**仅排序不声称权威**；UI 强制「相关仓库（非官方认证，按标题模糊匹配）」；Sheet 按钮懒加载 + Card 徽章仅用缓存；GitHub 错误**不触发** OpenAlex demo 兜底；本地探针通过（GAT Top1=一作官方仓库 PetarV-/GAT ★3559）；**平台出口探针待部署授权，不可达即砍线①**；PapersWithCode 已停运不使用（写入 data-sources/About）
+- **R10 开题报告（M6-1，不可砍）**：五节中文 markdown（研究背景/国内外现状对比矩阵/技术路线梳理/Research Gap/参考文献+BibTeX 附录复用 bibtex 库）；矩阵主口径=第一作者第一机构国家三行（**unknown 单列不摊派**、最大余数法占比整数和=100）+ CN 合作副口径 + 口径脚注（机构元数据滞后声明）；时间线 year 降序分组 top3；REPORT_PAPER_CAP=40（引用降序）；react-markdown + remark-gfm（GFM 表格）**禁 rehype-raw**；ProposalPanel lazy chunk；Gap 阶段 CTA 接入
+- **R11 M6-2 双插槽隔离**：`POST /ai/proposal` 只产 {background,gap}（各≤4000、合计≤8000），矩阵/时间线/参考文献永远确定性生成 → 幻觉不污染结构化部分；围栏剥离 + 畸形→ai_bad_response(502)；50s 超时（**平台 Function 上限未文档化，部署后实测再调**）；无 key 503 前端置灰 + tooltip；AI 段落强制警示行；摘要补取走免费单条 /work（top8）；隐私声明 About 更新（AI 外发 + GitHub 标题外发 + 结构化本地计算）；/ai/keywords 仍 501（砍线③）
+- **R12 收藏 M5 完成**：persist migrate + **同版本 merge 归一化**（旧 snapshot 缺 countries/domain 补齐）；配额安全 storage（超限 toast 引导导出）；标签/三态/笔记/批量选择/批量状态/批量删除（confirm）；BibTeX golden fixture（entry type 按 venue type、key 冲突 a/b/c、转义、缺省省略）；JSON 导出 {schemaVersion:1,items}；snapshot + countries/domain
+- **R13 工程**：store (query,filters) memoize 防重复烧额度（**兜底态允许重试真实检索**）；扩展失败不阻塞主结果（expandError 灰字）；StrictMode dev 双调用属开发态现象（生产不重复）；GraphView/ProposalPanel lazy chunk（主包 gzip ≈123KB）
+- **R14 新排期（supersede 原排期表）**：D2–D3 11/18–19 M4a（数据层+纯函数+主视图）→ D4 11/20 M4b 图谱 → D5–D6 11/21–22 M5 + **首次公开（锚点不变）** → D7 11/23 GitHub 双段探针（不可达当场砍①）→ D8 11/24 GitHub UI + 缓冲垫 → D9 11/25 M6-1 锁定 → D10 11/26 M6-2 + 平台超时实测 → D11 11/27 主题精修（消费 Nudge 变量）→ D12 11/28 材料+演练 → D13 11/29 最终发布+提交 → 11/30 上午纯复查。**砍线序**：①GitHub → ②LLM 叙述（M6-1 已完整）→ ③图谱 Tab/keywords → ④JSON 导入 → ⑤1-hop 降集合内。**不可砍**：CCF 检索、路线图核心、收藏、BibTeX、公开部署、过程截图、结构化开题报告
+- **R15 Secret 分期更新**：D6 ["OPENALEX_API_KEY"] → D8 +GITHUB_TOKEN（仅用户已录才声明）→ D10 +LLM_BASE_URL/LLM_MODEL/LLM_API_KEY；SOP 其余沿用 M7（未知结果先 get_publish_status、禁换 actionId、ensure_backend 需用户授权）
+- **R16 上游稳定性实测**：tokeasy.ai 间歇 TLS unexpected eof（与 git push 瞬时 TLS 错误同源）；LLM 直连简单 prompt 200/6.2s 正常；客户端错误映射（ai_timeout/ai_upstream_error/ai_bad_response）+ 前端重试覆盖该抖动；若平台出口持续不可用按砍线②处理

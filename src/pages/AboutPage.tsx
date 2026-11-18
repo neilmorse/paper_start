@@ -27,7 +27,7 @@ export default function AboutPage() {
       <section>
         <h2 className="text-lg font-semibold">关于 PaperStart</h2>
         <p className="mt-2 leading-relaxed text-muted-foreground">
-          以 CCF 推荐目录（2026 年 3 月第七版，681 个期刊/会议）为一等公民的文献调研工作台：目录内检索、A/B/C 分级与领域过滤、引用图谱、收藏管理与 BibTeX 导出。文献元数据来自 OpenAlex，经服务端代理与缓存调用。
+          以 CCF 推荐目录（2026 年 3 月第七版，681 个期刊/会议）为一等公民的文献调研工作台：目录内检索、A/B/C 分级与领域过滤、四阶段阅读路线图（奠基作→综述→近两年 SOTA→Research Gap）、引用图谱、开题报告草稿、收藏管理与 BibTeX 导出。文献元数据来自 OpenAlex，经服务端代理与缓存调用。
         </p>
       </section>
 
@@ -82,14 +82,14 @@ export default function AboutPage() {
       <section>
         <h3 className="font-semibold">隐私</h3>
         <p className="mt-1 leading-relaxed text-muted-foreground">
-          收藏库仅保存在你的浏览器 localStorage，不上传服务器；清理浏览器数据会丢失，请用导出兜底。可选 AI 功能会将选中论文的快照与摘要外发到你配置的第三方 LLM 服务；不配置则完全不外发。
+          收藏库仅保存在你的浏览器 localStorage，不上传服务器；清理浏览器数据会丢失，请用导出兜底。可选 AI 补全会将选中论文的快照与摘要外发到你配置的第三方 LLM 服务（生成段落强制标注 AI 警示）；不配置则完全不外发。代码仓库检索会将论文标题发送到 GitHub 搜索 API（按标题模糊匹配，非官方认证）。路线图分层与开题报告的矩阵/时间线/参考文献为元数据确定性计算，不外发、可逐条核对。
         </p>
       </section>
 
       <section>
         <h3 className="font-semibold">数据来源</h3>
         <p className="mt-1 leading-relaxed text-muted-foreground">
-          CCF 目录底稿来自 hitfyd/ShowJCR（仓库 GPL-3.0，目录本身为官方公开事实数据）与 ccfddl/ccf-deadlines（MIT）；文献元数据来自 OpenAlex。venue→source 映射为本项目自建资产。
+          CCF 目录底稿来自 hitfyd/ShowJCR（仓库 GPL-3.0，目录本身为官方公开事实数据）与 ccfddl/ccf-deadlines（MIT）；文献元数据来自 OpenAlex；代码仓库信息来自 GitHub 搜索 API（PapersWithCode 已停运，不使用）。venue→source 映射为本项目自建资产。
         </p>
       </section>
     </div>
