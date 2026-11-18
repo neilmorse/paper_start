@@ -1,5 +1,9 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { ApiError, apiGet, isFallbackError, restoreAbstract, safeHref } from "@/src/lib/api";
+import { buildIndex, venueForSource } from "@/src/lib/ccf";
+import { buildRoadmap } from "@/src/lib/roadmap";
 
 describe("safeHref (untrusted upstream links)", () => {
   it("allows http and https", () => {
@@ -70,5 +74,41 @@ describe("apiGet", () => {
   it("malformed non-JSON error body → upstream_error", async () => {
     fetchMock.mockResolvedValue({ ok: false, status: 502, json: async () => { throw new Error("bad json"); } });
     await expect(apiGet("/search")).rejects.toMatchObject({ code: "upstream_error" });
+  });
+});
+
+describe("demo fallback fixtures (roadmap data prerequisites)", () => {
+  const root = process.cwd();
+  const read = (rel: string) => JSON.parse(readFileSync(join(root, rel), "utf8"));
+  const slugs = ["graph-neural-network", "large-language-model", "diffusion-model"];
+
+  for (const slug of slugs) {
+    it(`${slug}: results carry refs/countries projection`, () => {
+      const body = read(`public/data/demo/${slug}.json`);
+      expect(body.results.length).toBeGreaterThan(0);
+      const w = body.results[0];
+      expect(Array.isArray(w.referenced_works)).toBe(true);
+      expect(w.referenced_works.length).toBeLessThanOrEqual(50);
+      expect(typeof w.refsTotal).toBe("number");
+      expect(typeof w.refsTruncated).toBe("boolean");
+      expect(Array.isArray(w.countries)).toBe(true);
+      expect(w).toHaveProperty("firstAuthorCountry");
+    });
+    it(`${slug}-refs: static expansion batch non-empty`, () => {
+      const body = read(`public/data/demo/${slug}-refs.json`);
+      expect(body.results.length).toBeGreaterThan(0);
+      expect(body.results[0]).toHaveProperty("referenced_works");
+    });
+  }
+
+  it("GNN demo + real CCF catalog yields non-empty milestone/survey/sota", () => {
+    const index = buildIndex(read("public/data/ccf-venues.json"));
+    const rankOf = (sid: string) => venueForSource(index, sid)?.rank;
+    const core = read("public/data/demo/graph-neural-network.json").results;
+    const refs = read("public/data/demo/graph-neural-network-refs.json").results;
+    const r = buildRoadmap(core, refs, rankOf, 2026);
+    expect(r.milestone.length).toBeGreaterThan(0);
+    expect(r.survey.length).toBeGreaterThan(0);
+    expect(r.sota.length).toBeGreaterThan(0);
   });
 });
