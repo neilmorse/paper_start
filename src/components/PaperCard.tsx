@@ -27,7 +27,7 @@ export function PaperCard({ paper, onOpen }: { paper: Paper; onOpen: (p: Paper) 
           variant="ghost"
           size="icon"
           aria-label={saved ? "取消收藏" : "收藏"}
-          onClick={() => (saved ? remove(paper.id) : add(paper, rank))}
+          onClick={() => (saved ? remove(paper.id) : add(paper, rank, venue?.domain))}
         >
           {saved ? <BookmarkCheckIcon className="size-4 text-primary" /> : <BookmarkIcon className="size-4" />}
         </Button>

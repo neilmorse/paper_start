@@ -69,6 +69,31 @@ export interface SearchFilters {
   yearTo?: number;
 }
 
+export interface LibrarySnapshot {
+  title: string;
+  authors: string[];
+  year: number | null;
+  venue: string | null;
+  sourceId: string;
+  rank?: string;
+  domain?: string | null;
+  type: string | null;
+  biblio: Biblio | null;
+  doi: string | null;
+  url: string | null;
+  citedByCount: number;
+  countries?: string[];
+}
+
+export interface LibraryItem {
+  workId: string;
+  savedAt: string;
+  snapshot: LibrarySnapshot;
+  tags: string[];
+  status: "unread" | "reading" | "done";
+  note: string;
+}
+
 export const DEFAULT_FILTERS: SearchFilters = { ranks: ["A"], domains: [], types: [] };
 
 export const EXAMPLE_QUERIES = ["graph neural network", "large language model", "diffusion model"];
