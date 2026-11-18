@@ -1,10 +1,13 @@
-import { useMemo } from "react";
+import { Suspense, lazy, useMemo, useState } from "react";
 import { InfoIcon, Loader2Icon } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { venueForSource } from "@/src/lib/ccf";
 import { buildRoadmap } from "@/src/lib/roadmap";
 import type { Paper } from "@/src/lib/types";
 import { useSearchStore } from "@/src/store/search";
 import { PaperCard } from "./PaperCard";
+
+const ProposalPanel = lazy(() => import("./ProposalPanel").then((m) => ({ default: m.ProposalPanel })));
 
 const STAGES = [
   { key: "milestone", no: 1, title: "必读奠基作", rule: "发表满 5 年且引用 ≥100，按引用数降序，最多 5 篇" },
@@ -21,6 +24,7 @@ export function RoadmapView({ onOpen }: { onOpen: (p: Paper) => void }) {
   const expandError = useSearchStore((s) => s.expandError);
   const index = useSearchStore((s) => s.index);
   const fallback = useSearchStore((s) => s.fallback);
+  const [proposalOpen, setProposalOpen] = useState(false);
 
   const roadmap = useMemo(
     () =>
@@ -82,9 +86,15 @@ export function RoadmapView({ onOpen }: { onOpen: (p: Paper) => void }) {
           </span>
           <h3 className="font-medium">Research Gap（尚未解决的问题）</h3>
         </header>
-        <p className="rounded-lg border border-dashed border-border p-4 text-sm text-muted-foreground">
-          研究空白分析将结合开题报告生成：基于上述文献的国内外现状对比矩阵与技术路线梳理，归纳开放问题。（开题报告功能即将上线）
-        </p>
+        <div className="flex flex-col gap-2 rounded-lg border border-dashed border-border p-4 text-sm text-muted-foreground">
+          <p>研究空白分析结合开题报告生成：国内外现状对比矩阵 + 技术路线梳理 + 开放问题归纳（结构化部分零 AI 依赖）。</p>
+          <Button variant="outline" size="sm" className="self-start" onClick={() => setProposalOpen(true)}>
+            生成开题报告
+          </Button>
+        </div>
+        <Suspense fallback={null}>
+          <ProposalPanel open={proposalOpen} onOpenChange={setProposalOpen} />
+        </Suspense>
       </section>
     </div>
   );
